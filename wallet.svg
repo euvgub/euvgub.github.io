@@ -1,0 +1,22 @@
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="2.04081633%" x2="50%" y2="97.4489796%" id="linearGradient-1">
+            <stop stop-color="#07CCFF" offset="0%"></stop>
+            <stop stop-color="#71E2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="net-komisii">
+            <g id="Page-1">
+                <g id="Group-3" fill="url(#linearGradient-1)">
+                    <path d="M80,40.0002 C80,62.0912 62.092,80.0002 40,80.0002 C17.908,80.0002 0,62.0912 0,40.0002 C0,17.9082 17.908,0.0002 40,0.0002 C62.092,0.0002 80,17.9082 80,40.0002" id="Fill-1"></path>
+                </g>
+                <path d="M50.9053,29.8254 L23.4383,29.8254 C21.7863,29.8254 20.4463,28.6774 20.4463,27.2594 L20.4463,27.0044 C20.4463,25.5874 21.7863,24.4384 23.4383,24.4384 L49.8523,24.4384 C50.4193,24.4384 52.9673,24.7614 52.9673,26.7724 L52.9673,29.6354" id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M56.6904,47.8684 L56.6904,54.8414 C56.6904,56.3444 55.4754,57.5614 53.9784,57.5614 L23.1534,57.5614 C21.6564,57.5614 20.4434,56.3444 20.4434,54.8414 L20.4204,27.7334" id="Stroke-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M26.3056,29.8254 L54.0076,29.8254 C55.5046,29.8254 56.7196,31.0434 56.7196,32.5444 L56.7196,37.1394" id="Stroke-8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M49.8525,42.6609 C49.8525,43.4379 49.2235,44.0689 48.4495,44.0689 C47.6735,44.0689 47.0455,43.4379 47.0455,42.6609 C47.0455,41.8839 47.6735,41.2529 48.4495,41.2529 C49.2235,41.2529 49.8525,41.8839 49.8525,42.6609" id="Fill-10" fill="#FFFFFF"></path>
+                <path d="M58.9072,37.657 L49.0342,37.657 L47.9072,37.676 C46.4092,37.676 43.0952,42.606 43.0952,42.606 C43.0952,42.606 46.4092,47.594 47.9072,47.594 L56.8752,47.594 C58.3722,47.594 59.5792,46.192 59.5792,44.689 C59.5792,44.689 59.3892,39.215 59.3892,37.399 C59.3892,35.338 57.2362,35.389 56.9502,35.387" id="Stroke-12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

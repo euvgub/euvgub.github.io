@@ -1,0 +1,21 @@
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="2.04081633%" x2="50%" y2="97.4489796%" id="linearGradient-1">
+            <stop stop-color="#07CCFF" offset="0%"></stop>
+            <stop stop-color="#71E2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ekonom-time">
+            <g id="Page-1">
+                <g id="Group-3" fill="url(#linearGradient-1)">
+                    <path d="M80.0001,39.9999 C80.0001,62.0909 62.0921,79.9999 40.0001,79.9999 C17.9081,79.9999 0.0001,62.0909 0.0001,39.9999 C0.0001,17.9089 17.9081,-0.0001 40.0001,-0.0001 C62.0921,-0.0001 80.0001,17.9089 80.0001,39.9999" id="Fill-1"></path>
+                </g>
+                <path d="M50.9376,23.2944 L29.0626,23.2944 C27.8816,23.2944 26.9156,22.3284 26.9156,21.1474 C26.9156,19.9664 27.8816,19.0004 29.0626,19.0004 L50.9376,19.0004 C52.1186,19.0004 53.0846,19.9664 53.0846,21.1474 C53.0846,22.3284 52.1186,23.2944 50.9376,23.2944 Z" id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M30.2852,23.4081 C30.2852,23.4081 28.4182,29.9861 31.3692,33.8531 C32.9242,35.8901 35.6202,38.2551 38.0852,39.4011 C35.6202,40.5471 31.8932,42.6401 30.2502,46.7781 C29.0812,49.7201 30.2852,56.4361 30.2852,56.4361" id="Stroke-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M49.7139,23.4081 C49.7139,23.4081 51.5819,29.9861 48.6299,33.8531 C47.0759,35.8901 44.3799,38.2551 41.9149,39.4011 C44.3799,40.5471 48.1069,42.6401 49.7499,46.7781 C50.9189,49.7201 49.7139,56.4361 49.7139,56.4361" id="Stroke-8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.9376,60.9999 L29.0626,60.9999 C27.8816,60.9999 26.9156,60.0339 26.9156,58.8529 C26.9156,57.6719 27.8816,56.7059 29.0626,56.7059 L50.9376,56.7059 C52.1186,56.7059 53.0846,57.6719 53.0846,58.8529 C53.0846,60.0339 52.1186,60.9999 50.9376,60.9999 Z" id="Stroke-10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

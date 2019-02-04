@@ -1,0 +1,24 @@
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="2.04081633%" x2="50%" y2="97.4489796%" id="linearGradient-1">
+            <stop stop-color="#07CCFF" offset="0%"></stop>
+            <stop stop-color="#71E2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lizenzia-AAA-2">
+            <g id="Page-1">
+                <g id="Group-3" fill="url(#linearGradient-1)">
+                    <path d="M79.9996,39.9999 C79.9996,62.0909 62.0916,79.9999 39.9996,79.9999 C17.9086,79.9999 -0.0004,62.0909 -0.0004,39.9999 C-0.0004,17.9089 17.9086,-0.0001 39.9996,-0.0001 C62.0916,-0.0001 79.9996,17.9089 79.9996,39.9999" id="Fill-1"></path>
+                </g>
+                <path d="M56.1744,30.5526 L56.1744,58.3836 C56.1744,59.9456 54.9114,61.2146 53.3494,61.2216 L26.8614,61.3476 C25.1604,61.3476 23.7824,59.9696 23.7824,58.2696 L23.7824,21.7306 C23.7824,20.0316 25.1604,18.6526 26.8614,18.6526 L44.2074,18.7026 L44.2074,27.4886 C44.2074,29.0476 45.4714,30.3106 47.0304,30.3106 L56.2174,30.3106 L44.2074,18.7026" id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Stroke-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="34.2926 47.641 31.1266 39.481 27.9596 47.641"></polyline>
+                <path d="M29.0582,45.1151 L32.9802,45.1151" id="Stroke-8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Stroke-10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="43.3785 47.641 40.2125 39.481 37.0455 47.641"></polyline>
+                <path d="M38.1441,45.1151 L42.0661,45.1151" id="Stroke-12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Stroke-14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="52.3863 47.641 49.2203 39.481 46.0533 47.641"></polyline>
+                <path d="M47.152,45.1151 L51.074,45.1151" id="Stroke-16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

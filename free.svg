@@ -1,0 +1,35 @@
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="2.04081633%" x2="50%" y2="97.4489796%" id="linearGradient-1">
+            <stop stop-color="#07CCFF" offset="0%"></stop>
+            <stop stop-color="#71E2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="free">
+            <g id="Page-1">
+                <g id="Group-3" fill="url(#linearGradient-1)">
+                    <path d="M79.9996,40.0001 C79.9996,62.0911 62.0916,80.0001 39.9996,80.0001 C17.9086,80.0001 -0.0004,62.0911 -0.0004,40.0001 C-0.0004,17.9091 17.9086,0.0001 39.9996,0.0001 C62.0916,0.0001 79.9996,17.9091 79.9996,40.0001" id="Fill-1"></path>
+                </g>
+                <path d="M59.1402,53.3663 L20.8602,53.3663 C19.5562,53.3663 18.4992,52.3093 18.4992,51.0063 L18.4992,23.9533 C18.4992,22.6503 19.5562,21.5943 20.8602,21.5943 L59.1402,21.5943 C60.4442,21.5943 61.4992,22.6503 61.4992,23.9533 L61.4992,51.0063 C61.4992,52.3093 60.4442,53.3663 59.1402,53.3663 Z" id="Stroke-4" stroke="#FFFFFF" stroke-width="2"></path>
+                <polygon id="Stroke-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="47.2799 62.817 32.7199 62.817 34.8419 53.366 45.1579 53.366"></polygon>
+                <path d="M29.7457,62.817 L50.2547,62.817" id="Stroke-8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25.8336,30.7374 L25.8336,38.8064" id="Stroke-10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25.8258,30.7614 L30.2938,30.7614" id="Stroke-12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25.9908,34.6779 L29.1118,34.6779" id="Stroke-14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M34.0445,30.7164 L34.0445,38.7854" id="Stroke-16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M34.2018,34.6564 L36.5548,34.6564 C37.6398,34.6564 38.5168,33.7754 38.5128,32.6904 C38.5088,31.6124 37.6328,30.7394 36.5548,30.7394 L34.0368,30.7394" id="Stroke-18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36.6451,34.9401 L38.8511,38.8281" id="Stroke-20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M42.0348,30.7101 L42.0348,38.7791" id="Stroke-22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M42.027,30.7335 L46.495,30.7335" id="Stroke-24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M42.193,34.65 L45.313,34.65" id="Stroke-26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M42.027,38.8346 L46.495,38.8346" id="Stroke-28" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M49.8834,30.7101 L49.8834,38.7791" id="Stroke-30" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M49.8756,30.7335 L54.3436,30.7335" id="Stroke-32" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.0416,34.65 L53.1616,34.65" id="Stroke-34" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M49.8756,38.8346 L54.3436,38.8346" id="Stroke-36" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M19.7076,46.3292 L60.9366,46.3292" id="Stroke-38" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
