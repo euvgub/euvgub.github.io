@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Математические функции</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Математические функции</H1>
+<P><FONT size=2 face=Arial>
+<H2>ABS</H2>
+<P>Возвращает модуль числа.</P>
+<P class=defn>DOUBLE&nbsp;ABS (DOUBLE Value)</P>
+<H2>ACOS</H2>
+<P>Возвращает значение арккосинуса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;ACOS (DOUBLE Value) </P>
+<H2>ASIN</H2>
+<P>Возвращает значение арксинуса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;ASIN (DOUBLE Value) </P>
+<H2>ATAN</H2>
+<P>Возвращает значение арктангенса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;ATAN (DOUBLE Value) </P>
+<H2>CEIL</H2>
+<P>Возвращает ближайшее целое число, большее аргумента.</P>
+<P class=defn>DOUBLE&nbsp;CEIL (DOUBLE Value)</P>
+<H2>COS</H2>
+<P>Возвращает значение косинуса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;COS (DOUBLE Value)</P>
+<H2>EXP</H2>
+<P>Вычисление экспонента от аргумента.</P>
+<P class=defn>DOUBLE&nbsp;EXP (DOUBLE Value)</P>
+<H2>FLOOR</H2>
+<P>Возвращает ближайшее целое число, меньшее аргумента.</P>
+<P class=defn>DOUBLE&nbsp;FLOOR (DOUBLE Value)</P>
+<H2>LOG</H2>
+<P>Вычисление натурального логарифма от аргумента</P>
+<P class=defn>DOUBLE&nbsp;LOG (DOUBLE Value)</P>
+<H2>POW</H2>
+<P>Возведение аргумента в степень.</P>
+<P class=defn>DOUBLE&nbsp;POW (DOUBLE Value, DOUBLE Power)</P>
+<H2>RAND</H2>
+<P>Возвращает случайное целочисленное значение в диапазоне от 0 до 32767.</P>
+<P class=defn>DOUBLE&nbsp;RAND ()</P>
+<H2>RANDOMIZE</H2>
+<P>Генерация случайных чисел.</P>
+<P class=defn>DOUBLE&nbsp;RANDОMIZE ()</P>
+<P>Функция инициализирует генератор случайных чисел для определения случайной 
+последовательности генерируемых чисел. Функцию RANDОMIZE () необходимо вызвать 
+до того, как будет использоваться функция RAND(). </P>
+<H2>SIN</H2>
+<P>Возвращает значение синуса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;SIN (DOUBLE Value)</P>
+<H2>SQRT</H2>
+<P>Возвращает значение квадратного корня аргумента.</P>
+<P class=defn>DOUBLE&nbsp;SQRT (DOUBLE Value)</P>
+<H2>TAN</H2>
+<P>Возвращает значение тангенса аргумента.</P>
+<P class=defn>DOUBLE&nbsp;TAN (DOUBLE Value)</P>
+<H3>Пример:</H3>
+
+<PRE>MESSAGE ("ACOS 0.5 - " &amp; acos(0.5),1)
+<BR>MESSAGE ("ASIN 0.5 - " &amp; asin(0.5),1)
+<BR>MESSAGE ("ATAN 2&nbsp;&nbsp; - " &amp; atan(2),1)
+<BR>MESSAGE ("CEIL 2.2 - " &amp; ceil(2.2),1)
+<BR>MESSAGE ("COS 0.5 - " &amp;cos(0.5),1)
+<BR>MESSAGE ("EXP 2 - " &amp;exp(2),1)
+<BR>MESSAGE ("FLOOR 4.5 - " &amp;floor(4.5),1)
+<BR>MESSAGE ("LOG 0.5 - " &amp;log(0.5),1) 
+<BR>MESSAGE ("POW 2,3 - " &amp;pow(2,3),1)
+<BR>MESSAGE ("RAND - " &amp;rand(),1) 
+<BR>MESSAGE ("SIN 0.5 - " &amp;sin(0.5),1) 
+<BR>MESSAGE ("SQRT 2 - " &amp;sqrt(2),1) 
+<BR>MESSAGE ("TAN 0.5 - " &amp;tan(0.5),1) 
+</PRE>
+<P>При выполнении примера на экране будет появляться Окно сообщений с 
+отображением функции и результата вычисления ее значения. </P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>
+</HTML>

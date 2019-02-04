@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Работа с неторговыми поручениями</title>
+<META content="MSHTML 6.00.2900.5803" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Работа с неторговыми поручениями</H1>
+<P><FONT size=2 face=Arial>
+<H2>Назначение</H2>
+<P>Система QUIK поддерживает работу с неторговыми поручениями, такими, как 
+ввод/вывод средств, переводы между площадками. Принцип их использования описан в 
+разделе <A href="ch9.html">«Неторговые операции и отчеты»</A>. </P>
+<P>Прием и обработка поручений от клиентов осуществляется сотрудником брокера 
+через Рабочее место QUIK с правами менеджера. Пользователь с правами менеджера 
+имеет право на: </P>
+<UL>
+  <LI>Управление сессией - управление режимом приема поручений; 
+  <LI>Обработку поручений - подписание/отклонение поручений клиентов и взимание 
+  связанных с этим платежей; 
+  <LI>Изменение кросс-курса валют – указание кросс-курса валют, используемого в 
+  поручениях типа «Конвертация валют».</LI></UL>
+<H2>Управление сессией</H2>
+<ADDRESS>меню <STRONG>Расширения / 
+Неторговые поручения / Управление сессией</STRONG> 
+</ADDRESS>
+<P>Неторговые поручения обрабатываются системой QUIK 
+аналогично торговым транзакциям. Для того чтобы пользователи могли отправлять 
+поручения брокеру, должна 
+быть открыта сессия по классу "Неторговые поручения". Состояние сессии 
+отображается в колонке "Сессия" Таблицы текущих торгов. Если необходимо временно 
+остановить прием поручений (например, по техническим причинам), брокер может 
+приостановить сессию для всех типов поручений или выбрать определенный 
+тип поручения, для которого будет приостановлена сессия, выполнить 
+необходимые процедуры, а затем возобновить сессию.</P>
+
+<P><IMG src="manage_session.gif"></P>
+
+<P>Операции, доступные в окне «Управление сессией»:</P>
+<UL>
+  <LI> «Открыть» - начать новую сессию, 
+  <LI> «Закрыть» - завершить текущую сессию, 
+  <LI> «Приостановить» - временно приостановить текущую сессию, 
+  <LI>«Возобновить» - продолжить приостановленную ранее сессию, 
+  <LI>«Загрузка справочников» - произвести обновление справочников из базы 
+  данных Модуля неторговых поручений, 
+  <LI>«Загрузка поручений» - произвести обновление списка поручений из базы 
+  данных Модуля неторговых поручений, 
+  <LI>«Снять активные поручения» – снять активные поручения 
+  всех видов. Если в настройках Модуля задан список классов, по которым 
+  снимаются активные поручения в соответствии с расписанием, то операция применяется 
+  к указанному списку классов, 
+  <LI>«Остановить клиентскую сессию» - переводит открытую сессию в состояние 
+  «Служебная», которое означает невозможность отправки клиентами новых 
+  поручений, однако обработка поручений сотрудниками брокера не 
+  приостанавливается, 
+  <LI>«Возобновить клиентскую сессию» - переводит служебную сессию в состояние 
+  «Открыта».</LI></UL>
+<H2>Обработка поручений</H2>
+<P>Обработка поручений выполняется из <A href="ch9_2.html">«Таблицы 
+поручений»</A>. В этой таблице отображаются поручения всех типов и состояние их 
+обработки специалистами брокера. Двойным нажатием правой кнопки мыши на строке 
+можно открыть поручение и посмотреть его параметры. Статус поручения выделен 
+цветом шрифта:</P>
+<UL>
+  <LI>«Активные» - красным цветом, 
+  <LI>«Исполненные» - синим, 
+  <LI>«Снятые» - черным, 
+  <LI>«Имеющие запрос на снятие» - зеленым. </LI></UL>
+
+<P><IMG src="table_todo_broker1.gif"></P>
+
+<P>Для исполнения поручения необходимо подтверждение (подпись) уполномоченных 
+сотрудников брокера. Последовательность проверки и количество необходимых 
+подписей настраивается на сервере QUIK для каждого вида поручений.</P>
+<H3>Подписание поручения</H3>
+<P>Чтобы подписать поручение, необходимо:</P>
+<OL>
+  <LI><SPAN>Открыть его двойным нажатием левой кнопки мыши на 
+  соответствующей строке в таблице.</SPAN>
+<LI><SPAN> Если пользователь имеет право на требуемую подпись, кнопка 
+  подписи будет активна и ее наименование будет соответствовать имени подписи. 
+  На приведенном примере это кнопка «Риск-менеджер». Также будут активны поля ввода 
+  налогов для соответствующей подписи. </SPAN>
+<LI><SPAN>Указать, если необходимо, значения удерживаемых платежей в соответсвующих 
+  полях формы. </SPAN>
+ <LI><SPAN>Нажать кнопку подписи (например, «Риск-менеджер»).</LI></OL>
+
+<P><IMG src="underwritting.gif"></P>
+
+<P align=left>В результате на соответствующей строке в 
+«Таблице поручений» появится отметка «+» в колонке с ролью данного сотрудника 
+(например, «Риск-менеджер»), уведомляющая о наличии подписи.</P>
+<H3>Групповая подпись поручений</H3>
+<P>Для осуществления групповой подписи надо в таблице поручений выбрать пункт 
+контекстного меню «Подписать все поручения». Далее, в появившейся форме выбора 
+подписей выбрать нужную подпись и нажать кнопку «Подписать». После нажатия 
+кнопки «Подписать» будет осуществлен поиск поручений, которым требуется данная 
+подпись. Найденные поручения подписываются с проверкой доступности ресурсов, как 
+и при одиночной подписи.</P>
+<H3>Отклонение поручения</H3>
+<P>Если поручение клиента не может быть исполнено, оно должно быть отклонено 
+сотрудником брокера с указанием причины. Для этого необходимо:</P>
+<OL>
+  <LI><SPAN>Открыть его двойным нажатием левой кнопки мыши на соответствующей строке в 
+  таблице, либо выбрать пункт контекстного меню «Отменить». </SPAN>
+ <LI><SPAN>В окне с поручением нажать кнопку «Снять».</SPAN></LI></OL>       
+  <P>В открывшемся окне «Комментарий к отмене поручения… » 
+написать причину отказа, которая будет сохранена в данном поручении в поле 
+«Комментарий отмены». Возможно заполнить причину отмены выбором шаблона из справочника «Причины отмены». По умолчанию шаблон 
+  не выбран. Текст причины можно изменять в форме отмены поручения. 
+</P>
+
+<P><IMG src="cancel_todo_broker.gif"></P>
+
+<P>В результате поручение в таблице примет состояние 
+«Снято». При этом дальнейшая обработка поручения прекращается.</P>
+<H3>Отмена подписи</H3>
+<P>Подпись поручения можно отменить, выбрав один из пунктов контекстного меню 
+таблицы поручений:</P>
+<UL>
+  <LI>«Отзыв последней подписи» - отзывает последнюю подпись в сделке для данной 
+  роли, 
+  <LI>«Отзыв всех подписей» - отзывает подпись у всех сделок для данной подписи. 
+  </LI></UL>
+<P>Также подпись можно отменить, открыв форму поручения и нажав кнопку 
+«Отозвать».</P>
+<H3>Исполнение поручения</H3>
+<P>Поручение, имеющее все необходимые подписи, меняет статус на «Исполнено». При 
+этом происходит изменение суммы заблокированных средств и доступных лимитов.</P>
+<H3>Изменение кросс-курса валют</H3>
+<ADDRESS>меню <STRONG>Расширения / Неторговые поручения 
+/</STRONG> <STRONG>Задать кросс-курс...</STRONG></ADDRESS>
+
+<P><IMG src="cross-rate.gif"></P>
+
+<P>Данное действие позволяет 
+изменить кросс-курс валют, используемый в поручениях типа «Конвертация валют». 
+Настройки в данном окне: </P>
+<UL>
+  <LI>В поле слева из справочника валют выбирается код валюты для указания 
+  кросс-курса. 
+  <LI>В поле справа выбирается код парной валюты, в единицах которой выражен 
+  кросс-курс. 
+  <LI>В среднем поле отобразится кросс-курс для указанной пары валют, указанный 
+  в спра-вочнике Модуля неторговых поручений. Для изменения кросс-курса укажите 
+  в этом поле требуемое значение и нажмите кнопку «OK». </LI></UL>
+<P>Для закрытия окна без сохранения изменений нажмите кнопку 
+«Cancel».</P></SPAN>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

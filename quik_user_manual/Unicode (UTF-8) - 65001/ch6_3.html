@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Экспорт данных в системы технического анализа встроенными средствами</title>
+<META content="MSHTML 6.00.2900.5803" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Экспорт данных в системы технического анализа встроенными средствами</H1>
+<P><FONT size=2 face=Arial>
+<ADDRESS>меню <STRONG>Сервисы / Экспорт/импорт данных / Экспорт в системы тех. анализа…</STRONG></ADDRESS>
+<MENU>
+  <LI><A href="#subt1">Назначение</A> 
+  <LI><A href="#subt2">Использование</A> 
+  <LI><A href="#subt3">Рекомендации</A> </LI></MENU>
+
+<P> </P>
+<A name=subt1></A>
+<H2>Назначение </H2>
+<P>Использование получаемых системой QUIK данных для оперативного технического анализа в профессиональных 
+приложениях Equis MetaStock (включая версию 9.0), Wealth-Lab Developer 
+версий 3.0 и 4.0, Omega TradeStation/ProSuite 2000i и AmiBroker 
+5.x.</P>
+
+<A name=subt2></A>
+<H2>Использование</H2>
+<P>Функция экспорта данных встроенными средствами возможна, если доступен пункт 
+меню <STRONG>Сервисы / Экспорт/импорт данных / Экспорт в системы тех. анализа…</STRONG>. </P>
+<P>Для обеспечения корректной работы пакетов технического анализа требуется 
+соответствующая настройка этих программ, подробнее см. <A 
+href="ch6_4.html">Настройка программы Equis MetaStock</A>, <A 
+href="ch6_5.html">Настройка программы Wealth-Lab Developer</A>, <A 
+href="ch6_9.html">Настройка программы AmiBroker</A>, <A 
+href="ch6_6.html">Настройка программы Omega TradeStation/ProSuite 2000</A>.</P>
+<P>Одновременное использование встроенных средств экспорта и программы 
+MetaServer RT для вывода данных в MetaStock или TradeStation невозможно, 
+поскольку в обоих случаях используется одинаковый механизм передачи данных. 
+Также следует учесть, что инсталляция других систем интернет-трейдинга с 
+функцией вывода данных для технического анализа может привести к нарушению 
+экспорта из системы QUIK.</P>
+<OL>
+  <LI><SPAN>Откройте окно настройки экспорта с помощью пункта меню <STRONG>Экспорт 
+  данных / Данные для технического анализа...</STRONG>. </SPAN>
+
+  <P><IMG src="export_new80.gif"></P>
+
+  <LI><SPAN>Создайте список экспортируемых инструментов и их параметров. Для 
+  добавления инструмента в список нажмите кнопку «Добавить». Откроется диалог 
+  выбора параметров для экспорта. </SPAN>
+
+  <P><IMG src="add-instr-TA80.gif"></P>
+
+  <LI><SPAN>   В списке «Доступные инструменты» выберите инструмент. По 
+  умолчанию они отсортированы в списке в алфавитном порядке. Для удобства выбора 
+  инструментов с фиксированным сроком обращения установите флажок «Сортировать 
+  по дате погашения». </SPAN>
+  <LI><SPAN>В поле «Система тех.анализа» выберите название программы, в которую 
+  осуществляется экспорт.</SPAN> 
+  <LI><SPAN>В поле «Обозначение в системе ТА» введите название инструмента, 
+  идентичное указанному в настройках источника данных для системы технического 
+  анализа. </SPAN>
+  <LI><SPAN>Выберите источник данных для экспорта. Из <A href="ch3_4.html"> 
+   Таблицы обезличенных&nbsp;сделок</A>   возможен экспорт цены и объема 
+  по каждой сделке. При установленном флажке «Выводить объем сделок в лотах» 
+  данные о количестве инструментов&nbsp;в последней сделке будут соответствовать числу лотов 
+  в сделке, при снятом флажке – количеству единиц инструментов. Из <A 
+  href="ch3_2.html">Таблицы истории значений параметров</A> возможен экспорт 
+  большего числа параметров, например «Лучшая цена спроса» или «Лучшая цена 
+  предложения». </SPAN>
+  <LI><SPAN>Параметр «Интервал» определяет периодичность формирования 
+  «свечей» графика. Выбором значения «Тиковый» назначается вывод данных по каждой сделке. Для экспорта 
+  данных в Omega TradeStation и Metastock не доступен «Дневной» интервал.</SPAN>
+  <LI><SPAN>Параметры «Выводить с … » и «до …» определяют начало и 
+  конец торговой сессии. Регулировкой этих параметров можно исключить сделки 
+  периода открытия и закрытия, цены которых может заметно отличаться от 
+  среднерыночной. </SPAN>
+  <LI><SPAN>Если установлен флажок «Не выводить данные повторно», то при разрыве связи 
+  с сервером и последующем восстановлении QUIK не передает заново ранее 
+  экспортированные данные. Если флажок снят, то при каждом восстановлении связи 
+  с сервером QUIK экспортирует все данные с начала торговой сессии. О случаях 
+  применения см. <A href="ch6_3.html#subt3">Рекомендации</A>. </SPAN>
+  <LI><SPAN>Следующие параметры определяют количество экспортируемых данных: 
+  <UL>
+    <LI>«Все доступные значения» - все значения, с учетом исторических данных за 
+    предыдущие дни, если такая возможность поддерживается сервером QUIK брокера; 
+
+    <LI>«Только за текущий торговый день» - все значения текущей торговой 
+    сессии; 
+    <LI>«С …» и «по …» - значения в интервале указанных дат и времени. </LI></UL>
+  <P>
+  <DL>
+    <DD>Настройки параметров пп. 7-10 по умолчанию устанавливаются в 
+    соответствии с общими настройками экспорта данных (кнопка «Общие настройки» 
+    в диалоге экспорта данных для технического анализа). </DD></DL></SPAN>
+  <LI><SPAN>  Нажатием  кнопки «Да» окно выбора параметров инструмента закрывается, 
+  и новый инструмент отображается в списке «Экспортируемые инструменты». </SPAN>
+  <LI><SPAN>Для редактирования ранее созданного инструмента нажмите кнопку «Изменить».</SPAN>
+  <LI><SPAN>Для редактирования общих параметров экспорта по нескольким инструментам 
+  выделите нужные инструменты в списке и нажмите на кнопку «Изменить». На экране 
+  появится диалог, в котором можно изменить настройки периода экспорта данных, 
+  повторного вывода данных, а также изменить множество выводимых значений. </SPAN>
+
+  <P><IMG src="change-exp-parametrs80.gif"></P>
+
+  <LI><SPAN>Для удаления выбранных инструментов из списка выделите их и нажмите на 
+  кнопку «Убрать». </SPAN>
+  <LI><SPAN>Кнопка «Общие настройки» позволяет задать параметры, которые будут выбраны 
+  по умолчанию при добавлении нового инструмента для экспорта. При нажатии на 
+  кнопку на экране появляется диалог следующего вида: 
+  <UL>
+    <LI>Параметр «Интервал» определяет периодичность формирования «свечей» 
+    графиков для всех экспортируемых инструментов. 
+<P><IMG src="common-settings80.gif"></P> 
+    <LI>Параметры «Выводить с … » и «до …» определяют начало и конец торговой 
+    сессии.  
+    <LI>Установленный флажок «Не выводить данные повторно» означает, что при 
+    разрыве связи с сервером и последующем восстановлении QUIK не передает 
+    заново ранее экспортированные данные. Если флажок снят, то при каждом 
+    восстановлении связи с сервером QUIK экспортирует все данные с начала 
+    торговой сессии.  
+    <LI>Параметры, определяющие количество экспортируемых данных (применительно 
+    ко всем содержащимся в списке инструментам): 
+    <UL>
+      <LI>«Все доступные значения» - все значения, с учетом исторических данных 
+      за предыдущие дни, если такая возможность поддерживается сервером QUIK 
+      Вашего брокера; 
+      <LI>«Только за текущий торговый день» - все значения текущей торговой 
+      сессии; 
+      <LI>Расписание «С … по …» предназначено для настройки интервала времени, 
+      которому соответствуют экспортируемые параметры. Например, если нужно не 
+      выводить данные о сделках, совершаемых в первую минуту торгов, то можно 
+      установить вывод данных не с самого начала торгов, а с указанного момента 
+      времени. </LI></UL></LI></UL></SPAN>
+  <LI><SPAN>При установленном флажке «Начинать вывод автоматически» экспорт данных 
+  начинается одновременно с запуском программы. </SPAN>
+  <LI><SPAN>Нажатие кнопки «Начать вывод по инструменту» начинает процедуру экспорта по 
+  выбранному инструменту. Инструменты, по которым осуществляется экспорт, 
+  отличаются в списке символом <IMG src="export-connected.gif">. </SPAN>
+  <LI><SPAN>Нажатие кнопки «Начать вывод» начинает процедуру экспорта данных по всем 
+  инструментам из списка. </SPAN>
+  <LI><SPAN>Нажатием кнопки «Прекратить вывод по инструменту» останавливается экспорт 
+  данных по выбранному в списке инструменту, нажатием кнопки «Прекратить вывод» 
+  прекращается вывод данных по всем инструментам в списке. 
+  <P>
+  <DL>
+     <DD> При начатом экспорте данных по инструменту невозможно удалить его 
+    из списка или изменить его настройки. Если требуется внести изменения, 
+    сначала остановите вывод данных, а затем редактируйте список экспортируемых 
+    инструментов. </DD></DL></SPAN>
+  <LI><SPAN>Нажатием кнопки «Закрыть» окно настройки экспорта закрывается. Если 
+  процесс экспорта начат, он будет осуществляться автоматически в фоновом 
+  режиме.</SPAN></LI></OL>
+
+<A name=subt3></A>
+<H2>Рекомендации</H2>
+<OL>
+  <LI><SPAN>В настройках экспорта данных из QUIK рекомендуется устанавливать флажок 
+  «Не выводить данные повторно». Если связь с сервером была прервана и затем 
+  восстановлена, экспорт данных восстановится автоматически. При этом будут 
+  переданы только вновь поступившие данные. </SPAN>
+  <LI><SPAN>Если программа QUIK закрыта пользователем, то экспорт данных прекращается. 
+  При повторном запуске системы экспорт данных начинается с начала торговой 
+  сессии. В этом случае потребуется очистить в Metastock’е данные за текущий 
+  день и начать вывод данных заново, придерживаясь такой последовательности: 
+  <UL><LI>Откройте входящую в поставку MetaStock программу The DownLoader, 
+  <LI>Очистите данные за текущую торговую сессию для инструментов, по которым 
+  производился экспорт. Войдите в меню <STRONG>Tools / Delete&nbsp;/ 
+  Data...</STRONG>, поочередно выберите инструмент и удалите нажатием кнопки 
+  «Delete», 
+  <LI>Введите дату текущей торговой сессии и нажмите кнопку «Ok». </LI></UL></SPAN>
+  <LI><SPAN>После этого необходимо обязательно перезапустить Equis DataServer и 
+  Metastock FileServer. Если DataServer не был запущен заново, все предыдущие 
+  данные будут отображены в одном интервале времени («свечке»). </SPAN>
+  <LI><SPAN>Начните экспорт данных из QUIK нажатием кнопки «Начать вывод».</SPAN></LI></OL>
+
+<P> </P>
+<P>См. также <A href="ch6_3_4.html">Сообщения об ошибках</A>.</P>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

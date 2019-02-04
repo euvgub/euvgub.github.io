@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Менеджер окон</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Менеджер окон</H1>
+<P><FONT size=2 face=Arial>
+<ADDRESS>меню <STRONG>Окна / Менеджер окон</STRONG> </ADDRESS>
+<P><MENU>
+  <LI><A href="#subt1">Назначение</A> 
+  <LI><A href="#subt2">Формат таблицы</A> 
+  <LI><A href="#subt3">Параметры настройки таблицы</A> 
+  <LI><A href="#subt4">Доступные функции</A>  </LI></MENU>
+<P>&nbsp;</P>
+
+<A name=subt1></A>
+<H2>Назначение</H2>
+<P>Таблица «Менеджер окон» содержит список всех открытых окон.
+<P>Таблица всегда отображается поверх всех открытых окон. К таблице нельзя применить функции «Закрепить окно» и «Убрать заголовок», иконка таблицы отображается на панели задач ОС.
+
+<A name=subt2></A>
+<H2>Формат таблицы</H2>
+<P><IMG src="Manager_80.gif"></P>
+<P>Каждая строка таблицы соответствует отдельному открытому окну. В столбцах таблицы отображаются следующие параметры:
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Название поля </TH>
+    <TH width="75%">Значение</TH></TR>
+  <TR>
+    <TD>Название окна</TD>
+    <TD width="75%">Название окна</TD></TR>
+  <TR>
+    <TD>Тип окна</TD>
+    <TD width="75%">Краткое описание типа окна</TD></TR>
+  <TR>
+    <TD>Монитор</TD>
+    <TD width="75%">Номер монитора</TD></TR>
+  <TR>
+    <TD>Вынесено</TD>
+    <TD width="75%">Тип окна. Возможные значения:
+<UL><LI>«Да» – окно вынесено за пределы основного рабочего окна программы;
+<LI>&lt;пусто&gt; – обычное окно
+</LI></UL></TD></TR>
+  <TR>
+    <TD>Вкладка</TD>
+    <TD width="75%">Название вкладки</TD></TR>
+  <TR>
+    <TD>Поверх всех окон</TD>
+    <TD width="75%">Признак отображения данного окна 
+      поверх всех открытых окон («Да»/&lt;пусто&gt;)</TD></TR>
+  <TR>
+    <TD>Без заголовка</TD>
+    <TD width="75%">Признак отображения окна без 
+      заголовка («Да»/&lt;пусто&gt;)</TD></TR>
+  <TR>
+    <TD>Закреплено</TD>
+    <TD width="75%">Признак фиксации размера и положения 
+      окна («Да»/&lt;пусто&gt;)</TD></TR>
+  <TR>
+    <TD>Видимо в панели задач</TD>
+    <TD width="75%">Признак наличия иконки окна на панели 
+      задач («Да»/&lt;пусто&gt;)
+</TD></TR>
+ </TBODY></TABLE></P>
+
+<A name=subt3></A>
+<H2>Параметры настройки таблицы</H2>
+<P><IMG src="Manager_edit_80.gif"></P>
+<P><OL>
+             <LI><SPAN>«Набор параметров» – выбор отображаемых параметров и настройка их очередности.</SPAN></LI></OL>
+<P>Значения настроек сохраняются и подставляются при повторном открытии диалога.
+
+<A name=subt4></A>
+<H2>Доступные функции</H2>
+<P>Функции, доступные для данной таблицы, могут быть вызваны из контекстного меню (нажатием правой кнопки мыши на таблице) либо нажатием соответствующей кнопки на панели инструментов таблицы:
+   <UL>
+          <LI>«Активировать», кнопка <IMG src="B_Aktivate.gif">  – активировать окно. Двойное нажатие левой кнопки мыши на строке с названием окна также позволяет активировать данное окно.
+          <LI>«Вынести», кнопка <IMG src="B_Vinesti.gif">  – вынести окно за пределы основного рабочего окна программы.
+          <LI>«Закрепить окно», кнопка <IMG src="B_Fix.gif">  – зафиксировать размер и положение окна.
+          <LI>«Поверх всех окон», кнопка <IMG src="B_On_Top.gif">  – располагать окно поверх всех открытых окон.
+          <LI>«Убрать заголовок», кнопка <IMG src="B_Del_header.gif">  – не отображать заголовок окна.
+          <LI>«Показать на панели задач», кнопка <IMG src="B_Show.gif">  – отображать иконку вынесенного окна на панели задач. Функция доступна только для вынесенных окон. Значение по умолчанию определяется настройкой «<A href="ch2_15.html#subt7">Показывать иконку вынесенного окна в панели задач</A>».</LI></UL>
+  <DL>
+    <DD>
+         <OL>
+               <LI>Чтобы выделить сразу несколько строк таблицы по порядку, удерживайте нажатой клавишу «Shift». Чтобы выделить выборочно несколько строк таблицы, удерживайте нажатой клавишу «Ctrl».
+               <LI>При выделении нескольких строк таблицы функции контекстного меню применяются к тем из выделенных окон, к которым данная функция не была применена ранее.
+               <LI>Для отмены определенной функции для нескольких строк таблицы: если хотя бы к одному из группы выделенных окон функция не была применена (соответствующая кнопка на панели инструментов не нажата, и в контекстном меню данная команда не отмечена флажком), то сначала необходимо применить функцию к группе выделенных окон, после чего становится доступной отмена функции для группы окон.</LI></OL></DD></DL>
+
+<P> </P>
+<P>См. также:
+<UL>
+<LI>Описание <A href="ch2_7.html#subt3">стандартных функций</A> контекстного меню для таблиц.
+<LI>Полный список <A href="encl2_3.html">управляющих клавиш</A> для всех типов таблиц.</LI></UL>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

@@ -1,0 +1,518 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Таблица заявок</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Таблица заявок</H1>
+<P><FONT size=2 face=Arial>
+<ADDRESS>меню <STRONG>Создать окно / Заявки...</STRONG> или кнопка&nbsp;<IMG src="b-orders.gif"> </ADDRESS>
+<MENU>
+  <LI><A href="#subt1">Назначение</A> 
+  <LI><A href="#subt2">Формат таблицы</A> 
+  <LI><A href="#subt3">Доступные функции</A> </LI></MENU>
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H2>Назначение </H2>
+<P>Контроль состояния исполнения заявок, отправленных на биржу. Управление 
+активными заявками.</P>
+<DL>
+  <DT>
+  <DD>Если количество строк таблицы превышает пороговое значение, заданное в файле info.ini (без учёта глобальных фильтров), то при вызове пункта меню «Создать окно / Заявки» открывается окно редактирования таблицы. Иначе – открывается сформированная Таблица заявок.
+<P>По умолчанию пороговое значение равно «100000».</P>     
+</DD></DL>
+
+<A name=subt2></A>
+<H2>Формат таблицы</H2>
+
+<P><IMG src="tab-orders80.gif"></P>
+
+<P>Каждой заявке соответствует отдельная строка таблицы. </P>
+<P>Строки таблицы могут выделяться цветом в зависимости от настроек. По умолчанию используются следующие цветовые настройки:
+     <UL>
+          <LI>Красный цвет шрифта – активные заявки;
+          <LI>Синий цвет шрифта – исполненные заявки;
+          <LI>Черный цвет шрифта – снятые заявки;
+          <LI>Для частично исполненных заявок используется желтый цвет фона.
+      </LI></UL>
+<P>К таблице может быть применен <A href="ch2_8.html">Режим связанных окон</A>.</P>
+<P>В столбцах таблицы отображаются следующие параметры:
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Параметр</TH>
+    <TH width="75%">Значение</TH></TR>
+  <TR></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Номер</TD>
+    <TD width="75%">Регистрационный номер заявки в торговой системе биржи 
+  </TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Код биржи</TD>
+    <TD width="75%">Идентификатор биржи. Для срочного рынка FORTS:
+     <UL><LI>дата экспирации в формате «ГГММДД» - при выставлении заявки с переносом;
+               <LI>дата экспирации и номер исходной заявки в формате «ГГММДД NNN» - при переносе заявки в основной клиринг;
+               <LI>поле не заполняется – при выставлении заявки без 
+        переноса</LI>        </UL></TD></TR>
+  <TR>
+    <TD>Дата торгов</TD>
+    <TD width="75%">Дата текущей торговой сессии </TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN>Дата</TD>
+    <TD width="75%">Дата регистрации заявки </TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN><SUP>,</SUP> <SPAN class=mark>**</SPAN> Выставлена (время)</TD>
+    <TD width="75%">Время регистрации заявки в торговой 
+      системе. Формат определяется настройками операционной системы</TD></TR>
+<TR>
+    <TD> Выставлена (мкс)</TD>
+    <TD width="75%">Количество микросекунд во времени регистрации заявки</TD></TR>
+<TR>
+    <TD><SPAN class=mark>*</SPAN> Период</TD>
+    <TD width="75%">Период торговой сессии. Возможные значения:
+<UL><LI>«Открытие»;
+          <LI>«Закрытие»;
+          <LI>«Нормальный»</LI>        </UL></TD></TR>
+<TR>
+    <TD><SPAN class=mark>**</SPAN> Время активации</TD>
+    <TD width="75%">Время активации заявки. Формат 
+      определяется настройками операционной системы</TD></TR>
+<TR>
+    <TD><SPAN class=mark>**</SPAN> Дата снятия</TD>
+    <TD width="75%">Дата отмены заявки</TD></TR>
+<TR>
+    <TD><SPAN class=mark>**</SPAN> Снята (время)</TD>
+    <TD width="75%">Время отмены заявки в торговой системе 
+      с точностью до секунды. Формат определяется настройками операционной системы</TD></TR>
+<TR>
+    <TD>Снята (мкс)</TD>
+    <TD width="75%">Количество микросекунд во времени отмены заявки</TD></TR>
+ 
+  <TR>
+    <TD>Инструмент&nbsp;сокр.</TD>
+    <TD width="75%">Сокращенное наименование инструмента</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> 
+      Инструмент</TD>
+    <TD width="75%">Наименование инструмента</TD></TR>
+  <TR>
+    <TD>Код инструмента</TD>
+    <TD width="75%">Идентификатор инструмента в торговой системе</TD></TR>
+  <TR>
+    <TD>Класс</TD>
+    <TD width="75%">Наименование класса, к которому относится инструмент</TD></TR>
+  <TR>
+    <TD>Код класса</TD>
+    <TD width="75%">Код класса в торговой системе</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Операция</TD>
+    <TD width="75%">Направление операции («Купля», «Продажа»)</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Счет</TD>
+    <TD width="75%">Код торгового счета, по которому подана заявка</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Цена</TD>
+    <TD width="75%">Цена заявки, за единицу инструмента</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Количество</TD>
+    <TD width="75%"> Количество инструментов с точностью количества инструмента&nbsp;или в лотах</TD></TR>
+<TR>
+    <TD><SPAN class=mark>*</SPAN> Видимое кол-во</TD>
+    <TD width="75%">Количество инструментов&nbsp;с точностью количества инструмента&nbsp;или в лотах, отображаемое в торговой системе. Поле заполняется только для заявок типа «Айсберг»</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Остаток</TD>
+    <TD width="75%">Объем неисполненной части заявки, выраженный в лотах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Объем</TD>
+    <TD width="75%">   Объем заявки в денежном выражении 
+      с точностью валюты цены инструмента</TD></TR>
+  <TR>
+    <TD>Средневзвешенная цена приобретения</TD>
+    <TD width="75%">Средняя цена исполнения заявки</TD></TR>
+  <TR>
+    <TD>Валюта </TD>
+    <TD width="75%">Валюта цены, например «SUR» - российский рубль</TD></TR>
+  <TR>
+    <TD>Доходность</TD>
+    <TD width="75%">Доходность в %, рассчитанная по цене заявки</TD></TR>
+  <TR>
+    <TD>НКД</TD>
+    <TD width="75%">Накопленный купонный доход, 
+      рассчитанный для указанного в заявке количества инструментов , в 
+      денежном выражении с точностью валюты цены инструмента</TD></TR>
+  <TR>
+    <TD>Трейдер</TD>
+    <TD width="75%"> Идентификатор трейдера, 
+      подавшего заявку. Для рынков РТС и УБ – код выпуска инструмента</TD></TR>
+  <TR>
+    <TD>Дилер</TD>
+    <TD width="75%">Идентификатор фирмы, от имени которой подана заявка</TD></TR>
+  <TR>
+    <TD>UID</TD>
+    <TD width="75%">Код пользователя на сервере QUIK</TD></TR>
+  <TR>
+    <TD>UID снявшего заявку</TD>
+    <TD width="75%">Код на сервере QUIK пользователя, снявшего заявку</TD></TR>
+  <TR>
+    <TD>Код клиента</TD>
+    <TD width="75%">Код клиента, по которому установлен лимит средств</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Комментарий</TD>
+    <TD width="75%">Дополнительная справочная информация (заполняется 
+      трейдером), например: <BR>&lt;код клиента&gt;/&lt;номер 
+поручения&gt;</TD></TR>
+  <TR>
+    <TD>Исходный номер</TD>
+    <TD width="75%">Исходный номер заявки с указанной 
+      датой исполнения при замене заявки в ходе клиринга. Параметр заявок срочного рынка FORTS</TD></TR>
+  <TR>
+    <TD>Стоп-заявка</TD>
+    <TD width="75%">Номер стоп-заявки, породившей данную заявку</TD></TR>
+  <TR>
+    <TD>Срок</TD>
+    <TD width="75%">     Срок исполнения заявки</TD></TR>
+  <TR>
+    <TD>Время окончания срока</TD>
+    <TD width="75%">Время действия заявки, для заявок со сроком действия «До времени»</TD></TR>
+  <TR>
+    <TD>Тип</TD>
+    <TD width="75%">
+      <P>Тип заявки, код из трех букв:</P>
+      <UL>
+        <LI>1-я буква (тип заявки): «А»&nbsp;– айсберг-заявка, «Л» – лимитированная, «М» - рыночная 
+        <LI>2-я буква (разбиение цены): «Р» – по разным ценам, «Н» – все сделки 
+        по одной цене 
+        <LI>3-я буква (условие исполнения): «С» – немедленно или отклонить, «О» 
+        – поставить в очередь, «У» - снять остаток.&nbsp;</LI></UL>             
+         <P>Для заявок с признаком «Рыночная», выставленных на 
+      рынке FORTS, отображается тип «ЛРУ».<BR>Для заявок 
+      без признака «Рыночная», выставленных на рынке FORTS, отображается тип 
+      «ЛРО»</P>           
+               </TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN> Состояние</TD>
+    <TD width="75%"> Состояние заявки («Активна», «Исполнена», «Снята»)</TD></TR>
+  <TR>
+    <TD>Расширенный статус</TD>
+    <TD width="75%">
+      <P>Расширенный статус заявки. Возможные значения:</P>
+      <UL>
+        <LI>«» (пусто);
+        <LI>«Заявка активна»;
+        <LI>«Заявка частично исполнена»;
+        <LI>«Заявка исполнена»;
+        <LI>«Заявка отменена»;
+        <LI>«Заявка заменена»;
+        <LI>«Заявка в состоянии отмены»;
+        <LI>«Заявка отвергнута»;
+        <LI>«Приостановлено исполнение заявки»;
+        <LI>«Заявка в состоянии регистрации»;
+        <LI>«Заявка снята по времени действия»;      
+         <LI>«Заявка в состоянии замены»</LI></UL></TD></TR>
+  <TR>
+    <TD> Исполнено</TD>
+    <TD width="75%">         Исполненный объем заявки&nbsp; с 
+      точностью         количества 
+      инструмента .
+      <BR><STRONG> Исполнено =   Количество – Остаток</STRONG>  </TD></TR>
+  <TR>
+    <TD>ID транзакции</TD>
+    <TD width="75%">Значение уникального номера заявки TRANS_ID при импорте 
+      заявок из файла</TD></TR>
+  <TR>
+    <TD>Код расчетов</TD>
+    <TD width="75%">Код расчетов по сделке. Параметр заявок РПС и РЕПО.</TD></TR>
+  <TR>
+    <TD>Цена выкупа</TD>
+    <TD width="75%">Цена второй части РЕПО, за единицу инструмента. Параметр 
+      заявок РПС и РЕПО</TD></TR>
+  <TR>
+    <TD>Заявка Маркет-мейкера</TD>
+    <TD width="75%">Признак заявок, отправленных 
+маркет-мейкером</TD></TR>
+  <TR>
+    <TD>Идентификатор счета</TD>
+    <TD width="75%">Идентификатор счета в НКЦ (расчетный 
+код)</TD></TR>
+  <TR>
+    <TD>Ввод объема</TD>
+    <TD width="75%">Признак указания объема заявки. Возможные 
+значения:
+      <UL>
+        <LI> «По объему» – указан объем заявки;
+        <LI>«По количеству» – объем заявки не указан</LI></UL></TD></TR>
+  <TR>
+    <TD>Срок РЕПО</TD>
+    <TD width="75%">Срок РЕПО в календарных 
+днях</TD></TR>
+  <TR>
+    <TD>Сумма РЕПО</TD>
+    <TD width="75%">      
+         Сумма РЕПО на текущую дату      
+         с точностью валюты цены 
+инструмента</TD></TR>
+  <TR>
+    <TD>Объем выкупа РЕПО</TD>
+    <TD width="75%">     
+          Объем сделки выкупа РЕПО с     
+          точностью валюты цены 
+инструмента</TD></TR>
+  <TR>
+    <TD>Остаток суммы РЕПО</TD>
+    <TD width="75%">      
+       Остаток суммы РЕПО за вычетом      
+       суммы привлеченных / предоставленных по сделке 
+      РЕПО денежных средств в неисполненной части заявки по состоянию 
+      на текущую дату с точностью валюты цены 
+инструмента.</TD></TR>
+  <TR>
+    <TD>Начальный дисконт (%)</TD>
+    <TD width="75%">Начальное значение дисконта, в 
+процентах</TD></TR>
+  <TR>
+    <TD>Причина отклонения</TD>
+    <TD width="75%">Ответ торговой системы на 
+транзакцию</TD></TR>
+  <TR>
+    <TD>Режим исполнения</TD>
+    <TD width="75%"> Тип исполнения 
+заявки. Возможные значения:
+<UL>
+    <LI>«Немедленно или отклонить»;
+    <LI>«Поставить в очередь»;
+    <LI>«Снять остаток»;
+    <LI>«До снятия»;
+    <LI>«До даты»;
+    <LI>«В течение сессии»;
+    <LI>«Открытие»;
+    <LI>«Закрытие»;
+    <LI>«По цене аукциона закрытия»;
+    <LI>«До времени»;
+    <LI>«Следующий аукцион»;
+    <LI>«Extended hours» – дополнительная торговая сессия»;
+    <LI> &nbsp;« » (пусто) </LI></UL></TD></TR>
+  <TR>
+    <TD>Мин. допустимое кол-во</TD>
+    <TD width="75%">Минимально допустимое количество с 
+      точностью количества инструмента, 
+      которое можно указать в заявке по данному инструменту. Если значение не указано, то ограничение по количеству не 
+задано</TD></TR>
+  <TR>
+    <TD>Кол-во базовой валюты </TD>
+    <TD width="75%">Количество базовой валюты в валютной паре (например, для пары USDRUB это USD) с точностью количества инструмента. Параметр заполняется только для класса «Валюта» и отображается:
+<UL>
+    <LI>С точностью до двух знаков – если на классе «Валюта» стоит признак «Количество в валюте»;
+    <LI>Рассчитывается по формуле: «Объем» =                                                                         «Количество» * «Размер лота» – если на классе «Валюта» нет признака «Количество в валюте»</LI></UL> </TD></TR>
+  <TR>
+    <TD>Базовая валюта </TD>
+    <TD width="75%">Базовая валюта в валютной паре (например, для пары USDRUB это USD). Параметр заполняется только для класса «Валюта» </TD></TR>
+  <TR>
+    <TD>Кол-во котируемой валюты </TD>
+    <TD width="75%">Количество котируемой валюты в 
+      валютной паре (например, для пары USDRUB это RUB) с точностью количества инструмента. Параметр заполняется только для класса «Валюта» и отображается:
+<UL>
+    <LI>С точностью до двух знаков – если на классе «Валюта» стоит признак «Количество в валюте»;
+    <LI>Рассчитывается по формуле: «Объем» = «Цена» * «Количество» * «Размер лота» – если на классе «Валюта» нет признака «Количество в валюте» </LI></UL></TD></TR>
+  <TR>
+    <TD>Котируемая валюта </TD>
+    <TD width="75%">Котируемая валюта в валютной паре (например, для пары USDRUB это RUB). Параметр заполняется только для класса «Валюта» </TD></TR>
+
+  <TR>
+    <TD>Passive only</TD>
+    <TD width="75%">Статус пассивности заявки. Возможные значения:
+<UL>
+    <LI>«Not passive» – без ограничений;
+    <LI>«New BBO or joining existing BBO» – заявка регистрируется только в том случае, если ее цена лучше либо равна текущей лучшей цене в данном направлении;
+    <LI>«BBO or within 1 visible price-point» – заявка регистрируется только в том случае, если ее цена равна текущей лучшей цене в данном направлении или отличается от нее не более чем на один шаг цены;
+    <LI>«BBO or within 2 visible price-points» – заявка регистрируется только в том случае, если ее цена равна текущей лучшей цене в данном направлении или отличается от нее не более чем на два шага цены;
+    <LI>«Standard» – заявка регистрируется только в том случае, если она не может быть сразу исполнена;
+    <LI>«New BBO» – заявка регистрируется только в том случае, если ее цена лучше текущей лучшей цены в данном направлении</LI></UL></TD></TR>
+
+  <TR>
+    <TD>Валюта цены</TD>
+    <TD width="75%">Валюта цены заявки</TD></TR>
+  <TR>
+    <TD>Accepted UID</TD>
+    <TD width="75%">UID пользователя-менеджера, подтвердившего заявку при работе в режиме с подтверждениями</TD></TR>
+  <TR>
+    <TD>Исполн. объем</TD>
+    <TD width="75%">Исполненный объем заявки в валюте цены для частично или полностью исполненных заявок с точностью валюты цены инструмента</TD></TR>
+  <TR>
+    <TD>Валюта расчетов</TD>
+    <TD width="75%">Валюта расчетов по данной заявке</TD></TR>
+  <TR>
+    <TD>On Behalf Of UID</TD>
+    <TD width="75%">UID пользователя, от имени которого выставлена заявка
+</TD></TR>
+  <TR>
+    <TD>Client qualifier</TD>
+    <TD width="75%">Квалификатор клиента, от имени которого выставлена заявка. Возможные значения:
+<UL>
+    <LI>«» (пусто);
+    <LI>«Natural Person»;
+    <LI>«Legal Entity»</LI></UL> </TD></TR>
+  <TR>
+    <TD>Client short code</TD>
+    <TD width="75%">Краткий идентификатор клиента, от имени которого выставлена заявка</TD></TR>
+  <TR>
+    <TD>Investment decision maker qualifier</TD>
+    <TD width="75%">Квалификатор принявшего решение о выставлении заявки. Возможные значения:
+<UL>
+    <LI>«» (пусто);
+    <LI>«Natural Person»;
+    <LI>«Algorithm»</LI></UL></TD></TR>
+  <TR>
+    <TD>Investment decision maker short code</TD>
+    <TD width="75%">Краткий идентификатор принявшего решение о выставлении заявки</TD></TR>
+  <TR>
+    <TD>Executing trader qualifier</TD>
+    <TD width="75%">Квалификатор трейдера, исполнившего заявку. Возможные значения:
+<UL>
+    <LI>«» (пусто);
+    <LI>«Natural Person»;
+    <LI>«Algorithm»</LI></UL></TD></TR>
+  <TR>
+    <TD>Executing trader short code</TD>
+    <TD width="75%">Краткий идентификатор трейдера, исполнившего заявку</TD></TR>
+  <TR>
+    <TD>Side qualifier</TD>
+    <TD width="75%">Квалификатор операции. Возможные значения:
+<UL>
+    <LI>«» (пусто);
+    <LI>«Buy»;
+    <LI>«Sell»;
+    <LI>«Sell short»;
+    <LI>«Sell short exempt»;
+    <LI>«Sell undiclosed»</LI></UL> </TD></TR>
+  <TR>
+    <TD>Capacity</TD>
+    <TD width="75%">Роль в исполнении заявки. Возможные значения:
+<UL>
+    <LI>«» (пусто);
+    <LI>«Agent»;
+    <LI>«Principal»;
+    <LI>«Riskless principal»;
+    <LI>«CFG give up»;
+    <LI>«Cross as agent»;
+    <LI>«Matched Principal»;
+    <LI>«Proprietary»;
+    <LI>«Individual»;
+    <LI>«Agent for other member»;
+    <LI>«Mixed»;
+    <LI>«Market maker»</LI></UL></TD></TR>
+
+
+</TBODY></TABLE></P>
+<P><SPAN class=mark>*</SPAN><SPAN class=comment> - параметры, выбранные по умолчанию</SPAN></P>
+<P><SPAN class=mark>**</SPAN><SPAN class=comment> - при включенной настройке «<A href="ch2_15.html#subt17">Показывать дату и время торговых данных с учетом локальной временной зоны</A>» значение отображается с учетом временной зоны компьютера, на котором запущен терминал QUIK</SPAN></P>
+
+<P>&nbsp;</P>
+<A name=subt3></A>
+<H2>Доступные функции</H2>
+<P>Данные из таблицы доступны для <A href="ch2_7_1.html">копирования</A>, <A 
+href="ch6_1.html">вывода через DDE-сервер</A>, <A href="ch6_2.html"> 
+экспорта&nbsp;по ODBC</A>.</P>
+<P>Функции, доступные для данной таблицы, могут быть вызваны из пункта меню <STRONG>Действия</STRONG> или контекстного меню таблицы:
+<UL>
+  <LI>«Новая заявка» (или «F2», или двойное нажатие левой 
+  кнопки мыши) – ввести новую заявку с условиями, аналогичными заявке, на которой стоит курсор. Если таблица пустая, при выборе функции открывается диалог для выбора класса и инструмента.
+  <LI>«Новая Айсберг заявка» – ввести новую Айсберг заявку.
+  <LI>«Новая стоп-заявка» (или «F6») – ввести новую стоп-заявку.
+  <LI>«Стоп-заявка «по исполнению»» – ввести новую стоп-заявку «по исполнению».
+  <LI>«Заменить заявку» (или «Ctrl»+«A») – заменить (редактировать) заявку.
+  <LI>«Снять заявку» (или «Ctrl»+«D») – cнять заявку.
+  <LI>«Снять активные заявки» (или «Ctrl»+«F8») – снять все активные заявки.
+  <LI>«Выполнить транзакцию» (или «Ctrl»+«T») – выполнить транзакцию, используя Общий способ выполнения транзакций.
+  <LI>«Открыть канал» / «Закрыть канал» – включить / выключить <A href="ch2_8.html">режим связанных окон</A> в данной основной таблице.
+  <LI>«Подключиться к каналу» – привязать окно к основной таблице (подробнее см. <A href="ch2_8.html">Режим связанных окон</A>).
+   <UL>
+       <LI>«&lt;Название таблицы&gt;» – привязка окна к данной таблице;
+       <LI>«Отключить» – отключение связанной таблицы от канала.</LI></UL>
+  <LI>«[&lt;Класс&gt;] &lt;Наименование инструмента&gt;» – открыть Таблицу котировок.
+  <LI>«Оповещение по заявке» (или «Ctrl»+«Alt»+«A») – создать оповещение на исполнение/отмену заявки клиента. Оповещение создается автоматически на основе параметров выделенной заявки. Просмотреть созданное оповещение можно из таблицы «<A href="ch3_9.html">Окно оповещений</A>».
+  <LI>«SMS-оповещение по заявке» (или «Ctrl»+«Alt»+«S») – настроить отправку SMS-уведомлений об исполнении заявки с определенным номером.
+  <LI>«Сохранить в файл заявки из таблицы» – записать в файл только те заявки, которые отображены в таблице.
+  <LI>«Сохранить в файл все заявки» – записать в файл все имеющиеся заявки, без учета настроек таблицы».
+ </LI></UL>
+
+<P>Дополнительно:
+<UL>
+<LI>Описание <A href="ch2_7.html#subt3">стандартных функций</A> контекстного меню для таблиц.
+<LI>Описание применения <A href="ch2_22.html">пользовательских фильтров</A> и <A href="ch2_23.html">условного форматирования</A> таблиц.
+<LI>Полный список <A href="encl2_3.html">управляющих клавиш</A> для всех типов таблиц.</LI></UL>
+
+<P>&nbsp;</P>
+<P>См. также:</P>
+<UL>
+  <LI><A href="ch5_11_3.html">Настройка таблицы</A> 
+  <LI><A href="ch10_6.html">Формат вывода в текстовый 
+файл</A></LI></UL>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

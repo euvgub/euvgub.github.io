@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Работа с таблицами в режиме «drag-and-drop»</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Работа с таблицами в режиме «drag-and-drop»</H1>
+<P><FONT size=2 face=Arial>
+<MENU>
+  <LI><A href="#subt1">Перемещение окон между вкладками</A> 
+  <LI><A href="#subt2">Добавление инструментов в таблицу </A> 
+  <LI><A href="#subt3">Удаление инструмента из таблицы</A> 
+  <LI><A href="#subt4">Замена инструмента в таблице котировок</A> 
+  <LI><A href="#subt5">Изменение порядка столбцов и их удаление из таблицы</A> 
+  <LI><A href="#subt6">Изменение порядка строк в таблице</A> 
+</LI></MENU>
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H2>Перемещение окон между вкладками</H2>   
+<P>Для перемещения окна с одной вкладки на другую 
+поместите курсор на заголовок окна, нажмите кнопку «Ctrl». Удерживая левую 
+кнопку мыши и кнопку «Ctrl», переместите окно на нужную вкладку (во время перемещения курсор принимает вид <IMG src="003.gif">            ). При этом вкладка выделяется цветом, и курсор меняет вид на <IMG src="001.gif"> . 
+Отпустите левую кнопку мыши. 
+<P>Если курсор имеет вид <IMG src="003.gif">, то перемещение окна на вкладку невозможно.
+<P><DL>
+    <DD>Сделать окно видимым на всех вкладках с помощью данной операции невозможно. </DD></DL>
+<P></P>
+
+<A name=subt2></A>
+<H2>Добавление инструментов в таблицы</H2>   
+  <DL>
+    <DD>Для таблиц, содержащих только один столбец, данный функционал режима «drag-and-drop» не работает.</DD></DL>
+<P>Добавить инструменты можно из/в следующие таблицы:
+<UL>
+<LI>«Таблица параметров опционов»;
+<LI>«Купить/Продать»;
+<LI>Таблицы текущих торгов;
+<LI>таблицы с результатом поиска инструментов.</LI></UL>
+<P><DL>
+    <DD>Добавить инструменты из/в таблицу «Купить/Продать» можно, только если в настройках таблицы включена опция «Выбрать инструменты вручную». </DD></DL>
+<P>Поместите курсор на строку с выбранным 
+инструментом. Нажмите на левую кнопку мыши и, удерживая эту кнопку, 
+перемещайте курсор в нужную таблицу. При перемещении курсор принимает вид<IMG src="003.gif">            . Если возможно добавление инструмента в данную таблицу, то вид курсора меняется на  <IMG src="005.gif"> , и появляется 
+окно с названием инструмента. Отпустите левую кнопку мыши, строка с новым инструментом добавится в указанное подчеркиванием место таблицы.
+<P>   Если вид курсора остается <IMG src="003.gif"> , то добавление инструмента невозможно.
+<P><DL>
+    <DD>  <P> Повторное добавление в таблицу одного 
+  и того же инструмента невозможно.</P>        </DD></DL>
+<P>Для добавления инструмента в таблицу, расположенную на другой вкладке, необходимо навести курсор (удерживая выбранный инструмент) на нужную вкладку, подождать, пока произойдет переключение на выбранную вкладку, и добавить 
+инструмент в таблицу.
+                       
+<A name=subt3></A>
+<H2>Удаление инструмента из таблицы</H2> 
+  <DL>
+    <DD>Для таблиц, содержащих только один столбец, данный функционал режима «drag-and-drop» не работает.</DD></DL>
+<P>Удалить инструмент можно из следующих таблиц:
+<UL>
+<LI>Таблица текущих торгов;
+<LI>«Купить/Продать» (если в настройках таблицы включена опция «Выбрать инструменты вручную»);
+<LI>«Таблица параметров опционов».</LI></UL>
+<P>Для удаления поместите курсор на выбранный инструмент, нажмите на левую кнопку мыши и, удерживая эту кнопку, переместите курсор за пределы таблицы, отпустите левую кнопку мыши. На экране появляется курсор вида <IMG src="007.gif"> и окно с названием удаляемого инструмента.
+<P>Подтверждение при удалении инструмента запрашивается в случае, если установлен флажок «Запрашивать подтверждение при&nbsp;удалении объектов с помощью drag-and-drop» в меню <STRONG>Система/Настройки/Основные настройки...</STRONG>, раздел «Окна» / «Таблицы».
+
+<A name=subt4></A>
+<H2>Замена инструмента в таблице котировок</H2> 
+  <DL>
+    <DD>Для таблиц, содержащих только один столбец, данный функционал режима «drag-and-drop» не работает.</DD></DL>   
+<P>Для замены инструмента в таблице котировок выберите инструмент из следующих таблиц:
+<UL>
+<LI>Таблица текущих торгов;
+<LI>«Купить/Продать»;
+<LI>«Таблица параметров опционов»;
+<LI>таблицы с результатом поиска инструментов.</LI></UL>
+<P>Поместите курсор на выбранный инструмент, нажмите на левую кнопку мыши и, удерживая эту кнопку, переместите курсор с выбранным инструментом в таблицу котировок, отпустите кнопку мыши.
+<P>На экране появляется курсор вида <IMG src="005.gif"> и окно с названием заменяемого инструмента.
+<P>Заголовок окна таблицы котировок изменится на «Краткое название инструмента [Название класса] Котировки №». 
+<P>Подтверждение при&nbsp;замене инструмента запрашивается в случае, если установлен флажок «Запрашивать подтверждение при удалении объектов с помощью drag-and-drop» в меню <STRONG>Система/Настройки/Основные настройки...</STRONG>, раздел «Окна» / «Таблицы».
+<P>Для замены инструмента в таблице котировок, 
+расположенной на другой вкладке, необходимо навести курсор (удерживая выбранный инструмент) на нужную вкладку, подождать, пока произойдет переключение на выбранную вкладку и переместить инструмент в таблицу котировок.
+
+<A name=subt5></A>
+<H2>Изменение порядка столбцов и их удаление из таблицы</H2>     
+  <DL>
+    <DD>Для таблиц, содержащих только один столбец, данный функционал режима «drag-and-drop» не работает.</DD></DL> 
+<P>Изменение порядка столбцов и их удаление из таблицы доступно, если установлен флажок «Перемещать и удалять колонки таблицы с помощью drag-and-drop» в меню <STRONG>Система/Настройки/Основные настройки...</STRONG>, раздел «Окна» / «Таблицы».
+<P>Для изменения порядка столбцов, поместите курсор 
+на заголовок столбца, нажмите на левую кнопку мыши и, удерживая 
+эту кнопку, переместите курсор с выделенным столбцом в нужное место 
+в таблице на заголовок столбца. На экране появляется курсор вида <IMG src="001.gif"> , 
+и окно  названием выделенного столбца. Отпустите кнопку мыши, и столбец добавится в указанное подчеркиванием место таблицы.
+<P>Для удаления поместите курсор на заголовок 
+столбца, нажмите на левую кнопку мыши и, удерживая эту кнопку, 
+переместите курсор за пределы таблицы. На экране появляется курсор вида <IMG src="007.gif"> 
+и окно с названием удаляемого столбца. Отпустите левую кнопку мыши. 
+<P>Подтверждение при удалении столбца таблицы запрашивается в случае, если установлен флажок «Запрашивать подтверждение при&nbsp;удалении объектов с помощью drag-and-drop» в меню <STRONG>Система/Настройки/Основные настройки...</STRONG>, раздел 
+«Окна» / «Таблицы». 
+  <DL>
+    <DD>При попытке удалить столбец таблицы, значения которого используются в фильтрах других столбцов, методом «drag-and-drop» у пользователя запрашивается подтверждение. При положительном ответе столбец удаляется, а соответствующий фильтр сбрасывается. Если столбец удаляется в процессе редактирования таблицы, то соответствующий фильтр сбрасывается без предупреждения. </DD></DL>
+
+<H2>Изменение порядка строк в таблице</H2>    
+<P>Изменять порядок строк можно в следующих таблицах:
+<UL>
+<LI>Таблица текущих торгов;
+<LI>«Купить/Продать» (если в настройках таблицы включена 
+  опция «Выбрать инструменты вручную»);
+<LI>«Таблица параметров опционов».</LI></UL>
+<P>
+  <DL>
+    <DD> <P>Для таблицы «Купить/Продать» изменить порядок строк 
+  невозможно, если набор инструментов сформирован автоматически, а не с помощью 
+  опции «Выбрать инструменты вручную».</P>                    </DD></DL>
+
+<P>Поместите курсор на строку, нажмите на левую кнопку мыши 
+и, удерживая эту кнопку, переместите курсор в выбранную область таблицы. На экране появляется&nbsp;курсор вида <IMG src="001.gif"> и окно с названием перемещаемого инструмента. Отпустите 
+левую кнопку мыши, строка переместится в указанное подчеркиванием место таблицы.
+<P>
+  <DL>
+    <DD>Изменить порядок строк невозможно, если в таблице включена сортировка по какому-либо столбцу. </DD></DL>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Получение файлов от брокера и их подтверждение</title>
+<META content="MSHTML 6.00.2900.5803" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=Windows-1251">
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Получение файлов от брокера и их подтверждение</H1>
+<P><FONT size=2 face=Arial>
+<MENU>
+  <LI><A href="#subt1">Назначение</A> 
+  <LI><A href="#subt2">Принятые файлы</A>
+  <LI><A href="#subt3">Просмотр файлов</A> 
+  <LI><A href="#subt4">Подтверждение файлов</A>
+  <LI><A href="#subt5">Получение файлов</A>
+</LI></MENU> 
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H3>Назначение </H3>
+<P>Брокер имеет возможность передать клиенту какие-либо файлы, например, подготовленные им отчеты. Файлы могут содержать электронную цифровую подпись (ЭЦП) отправителя. Достоверность ЭЦП проверяется автоматически при приеме файлов. В зависимости от настроек Модуля формирования отчетов у брокера, клиент может подтвердить файл с помощью ЭЦП, если это предписано регламентом брокерского обслуживания, подтвердить файл без подписи (в случае отсутствия настроенного криптопровайдера) или подтвердить одноразовым паролем. Факты получения и подтверждения файлов клиентом регистрируются сервером QUIK.</P>
+
+<A name=subt2></A>
+<H3>Принятые файлы</H3>
+<ADDRESS>меню <STRONG>Расширения / Отчеты / Принятые файлы...</STRONG></ADDRESS>
+<P>Прием файлов производится автоматически при соединении программы QUIK с сервером. 
+Получение файлов сопровождается появлением в программе QUIK формы, показанной 
+на рисунке. Если брокер отправил клиенту одновременно файлы, подписанные 
+электронной цифровой подписью и не подписанные, то все принятые файлы 
+разделятся на две части и отобразятся в разных окнах. При необходимости, окно с 
+перечнем принятых файлов можно открыть вручную через пункт меню <STRONG>Расширения / Отчеты / 
+Принятые файлы...</STRONG>.</P>
+
+<P><IMG src="x-files80.gif"></P>
+
+<P>В окне «Принятые файлы» содержится следующая информация: </P>
+<OL>
+  <LI><SPAN>«Принято файлов» – количество полученных файлов.</SPAN>
+  <LI><SPAN>«Папка» – путь к стандартному каталогу для ведения архива полученных файлов. Файлы с электронной цифровой подписью сохраняются в папку ReportsSigned, файлы без подписи – в папку Reports в том каталоге, где установлено Рабочее место QUIK.</SPAN>
+  <LI><SPAN>«Открыть папку…» – открытие окна с каталогом, в который сохраняются принятые файлы, полученные от отправителя.
+</SPAN>
+  <LI><SPAN>В таблице с полученными файлами каждая строка соответствует отдельному принятому файлу. В столбцах отображаются следующие параметры:
+  <P>
+  <TABLE>
+    <TBODY>
+    <TR>
+      <TH>Параметр</TH>
+      <TH width="75%">Назначение</TH></TR>
+    <TR>
+      <TD>Файл</TD>
+      <TD width="75%">Имя файла</TD></TR>
+    <TR>
+      <TD>Подпись отправителя</TD>
+      <TD width="75%">
+        <UL>
+          <LI>«Да» - файл подписан отправителем; 
+          <LI>«Нет» - файл не подписан (в этом случае последующие поля не 
+          заполняются) </LI></UL></TD></TR>
+    <TR>
+      <TD>Статус подписи отправителя</TD>
+      <TD width="75%">
+        <UL>
+          <LI>«Да» - подпись верна 
+          <LI>«Нет» - подпись не верна (в этом случае последующие поля не 
+          заполняются) </LI></UL></TD></TR>
+    <TR>
+      <TD>Владелец сертификата</TD>
+      <TD width="75%">Наименование владельца сертификата</TD></TR>
+    <TR>
+      <TD>УЦ сертификата</TD>
+      <TD width="75%">Наименование учетного центра, которым был выдан 
+        сертификат</TD></TR>
+    <TR>
+      <TD>Серийный номер сертификата</TD>
+      <TD width="75%">Номер выданного сертификата</TD></TR>
+    <TR>
+      <TD>Ошибка</TD>
+      <TD width="75%">Сообщение об ошибке</TD></TR>
+    <TR>
+      <TD>Подтвержден</TD>
+      <TD width="75%">«Да» – файл подтвержден пользователем, иначе не заполняется</TD></TR>
+</TBODY></TABLE>
+</SPAN></P>
+
+  <LI><SPAN>«Выбрать всё» – выделить все принятые файлы в таблице. Доступно при наличии в таблице файлов, которые требуют <A href="#subt4">подтверждения</A> и для которых применим способ подтверждения с помощью «ЭЦП» или «Без подписи».
+<DL>
+<DD>Принятые файлы, для которых применим способ <A href="#subt4">подтверждения</A> с помощью одноразового пароля, выбираются только по одному.</DD> </DL>  
+</SPAN>
+  <LI><SPAN>«Снять выделение» – снять выделение с выбранных файлов.</SPAN>
+  <LI><SPAN>Кнопка «Открыть файл» – <A href="#subt3">просмотр</A> полученного файла. Доступно при выборе только одного файла.</SPAN>
+  <LI><SPAN>Кнопка «Сохранить как…» – сохранить файл в выбранный каталог. Доступно при выборе только одного файла, и если выбранный файл получен в текущем сеансе работы.</SPAN>
+
+</LI></OL>
+<P>При нажатии на кнопку <IMG src="b-edit_xfiles_table.gif">  открывается окно редактирования таблицы принятых файлов, в котором настраивается отображение необходимых столбцов.</P>
+
+<A name=subt3></A>
+<H3>Просмотр файлов</H3>
+<P>Полученные файлы можно открыть для просмотра, нажав кнопку «Открыть файл» в нижней части окна. Файл открывается во внешней программе (например, MS Excel), которая должна быть предварительно установлена на компьютере пользователя.
+<P>Файлы сохраняются в стандартный каталог, который служит только для ведения архива полученных файлов, поэтому при открытии файла открывается его копия во временном каталоге, а сам файл остаётся без изменений в стандартном каталоге. При необходимости файл сохраняется пользователем в другой каталог, нажатием на кнопку «Сохранить как…».</P>
+
+<A name=subt4></A>
+<H3>Подтверждение файлов</H3>
+<P>При приеме клиентом файлов выбирается доступный способ подтверждения, соответствующий полученному файлу. В зависимости от настроек Модуля формирования отчетов можно выбрать следующие способы подтверждения файлов в поле со списком «Подтвердить получение»:</P>
+<UL>
+   <LI>«ЭЦП» – подтвердить выбранный файл с помощью электронной цифровой подписи (ЭЦП).
+   <LI>«Без подписи» – подтвердить выбранный файл.
+   <LI>«Пароль» – подтвердить выбранный файл одноразовым паролем. Для запроса одноразового пароля у Модуля формирования отчетов нажмите кнопку «Получить пароль по SMS». Полученный пароль вводится в поле слева. Поле становится активным только после получения пароля и появляется надпись «Введите пароль». Количество попыток получения и количество попыток ввода одноразового пароля настраиваются администратором Модуля формирования отчетов. После исчерпания максимального количества попыток ввода одноразового пароля возможность подтверждения файла через одноразовые пароли блокируется. Допускается ввод любого из полученных одноразовых паролей (как самого первого, так и запрошенных повторно для данного файла).
+</LI></UL>
+
+<P>Для подтверждения выбранного файла нажмите кнопку «Подтвердить».
+<P>При выборе уже подтверждённого файла поле со списком «Подтвердить получение» недоступно.
+<P>Формирование ЭЦП выполняется внешней программой, которая должна быть установлена на компьютере пользователя. За консультациями по получению и установке данной программы обратитесь к своему брокеру.
+<P>Сформированная ЭЦП регистрируется на сервере брокера. Результат выполнения операции отображается в столбце «Подтвержден» окна «Принятые файлы» и в «Окне сообщений».
+<P>Файлы, принятые пользователем, могут быть отозваны брокером, при условии, что они не подтверждены клиентом. Для отзыва неподписанных файлов клиенту нужно связаться со своим брокером. После выполнения этой процедуры файл удаляется из списка принятых файлов.
+<DL>
+  <DD>
+   Для подтверждения файла (любым способом) необходимо наличие соединения с сервером.</DD></DL>
+
+<A name=subt5></A>
+<H3>Получение файлов</H3>
+<ADDRESS>меню <STRONG>Расширения / Отчеты / Получение файлов...</STRONG></ADDRESS>
+<P>Если в Модуле формирования отчетов включена настройка «Оповещать о новых файлах», то прием файлов производится как в момент соединения программы QUIK с сервером, так и позже, по мере поступления новых файлов. Получение новых файлов в текущем сеансе работы обозначается системным уведомлением и в меню <STRONG>Отчеты</STRONG> появляется новый пункт <STRONG>Получение файлов</STRONG>.</P>
+
+<P>В таблице с полученными файлами каждая строка соответствует отдельному принятому файлу. В столбцах отображаются следующие параметры:</P>
+  <TABLE>
+    <TBODY>
+    <TR>
+      <TH>Параметр</TH>
+      <TH width="75%">Назначение</TH></TR>
+    <TR>
+      <TD>Имя файла</TD>
+      <TD width="75%">Имя файла</TD></TR>
+    <TR>
+      <TD>Размер</TD>
+      <TD width="75%">Размер файла</TD></TR>
+</TBODY></TABLE>
+
+<P><IMG src="rec_file_80.gif"></P>
+
+<P>Нажав кнопку «Принять файлы», открывается окно «Принятые файлы», в котором отображаются все вновь принятые файлы из списка. После принятия новых файлов пункт меню <STRONG>Получение файлов</STRONG> пропадает из меню <STRONG>Отчеты</STRONG>.</P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

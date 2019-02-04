@@ -1,0 +1,455 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Функции</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Функции</H1>
+<P><FONT size=2 face=Arial>
+<MENU>
+  <LI><A href="#subt1">Общие положения</A> 
+  <LI><A href="#subt2">Функции языка QPILE</A> </LI></MENU>
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H2>Общие положения</H2>
+<OL>
+  <LI><SPAN>Описания функций могут находиться в любом месте программы. </SPAN>
+  <LI><SPAN>Все функции должны иметь различные имена – перегрузка по типу параметров и 
+  их количеству не осуществляется. </SPAN>
+  <LI><SPAN>Функции могут возвращать значение с помощью переменной с именем «RESULT». </SPAN>
+  <LI><SPAN>Все параметры передаются в функции по значению. </SPAN>
+  <LI><SPAN>Функция может являться процедурой. В этом случае в месте вызова такой 
+  функции не используется возвращаемое значение, и присваивание переменной с 
+  именем «RESULT» внутри такой функции не обязательно. </SPAN>
+  <LI><SPAN>Для выхода из тела функции может использоваться оператор «RETURN». </SPAN>
+</LI></OL>
+<P>
+<DL>
+  <DD>
+  <OL>
+    <LI>В описании синтаксиса функций, возвращающих или принимающих переменную 
+    любого типа, для обозначения применяется тип «ANY». 
+    <LI>Таблица, создаваемая при расчете программы, обозначается 
+  «OWN».</LI></OL></DD></DL>
+
+<P>Функции, определенные пользователем, имеют следующий синтаксис:</P>
+<PRE>FUNC функция (список 
+аргументов)<BR>последовательность инструкций<BR>END FUNC</PRE>
+<P>В операторе «END FUNC» допускается только один пробел.
+
+<H3>Пример:</H3>
+<PRE>FUNC ignore_negative(x)
+<BR>           If x &gt; 0
+<BR>                      RESULT =x
+<BR>           Else
+<BR>                      RESULT = 0
+<BR>           End If
+<BR>END FUNC</PRE>
+
+<A name=subt2></A>
+<H2>Функции языка QPILE</H2>
+<P>Стандартные функции языка QPILE предназначены для работы со структурными 
+типами переменных и получения значений из таблиц QUIK. </P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Функция</TH>
+    <TH width="75%">Назначение</TH></TR>
+  <TR>
+    <TD>NEW_GLOBAL</TD>
+    <TD width="75%">Инициализация глобальной переменной</TD></TR>
+  <TR>
+    <TD>MESSAGE</TD>
+    <TD width="75%">Вывод текста в Окне сообщений</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_6.html">Математические функции </A></H4></TD></TR>
+  <TR>
+    <TD>ABS</TD>
+    <TD width="75%">Модуль</TD></TR>
+  <TR>
+    <TD>ACOS</TD>
+    <TD width="75%">Арккосинус</TD></TR>
+  <TR>
+    <TD>ASIN</TD>
+    <TD width="75%">Арксинус</TD></TR>
+  <TR>
+    <TD>ATAN</TD>
+    <TD width="75%">Арктангенс</TD></TR>
+  <TR>
+    <TD>CEIL</TD>
+    <TD width="75%">Округление вверх</TD></TR>
+  <TR>
+    <TD>COS</TD>
+    <TD width="75%">Косинус</TD></TR>
+  <TR>
+    <TD>EXP</TD>
+    <TD width="75%">Экспонент</TD></TR>
+  <TR>
+    <TD>FLOOR</TD>
+    <TD width="75%">Округление вниз</TD></TR>
+  <TR>
+    <TD>LOG</TD>
+    <TD width="75%">Логарифм</TD></TR>
+  <TR>
+    <TD>POW</TD>
+    <TD width="75%">Возведение в степень</TD></TR>
+  <TR>
+    <TD>RAND</TD>
+    <TD width="75%">Случайное число</TD></TR>
+  <TR>
+    <TD>RANDOMIZE</TD>
+    <TD width="75%">Генерация случайных чисел</TD></TR>
+  <TR>
+    <TD>SIN</TD>
+    <TD width="75%">Синус</TD></TR>
+  <TR>
+    <TD>SQRT</TD>
+    <TD width="75%">Квадратный корень числа</TD></TR>
+  <TR>
+    <TD>TAN</TD>
+    <TD width="75%">Тангенс</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_7.html">Функции для работы с коллекциями 
+    объектов</A></H4></TD></TR>
+  <TR>
+    <TD>CREATE_COLLECTION</TD>
+    <TD width="75%">Определение коллекции</TD></TR>
+  <TR>
+    <TD>GET_COLLECTION_COUNT</TD>
+    <TD width="75%">Количество элементов в коллекции</TD></TR>
+  <TR>
+    <TD>REMOVE_COLLECTION_ITEM</TD>
+    <TD width="75%">Удаление элемента коллекции</TD></TR>
+  <TR>
+    <TD>INSERT_COLLECTION_ITEM</TD>
+    <TD width="75%">Вставка элемента коллекции</TD></TR>
+  <TR>
+    <TD>SET_COLLECTION_ITEM</TD>
+    <TD width="75%">Замена значения элемента коллекции</TD></TR>
+  <TR>
+    <TD>GET_COLLECTION_ITEM</TD>
+    <TD width="75%">Чтение значения элемента коллекции</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_8.html">Функции для работы с ассоциативными 
+      массивами</A></H4></TD></TR>
+  <TR>
+    <TD>CREATE_MAP</TD>
+    <TD width="75%">Определение массива</TD></TR>
+  <TR>
+    <TD>SET_VALUE</TD>
+    <TD width="75%">Добавление нового элемента в массив</TD></TR>
+  <TR>
+    <TD>GET_VALUE</TD>
+    <TD width="75%">Чтение значения элемента из массива</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_9.html">Функции для обращения к строкам произвольных 
+      таблиц QUIK</A></H4></TD></TR>
+  <TR>
+    <TD>GET_ITEM</TD>
+    <TD width="75%">Строка с указанным номером из таблицы QUIK</TD></TR>
+  <TR>
+    <TD>GET_NUMBER_OF</TD>
+    <TD width="75%">Количество записей в указанной таблице QUIK</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_10.html">Функции для обращения к спискам доступных 
+      параметров</A></H4></TD></TR>
+  <TR>
+    <TD>GET_CLASSES_LIST</TD>
+    <TD width="75%">Список кодов классов, доступных в текущем сеансе 
+  связи</TD></TR>
+  <TR>
+    <TD>GET_CLASS_SECURITIES</TD>
+    <TD width="75%">Список кодов&nbsp;инструментов для заданного списка классов</TD></TR>
+  <TR>
+    <TD>GET_SECURITY_INFO</TD>
+    <TD width="75%">Информация по&nbsp;инструменту с определенным кодом из заданного 
+      класса</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_11.html">Функции для работы с программируемой 
+      таблицей</A></H4></TD></TR>
+  <TR>
+    <TD>ADD_ITEM</TD>
+    <TD width="75%">Добавление новой строки в таблицу</TD></TR>
+  <TR>
+    <TD>MODIFY_ITEM</TD>
+    <TD width="75%">Изменение указанной строки таблицы</TD></TR>
+  <TR>
+    <TD>DELETE_ITEM</TD>
+    <TD width="75%">Удаление указанной строки таблицы</TD></TR>
+  <TR>
+    <TD>DELETE_ALL_ITEMS</TD>
+    <TD width="75%">Очистка всех значений таблицы</TD></TR>
+  <TR>
+    <TD>SET_ROW_COLOR</TD>
+    <TD width="75%">Указание цвета подсветки для строки таблицы</TD></TR>
+  <TR>
+    <TD>SET_ROW_COLOR_EX</TD>
+    <TD width="75%">Указание цвета фона и шрифта для строки таблицы</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_12.html"> Функции для получения значений Таблицы 
+      текущих торгов</A></H4></TD></TR>
+  <TR>
+    <TD>GET_PARAM<SPAN class=mark>*</SPAN></TD>
+    <TD width="75%"> Получение значений из Таблицы текущих 
+    торгов</TD></TR>
+  <TR>
+    <TD>GET_PARAM_EX</TD>
+    <TD width="75%"> Получение всех значений из Таблицы текущих 
+      торгов</TD></TR>
+  <TR>
+<TD colSpan=2>
+      <H4><A href="ch8_12.html">Функции для получения значений Окна котировок</A></H4></TD></TR>
+   <TR>
+    <TD>GET_QUOTES_II_LEVEL_DATA</TD>
+    <TD width="75%">Получение значений из Таблицы котировок</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_13.html">Функции для получения значений таблицы «Позиции по инструментам»</A> <SPAN class=mark>*</SPAN></H4></TD></TR>
+  <TR>
+    <TD>DEPO_OPEN_BALANCE</TD>
+    <TD width="75%">Входящий остаток по инструментам</TD></TR>
+  <TR>
+    <TD>DEPO_OPEN_LIMIT</TD>
+    <TD width="75%">Входящий лимит по инструментам</TD></TR>
+  <TR>
+    <TD>DEPO_CURRENT_BALANCE</TD>
+    <TD width="75%">Текущий остаток по инструментам</TD></TR>
+  <TR>
+    <TD>DEPO_CURRENT_LIMIT</TD>
+    <TD width="75%">Текущий лимит по инструментам</TD></TR>
+  <TR>
+    <TD>DEPO_LIMIT_AVAILABLE</TD>
+    <TD width="75%">Доступное количество инструментов</TD></TR>
+  <TR>
+    <TD>DEPO_LIMIT_LOCKED</TD>
+    <TD width="75%">Заблокированное Количество лотов инструментов</TD></TR>
+  <TR>
+    <TD>DEPO_LIMIT_LOCKED_BUY</TD>
+    <TD width="75%">Количество лотов инструментов, заблокированных на 
+    покупку</TD></TR>
+  <TR>
+    <TD>DEPO_LIMIT_LOCKED_BUY_VALUE</TD>
+    <TD width="75%">Стоимость инструментов, заблокированных на покупку</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_14.html">Функции для получения значений таблицы «Позиции по деньгам»</A> <SPAN class=mark>*</SPAN></H4></TD></TR>
+  <TR>
+    <TD>MONEY_OPEN_BALANCE</TD>
+    <TD width="75%">Входящий остаток по денежным средствам</TD></TR>
+  <TR>
+    <TD>MONEY_OPEN_LIMIT</TD>
+    <TD width="75%">Входящий лимит по денежным средствам</TD></TR>
+  <TR>
+    <TD>MONEY_CURRENT_BALANCE</TD>
+    <TD width="75%">Текущий остаток по денежным средствам</TD></TR>
+  <TR>
+    <TD>MONEY_CURRENT_LIMIT</TD>
+    <TD width="75%">Текущий лимит по денежным средствам</TD></TR>
+  <TR>
+    <TD>MONEY_LIMIT_AVAILABLE</TD>
+    <TD width="75%">Доступное количество денежных средств</TD></TR>
+  <TR>
+    <TD>MONEY_LIMIT_LOCKED</TD>
+    <TD width="75%">Заблокированное в заявках на покупку количество денежных 
+      средств</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_15.html">Функции расчета маржинальных позиций</A> 
+  </H4></TD></TR>
+  <TR>
+    <TD>SHORT_VALUE</TD>
+    <TD width="75%">Стоимость всех коротких значений</TD></TR>
+  <TR>
+    <TD>LONG_VALUE</TD>
+    <TD width="75%">Стоимость всех длинных позиций</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_16.html">Функции получения значений таблиц «Клиентский 
+      портфель» и «Купить/Продать»</A></H4></TD></TR>
+  <TR>
+    <TD>GET_CLIENT_MARGINAL_PORTFOLIO_INFO</TD>
+    <TD width="75%">Значения параметров таблицы «Клиентский портфель»</TD></TR>
+  <TR>
+    <TD>GET_CLIENT_MARGINAL_BUY_SELL_INFO</TD>
+    <TD width="75%">Значение параметров таблицы «Купить/Продать»</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_17.html">Функции для работы с файлами</A> </H4></TD></TR>
+  <TR>
+    <TD>CLEAR_FILE</TD>
+    <TD width="75%">Очистить файл</TD></TR>
+  <TR>
+    <TD>WRITE</TD>
+    <TD width="75%">Записать строку в конец файла</TD></TR>
+  <TR>
+    <TD>WRITELN</TD>
+    <TD width="75%">Записать строку с переводом строки в конец файла</TD></TR>
+  <TR>
+    <TD>GET_FILE_LEN</TD>
+    <TD width="75%">Количество строк в файле</TD></TR>
+  <TR>
+    <TD>READ_LINE</TD>
+    <TD width="75%">Прочитать из файла строку с заданным номером</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_18.html">Функции для работы со строками</A> </H4></TD></TR>
+  <TR>
+    <TD>LEN</TD>
+    <TD width="75%">Количество символов в строке</TD></TR>
+  <TR>
+    <TD>TRIM</TD>
+    <TD width="75%">Отсечение пробелов в конце строки</TD></TR>
+  <TR>
+    <TD>SUBSTR</TD>
+    <TD width="75%">Подстрока</TD></TR>
+  <TR>
+    <TD>FIND</TD>
+    <TD width="75%">Поиск в строке позиции подстроки</TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <H4><A href="ch8_19.html">Функции для работы с графиками</A></H4></TD></TR>
+  <TR>
+    <TD>GET_CANDLE</TD>
+    <TD width="75%">Значения цен и объемов (OHLCV) «свечи» на графике и ее 
+      индикаторов</TD></TR>
+  <TR>
+  <TR>
+    <TD>GET_CANDLE_EX</TD>
+    <TD width="75%">Значения цен и объемов (OHLCV) «свечи» на графике и ее индикаторов, состоящих из нескольких линий</TD></TR>
+  <TR>
+    <TD colSpan=2><H4><A href="ch8_20.html">Функции для работы с 
+      заявками</A></H4></TD></TR>
+  <TR>
+    <TD>SEND_TRANSACTION</TD>
+    <TD width="75%">Ввод новой заявки</TD></TR>
+  <TR>
+    <TD colSpan=2><H4><A href="ch8_24.html">Функции для работы с метками 
+      </A></H4></TD></TR>
+  <TR>
+    <TD> ADD_LABEL</TD>
+    <TD width="75%">Добавить метку</TD></TR>
+  <TR>
+  <TR>
+    <TD> DELETE_LABEL</TD>
+    <TD width="75%">Удалить метку</TD></TR>
+  <TR>
+    <TD>  DELETE_ALL_LABELS</TD>
+    <TD width="75%">Удалить все метки</TD></TR>
+  <TR>
+  <TR>
+    <TD>  GET_LABEL_PARAMS</TD>
+    <TD width="75%">Получить параметры метки</TD></TR>
+  <TR>
+    <TD>  SET_LABEL_PARAMS</TD>
+    <TD width="75%">Задать параметры метки</TD></TR>
+  <TR>
+    <TD>
+      <H4><A href="ch8_21.html">Сервисные функции</A></H4></TD>
+    <TD width="75%"></TD></TR>
+  <TR>
+    <TD>GET_TRADE_DATE</TD>
+    <TD width="75%">Дата текущей торговой сессии</TD></TR>
+  <TR>
+    <TD>GET_DATETIME</TD>
+    <TD width="75%">Текущие дата и время</TD></TR>
+  <TR>
+    <TD>APPLY_SCALE</TD>
+    <TD width="75%">Округление с заданной точностью</TD></TR>
+  <TR>
+    <TD>IS_CONNECTED</TD>
+    <TD width="75%">Определить состояние подключения клиенткого места к 
+    серверу</TD></TR>
+  <TR>
+    <TD>GET_INFO_PARAM</TD>
+    <TD width="75%">Позволяет получить параметры для информационного окна 
+      (<STRONG>Связь / Информационное окно</STRONG>)</TD></TR>
+  <TR>
+    <TD> BREAKPOINT</TD>
+    <TD width="75%">Позволяет прервать выполнение программы и вызвать окно 
+      «Отладка»</TD></TR></TBODY></TABLE></P>
+<P><SPAN class=mark>*</SPAN> - функции предыдущей версии языка QPILE, 
+сохраненные для совместимости. Значения, возвращаемые этими функциями, также 
+могут быть получены чтением строки таблицы функцией «GET_ITEM» и выборкой из нее 
+значения функцией «GET_VALUE».</P>
+<P>Функции предыдущих версий, поддержка которых 
+прекращена:       
+ <UL><LI> MONEY_LIMIT_LOCKED_NONMARGINAL_VALUE 
+</LI></UL>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>
