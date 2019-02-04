@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Сортировка строк таблицы по значениям</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=Windows-1251" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Сортировка строк таблицы по значениям</H1>
+<P><FONT size=2 face=Arial>
+<P>В некоторых таблицах предусмотрена возможность сортировки строк в зависимости 
+от значений в определенном столбце. Столбец, по значениям которого упорядочена 
+таблица, помечен символом, указывающим направление сортировки: </P>
+
+<P><IMG alt="" align=absBottom src="sort.gif"></P>
+
+<UL>
+  <LI><IMG src="sort-up.gif"> - строки упорядочены по убыванию значений от верхних строк к нижним, 
+  <LI><IMG src="sort-down.gif"> - строки упорядочены по возрастанию значений.</LI></UL>
+<P>Сортировка осуществляется одним из следующих способов:</P>
+<UL>
+  <LI><SPAN>Выбрать пункт меню <STRONG>Действия/Сортировать по</STRONG>, 
+  затем заголовок столбца из открывшегося списка. Повторный выбор столбца меняет 
+  порядок сортировки на обратный. Выбор значения «умолчанию» отменяет 
+  сортировку. </SPAN>
+  <LI><SPAN>Выбрать пункт контекстного меню «Сортировать по [параметр]» на определенном столбце. При этом 
+  значок на пункте меню показывает направление сортировки. При повторном выборе пункта меню направление сортировки меняется. Для отмены сортировки выберите пункт контекстного меню «Отменить 
+  сортировку». </SPAN>
+  <LI><SPAN>Удерживая нажатой клавишу «Ctrl», нажать левую кнопку мыши на заголовке 
+  столбца. Повторное нажатие меняет направление сортировки. Для отмены сортировки нужно 
+  выполнить эту операцию на крайнем слева заголовке столбцов (пустом). Выбор 
+  другого столбца в таблице отменяет настройки сортировки по предыдущему 
+  столбцу. </SPAN></LI></UL>
+
+<P>Одновременная сортировка данных по нескольким столбцам осуществляется следующим способом:
+<UL>
+  <LI><SPAN>Удерживая нажатой клавишу «Shift», нажать левую кнопку мыши на заголовке столбца. 
+  В этом случае будет выполняться одновременная сортировка данных по нескольким столбцам. Последовательность сортировки зависит от порядка нажатия заголовков – сначала выполняется сортировка 
+  таблицы по значениям первого столбца, затем по второму, и так далее.
+<P>Первый столбец, по которому выполняется сортировка, помечается значком <IMG src="sort-down.gif">, столбцы дополнительной сортировки помечаются значком с цифрой «2»…«5», означающей очередность сортировки. Начиная с 6-го столбца, используется значок <IMG src="sort-down.gif">  с многоточием «…». 
+<P>Повторное нажатие левой кнопкой мыши на ;заголовок с нажатой клавишей «Shift» меняет направление сортировки.
+
+<P><IMG alt="" align=absBottom src="sort_group_chm.gif"></P>
+
+<P>Для отмены сортировки по нескольким столбцам нужно 
+  выполнить эту операцию с нажатой клавишей «Ctrl» или «Shift» на крайнем слева 
+  заголовке столбцов (пустом).</P></SPAN></LI></UL>
+<P>Для столбцов таблицы с численными значениями первоначально включается 
+режим сортировки по убыванию, для столбцов таблицы со строковыми значениями 
+первоначально включается режим сортировки по возрастанию (по алфавиту).</P>
+<P>Режим сортировки таблицы сохраняется в файле настройки конфигурации окон и вступает в силу сразу после запуска Рабочего места QUIK или загрузки файла настройки.</P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

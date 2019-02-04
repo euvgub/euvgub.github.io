@@ -1,0 +1,531 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Приложение 3. Примеры обработки событий для таблиц</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Приложение 3. Примеры обработки событий для таблиц</H1>
+<P><FONT size=2 face=Arial>
+<P><STRONG>Пример обработки событий мыши и клавиатуры 
+</STRONG>   
+
+<PRE>stopped = <span style="COLOR: #0000ff">false</span>
+t_id = <span style="COLOR: #0000ff">nil</span>
+
+old_message = message
+<span style="COLOR: #0000ff">local</span> fmt = string.format
+<span style="COLOR: #0000ff">function</span> message(v, t)
+                 t= t <span style="COLOR: #0000ff">or</span> 1
+                 old_message(tostring(v), t)
+<span style="COLOR: #0000ff">end</span>
+
+<span style="COLOR: #0000ff">function</span> OnStop(s)
+	stopped = <span style="COLOR: #0000ff">true</span>
+	<span style="COLOR: #0000ff">if</span> t_id~= <span style="COLOR: #0000ff">nil</span> <span style="COLOR: #0000ff">then</span>
+	            DestroyTable(t_id)
+	<span style="COLOR: #0000ff">end</span>
+<span style="COLOR: #0000ff">end</span>
+event_table = {
+	[QTABLE_LBUTTONDOWN] = <span style="COLOR: #a31515">"Нажали левую кнопку мыши"</span>,
+	[QTABLE_RBUTTONDOWN] = <span style="COLOR: #a31515">"Нажали правую кнопку мыши"</span>,
+	[QTABLE_LBUTTONDBLCLK] = <span style="COLOR: #a31515">"Левый даблклик"</span>,
+	[QTABLE_RBUTTONDBLCLK]  = <span style="COLOR: #a31515">"Правый даблклик"</span>,
+	[QTABLE_SELCHANGED] =<span style="COLOR: #a31515">"Изменилась строка"</span>,
+	[QTABLE_CHAR] = <span style="COLOR: #a31515">"Символьная клавиша"</span>,
+	[QTABLE_VKEY] = <span style="COLOR: #a31515">"Еще какая-то клавиша"</span>,
+	[QTABLE_CONTEXTMENU] = <span style="COLOR: #a31515">"Контекстное меню"</span>,
+	[QTABLE_MBUTTONDOWN] = <span style="COLOR: #a31515">"Нажали на колесико мыши"</span>,
+	[QTABLE_MBUTTONDBLCLK] = <span style="COLOR: #a31515">"Даблклик колесом"</span>,
+	[QTABLE_LBUTTONUP] = <span style="COLOR: #a31515">"Отпустили левую кнопку мыши"</span>,
+	[QTABLE_RBUTTONUP] = <span style="COLOR: #a31515">"Отпустили правую кнопку мыши"</span>,
+	[QTABLE_CLOSE] = <span style="COLOR: #a31515">"Закрыли таблицу"</span>
+	}
+<span style="COLOR: #0000ff">function</span> event_callback_str(t_id, msg, par1, par2)
+	<span style="COLOR: #0000ff">local</span> str = fmt(<span style="COLOR: #a31515">"%s, par1 = %d, par2 = %d"</span>, event_table[msg], par1, par2)
+	SetWindowCaption(t_id, str)
+	message(str)
+<span style="COLOR: #0000ff">end</span>
+
+<span style="COLOR: #0000ff">local</span> p_row = -1
+<span style="COLOR: #0000ff">local</span> p_col = -1
+<span style="COLOR: #0000ff">function</span> event_callback_color(t_id, msg, par1, par2)
+	<span style="COLOR: #0000ff">if</span> par1==3 <span style="COLOR: #0000ff">and</span> par2 == 1 <span style="COLOR: #0000ff">then</span>
+	           os.exit()
+	<span style="COLOR: #0000ff">end</span>
+	<span style="COLOR: #0000ff">if</span> msg == QTABLE_LBUTTONDOWN <span style="COLOR: #0000ff">then</span>
+	            <span style="COLOR: #0000ff">if</span> p_col ~= -1 <span style="COLOR: #0000ff">and</span> p_col ~= -1 <span style="COLOR: #0000ff">then</span>
+                                               SetColor(t_id, p_row, p_col, QTABLE_DEFAULT_COLOR, QTABLE_DEFAULT_COLOR, QTABLE_DEFAULT_COLOR, QTABLE_DEFAULT_COLOR)
+	            <span style="COLOR: #0000ff">end</span>
+	            SetColor(t_id, par1, par2, RGB(240, 128, 128), QTABLE_DEFAULT_COLOR, QTABLE_DEFAULT_COLOR, QTABLE_DEFAULT_COLOR)
+	             p_row = par1
+	             p_col = par2
+	<span style="COLOR: #0000ff">end</span>
+<span style="COLOR: #0000ff">end</span>
+
+<span style="COLOR: #0000ff">function</span> main()
+	
+	data = {
+                                      {<span style="COLOR: #a31515">"1"</span>, 2, 20130530},
+	                 {<span style="COLOR: #a31515">"4"</span>, 5, 20130529},
+	                  {<span style="COLOR: #a31515">"7"</span>, 8, 20130528}
+	               }
+	
+         t_id = AllocTable()
+         message (t_id)
+         AddColumn(t_id, 1, <span style="COLOR: #a31515">"строка"</span>, <span style="COLOR: #0000ff">true</span>, QTABLE_CACHED_STRING_TYPE, 10)
+         AddColumn(t_id, 2, <span style="COLOR: #a31515">"число"</span>, <span style="COLOR: #0000ff">true</span>, QTABLE_INT_TYPE, 10)
+         AddColumn(t_id, 3, <span style="COLOR: #a31515">"дата"</span>, <span style="COLOR: #0000ff">true</span>, QTABLE_DATE_TYPE, 10)
+        CreateWindow(t_id)
+	
+         <span style="COLOR: #0000ff">for</span> _, v <span style="COLOR: #0000ff">in</span> pairs(data) <span style="COLOR: #0000ff">do</span>
+	  row = InsertRow(t_id, -1)
+	  SetCell(t_id, row, 1, v[1])
+	  SetCell(t_id, row, 2, string.format(<span style="COLOR: #a31515">"value = %d"</span>,v[2]), v[2])
+	  SetCell(t_id, row, 3, string.format(<span style="COLOR: #a31515">"%04d - %02d - %02d"</span>,v[3]/10000, (v[3]%10000)/100, v[3]%100), v[3])
+         <span style="COLOR: #0000ff">end</span>
+	SetWindowCaption(t_id, <span style="COLOR: #a31515">"EXAMPLE"</span>)
+	SetTableNotificationCallback(t_id, event_callback_str)
+	sleep(5000)
+	SetTableNotificationCallback(t_id, event_callback_color)
+	SetCell(t_id, 3, 1, <span style="COLOR: #a31515">"DO NOT CLICK ME"</span>)
+	SetTableNotificationCallback(t_id, dummy)
+	
+	<span style="COLOR: #0000ff">while</span> <span style="COLOR: #0000ff">not</span> stopped <span style="COLOR: #0000ff">do</span>
+	       sleep(100)
+	<span style="COLOR: #0000ff">end</span>
+<span style="COLOR: #0000ff">end</span>
+</PRE>
+
+<P><STRONG>Пример реализации игры «Крестики-нолики»</STRONG>
+
+<PRE>	
+<span style="color: #008000">--[[ TIC-TAC-TOE</span>
+<span style="color: #008000">by Evan Hahn (http://evanhahn.com/how-to-code-tic-tac-toe-and-a-lua-implementation/</span>
+<span style="color: #008000">--]]</span>
+ 
+<span style="color: #008000">----------------------------------------------</span>
+<span style="color: #008000">-- Configuration (change this if you wish!) --</span>
+<span style="color: #008000">----------------------------------------------</span>
+t_id=<span style="color: #0000ff">nil</span> <span style="color: #008000">--grid  </span>
+<span style="color: #008000">-- Are they playable by human or computer-controlled?</span>
+PLAYER_1_HUMAN = <span style="color: #0000ff">true</span>
+PLAYER_2_HUMAN = <span style="color: #0000ff">false</span>
+ 
+<span style="color: #008000">-- Board size</span>
+BOARD_RANK = 3	<span style="color: #008000">-- The board will be this in both dimensions.</span>
+ 
+<span style="color: #008000">-- Display stuff</span>
+PLAYER_1 = <span style="color: #a31515">&quot;[x]&quot;</span>	<span style="color: #008000">-- Player 1 is represented by this. Player 1 goes first.</span>
+PLAYER_2 = <span style="color: #a31515">&quot;[o]&quot;</span>	<span style="color: #008000">-- Player 2 is represented by this.</span>
+EMPTY_SPACE = <span style="color: #a31515">&quot;[ ]&quot;</span>	<span style="color: #008000">-- An empty space is displayed like this.</span>
+DISPLAY_HORIZONTAL_SEPARATOR = <span style="color: #a31515">&quot;-&quot;</span>	<span style="color: #008000">-- Horizontal lines look like this.</span>
+DISPLAY_VERTICAL_SEPARATOR = <span style="color: #a31515">&quot; | &quot;</span>	<span style="color: #008000">-- Vertical lines look like this</span>
+ 
+ 
+<span style="color: #008000">--[[ ###################################################################</span>
+<span style="color: #008000">     ####   Don&#39;t mess with things below here unless you are brave  ####</span>
+<span style="color: #008000">     ################################################################### --]]</span>
+ 
+<span style="color: #008000">------------------------</span>
+<span style="color: #008000">-- More configuration --</span>
+<span style="color: #008000">------------------------</span>
+ 
+MAX_BOARD_RANK = 100	<span style="color: #008000">-- Won&#39;t run above this number. Prevents crashes.</span>
+ 
+<span style="color: #008000">-------------------------------------------------------</span>
+<span style="color: #008000">-- Don&#39;t run if the board is larger than the maximum --</span>
+<span style="color: #008000">-------------------------------------------------------</span>
+ 
+<span style="color: #0000ff">if</span> BOARD_RANK &gt; MAX_BOARD_RANK <span style="color: #0000ff">then</span> os.exit(0) <span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-----------------------------</span>
+<span style="color: #008000">-- Create board (2D table) --</span>
+<span style="color: #008000">-----------------------------</span>
+ 
+space = {}
+<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+	space[i] = {}
+	<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+		space[i][j] = <span style="color: #0000ff">nil</span>	<span style="color: #008000">-- start each space with nil</span>
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">---------------------</span>
+<span style="color: #008000">-- Board functions --</span>
+<span style="color: #008000">---------------------</span>
+ 
+<span style="color: #008000">-- get the piece at a given spot</span>
+<span style="color: #0000ff">function</span> getPiece(x, y)
+	<span style="color: #0000ff">return</span> space[x][y]
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- get the piece at a given spot; if nil, return &quot; &quot;</span>
+<span style="color: #008000">-- this is useful for output.</span>
+<span style="color: #0000ff">function</span> getPieceNoNil(x, y)
+	<span style="color: #0000ff">if</span> getPiece(x, y) ~= <span style="color: #0000ff">nil</span> <span style="color: #0000ff">then</span>
+		<span style="color: #0000ff">return</span> getPiece(x, y)
+	<span style="color: #0000ff">else</span>
+		<span style="color: #0000ff">return</span> EMPTY_SPACE
+	<span style="color: #0000ff">end</span>	
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- is that space empty?</span>
+<span style="color: #0000ff">function</span> isEmpty(x, y)
+	<span style="color: #0000ff">if</span> getPiece(x, y) == <span style="color: #0000ff">nil</span> <span style="color: #0000ff">then</span>
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">true</span>
+	<span style="color: #0000ff">else</span>
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">false</span>
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- place a piece there, but make sure nothing is there already.</span>
+<span style="color: #008000">-- if you can&#39;t play there, return false.</span>
+<span style="color: #0000ff">function</span> placePiece(x, y, piece)
+	<span style="color: #0000ff">if</span> isEmpty(x, y) == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span>
+		space[x][y] = piece
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">true</span>
+	<span style="color: #0000ff">else</span>
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">false</span>
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- is the game over?</span>
+<span style="color: #0000ff">function</span> isGameOver()
+	<span style="color: #0000ff">if</span> checkWin() == <span style="color: #0000ff">false</span> <span style="color: #0000ff">then</span>	<span style="color: #008000">-- if there is no win...</span>
+		<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>	<span style="color: #008000">-- is the board empty?</span>
+			<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+				<span style="color: #0000ff">if</span> isEmpty(i, j) == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span> <span style="color: #0000ff">return</span> <span style="color: #0000ff">false</span> <span style="color: #0000ff">end</span>
+			<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">true</span>
+	<span style="color: #0000ff">else</span>	<span style="color: #008000">-- there is a win; the game is over</span>
+		<span style="color: #0000ff">return</span> <span style="color: #0000ff">true</span>
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- create a string made up of a certain number of smaller strings</span>
+<span style="color: #008000">-- this is useful for the display.</span>
+<span style="color: #0000ff">function</span> repeatString(to_repeat, amount)
+	<span style="color: #0000ff">if</span> amount &lt;= 0 <span style="color: #0000ff">then</span> <span style="color: #0000ff">return</span> <span style="color: #a31515">&quot;&quot;</span> <span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">local</span> to_return = <span style="color: #a31515">&quot;&quot;</span>
+	<span style="color: #0000ff">for</span> i = 1, amount <span style="color: #0000ff">do</span>
+		to_return = to_return .. to_repeat
+	<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">return</span> to_return
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- display the board.</span>
+<span style="color: #008000">-- this uses the configuration file pretty much entirely.</span>
+<span style="color: #0000ff">function</span> displayBoard()
+	<span style="color: #0000ff">for</span> i = (BOARD_RANK - 1), 0, -1 <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>	<span style="color: #008000">-- generate that row</span>
+			<span style="color: #0000ff">local</span> piece = getPieceNoNil(j, i)
+			SetCell(t_id, i+1, j+1, piece)
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-------------------------------------------------</span>
+<span style="color: #008000">-- Create regions (I admit this is a bit ugly) --</span>
+<span style="color: #008000">-------------------------------------------------</span>
+ 
+<span style="color: #008000">-- declare region and a number to increment</span>
+region = {}
+region_number = 0
+ 
+<span style="color: #008000">-- vertical</span>
+<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+	region[region_number] = {}
+	<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+		region[region_number][j] = {}
+		region[region_number][j][<span style="color: #a31515">&quot;x&quot;</span>] = i
+		region[region_number][j][<span style="color: #a31515">&quot;y&quot;</span>] = j
+	<span style="color: #0000ff">end</span>
+	region_number = region_number + 1
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- horizontal</span>
+<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+	region[region_number] = {}
+	<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+		region[region_number][j] = {}
+		region[region_number][j][<span style="color: #a31515">&quot;x&quot;</span>] = j
+		region[region_number][j][<span style="color: #a31515">&quot;y&quot;</span>] = i
+	<span style="color: #0000ff">end</span>
+	region_number = region_number + 1
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- diagonal, bottom-left to top-right</span>
+region[region_number] = {}
+<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+	region[region_number][i] = {}
+	region[region_number][i][<span style="color: #a31515">&quot;x&quot;</span>] = i
+	region[region_number][i][<span style="color: #a31515">&quot;y&quot;</span>] = i
+<span style="color: #0000ff">end</span>
+region_number = region_number + 1
+ 
+<span style="color: #008000">-- diagonal, top-left to bottom-right</span>
+region[region_number] = {}
+<span style="color: #0000ff">for</span> i = (BOARD_RANK - 1), 0, -1 <span style="color: #0000ff">do</span>
+	region[region_number][i] = {}
+	region[region_number][i][<span style="color: #a31515">&quot;x&quot;</span>] = BOARD_RANK - i - 1
+	region[region_number][i][<span style="color: #a31515">&quot;y&quot;</span>] = i
+<span style="color: #0000ff">end</span>
+region_number = region_number + 1
+ 
+<span style="color: #008000">----------------------</span>
+<span style="color: #008000">-- Region functions --</span>
+<span style="color: #008000">----------------------</span>
+ 
+<span style="color: #008000">-- get a region</span>
+<span style="color: #0000ff">function</span> getRegion(number)
+	<span style="color: #0000ff">return</span> region[number]
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- check for a win in a particular region.</span>
+<span style="color: #008000">-- returns a number representation of the region. occurrences of player 1</span>
+<span style="color: #008000">-- add 1, occurrences of player 2 subtract 1. so if there are two X pieces,</span>
+<span style="color: #008000">-- it will return 2. one O will return -1.</span>
+<span style="color: #0000ff">function</span> checkWinInRegion(number)
+	<span style="color: #0000ff">local</span> to_return = 0
+	<span style="color: #0000ff">for</span> i, v <span style="color: #0000ff">in</span> pairs(getRegion(number)) <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">local</span> piece = getPiece(v[<span style="color: #a31515">&quot;x&quot;</span>], v[<span style="color: #a31515">&quot;y&quot;</span>])
+		<span style="color: #0000ff">if</span> piece == PLAYER_1 <span style="color: #0000ff">then</span> to_return = to_return + 1 <span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">if</span> piece == PLAYER_2 <span style="color: #0000ff">then</span> to_return = to_return - 1 <span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">return</span> to_return
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- check for a win in every region.</span>
+<span style="color: #008000">-- returns false if no winner.</span>
+<span style="color: #008000">-- returns the winner if there is one.</span>
+<span style="color: #0000ff">function</span> checkWin()
+	<span style="color: #0000ff">for</span> i <span style="color: #0000ff">in</span> pairs(region) <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">local</span> win = checkWinInRegion(i)
+		<span style="color: #0000ff">if</span> math.abs(win) == BOARD_RANK <span style="color: #0000ff">then</span>
+			<span style="color: #0000ff">if</span> win == math.abs(win) <span style="color: #0000ff">then</span>
+				<span style="color: #0000ff">return</span> PLAYER_1
+			<span style="color: #0000ff">else</span>
+				<span style="color: #0000ff">return</span> PLAYER_2
+			<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">return</span> <span style="color: #0000ff">false</span>
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">------------------</span>
+<span style="color: #008000">-- UI Functions --</span>
+<span style="color: #008000">------------------</span>
+ 
+<span style="color: #008000">-- human play</span>
+<span style="color: #0000ff">function</span> humanPlay(piece)
+	message(<span style="color: #a31515">&quot;Human turn&quot;</span>)
+	displayBoard()
+	<span style="color: #0000ff">local</span> placed = <span style="color: #0000ff">false</span>
+	<span style="color: #0000ff">while</span> placed == <span style="color: #0000ff">false</span> <span style="color: #0000ff">do</span>	<span style="color: #008000">-- loop until they play correctly</span>
+		sleep(100)
+		<span style="color: #0000ff">if</span> g_X ~= -1 <span style="color: #0000ff">and</span> g_Y ~=-1 <span style="color: #0000ff">then</span>
+			<span style="color: #0000ff">local</span> x = tonumber(g_Y)-1
+			<span style="color: #0000ff">local</span> y = tonumber(g_X)-1
+			g_X = -1
+			g_Y= -1
+			message(<span style="color: #a31515">&quot;clicked in &quot;</span> .. x .. <span style="color: #a31515">&quot; and &quot;</span> .. y)
+			placed = placePiece(x, y, piece)
+			<span style="color: #0000ff">if</span> placed == <span style="color: #0000ff">false</span> <span style="color: #0000ff">then</span>
+				message(<span style="color: #a31515">&quot;I&#39;m afraid you can&#39;t play there!&quot;</span>)
+			<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	displayBoard()
+	
+<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- AI play</span>
+<span style="color: #0000ff">function</span> AIPlay(piece)
+	
+	<span style="color: #008000">-- am I negative or positive?</span>
+	<span style="color: #0000ff">local</span> me = 0
+	<span style="color: #0000ff">if</span> piece == PLAYER_1 <span style="color: #0000ff">then</span> me = 1 <span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">if</span> piece == PLAYER_2 <span style="color: #0000ff">then</span> me = -1 <span style="color: #0000ff">end</span>
+	
+	<span style="color: #008000">-- look for a region in which I can win</span>
+	<span style="color: #0000ff">for</span> i <span style="color: #0000ff">in</span> pairs(region) <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">local</span> win = checkWinInRegion(i)
+		<span style="color: #0000ff">if</span> win == ((BOARD_RANK - 1) * me) <span style="color: #0000ff">then</span>
+			<span style="color: #0000ff">for</span> j, v <span style="color: #0000ff">in</span> pairs(getRegion(i)) <span style="color: #0000ff">do</span>
+				<span style="color: #0000ff">if</span> isEmpty(v[<span style="color: #a31515">&quot;x&quot;</span>], v[<span style="color: #a31515">&quot;y&quot;</span>]) == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span>
+					placePiece(v[<span style="color: #a31515">&quot;x&quot;</span>], v[<span style="color: #a31515">&quot;y&quot;</span>], piece)
+					<span style="color: #0000ff">return</span>
+				<span style="color: #0000ff">end</span>
+			<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	
+	<span style="color: #008000">-- look for a region in which I can block</span>
+	<span style="color: #0000ff">for</span> i <span style="color: #0000ff">in</span> pairs(region) <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">local</span> win = checkWinInRegion(i)
+		<span style="color: #0000ff">if</span> win == ((BOARD_RANK - 1) * (me * -1)) <span style="color: #0000ff">then</span>
+			<span style="color: #0000ff">for</span> j, v <span style="color: #0000ff">in</span> pairs(getRegion(i)) <span style="color: #0000ff">do</span>
+				<span style="color: #0000ff">if</span> isEmpty(v[<span style="color: #a31515">&quot;x&quot;</span>], v[<span style="color: #a31515">&quot;y&quot;</span>]) == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span>
+					placePiece(v[<span style="color: #a31515">&quot;x&quot;</span>], v[<span style="color: #a31515">&quot;y&quot;</span>], piece)
+					<span style="color: #0000ff">return</span>
+				<span style="color: #0000ff">end</span>
+			<span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	
+	<span style="color: #008000">-- play first empty space, if no better option</span>
+	<span style="color: #0000ff">for</span> i = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+		<span style="color: #0000ff">for</span> j = 0, (BOARD_RANK - 1) <span style="color: #0000ff">do</span>
+			<span style="color: #0000ff">if</span> placePiece(i, j, piece) ~= <span style="color: #0000ff">false</span> <span style="color: #0000ff">then</span> <span style="color: #0000ff">return</span> <span style="color: #0000ff">end</span>
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+	
+<span style="color: #0000ff">end</span>
+g_X=-1
+g_Y=-1
+<span style="color: #0000ff">function</span> event_callback(t_id, msg, par1, par2)
+	<span style="color: #0000ff">if</span> msg == QTABLE_LBUTTONDOWN <span style="color: #0000ff">then</span>
+		g_X = par1
+		g_Y = par2
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+
+old_message = message
+<span style="color: #0000ff">local</span> fmt = string.format
+<span style="color: #0000ff">function</span> message(v, t)
+	t= t <span style="color: #0000ff">or</span> 1
+	old_message(tostring(v), t)
+<span style="color: #0000ff">end</span>
+
+<span style="color: #0000ff">function</span> main()
+	t_id = AllocTable()
+	AddColumn(t_id, 1, <span style="color: #a31515">&quot;&quot;</span>, <span style="color: #0000ff">true</span>, QTABLE_CACHED_STRING_TYPE, 5)
+	AddColumn(t_id, 2, <span style="color: #a31515">&quot;&quot;</span>, <span style="color: #0000ff">true</span>, QTABLE_CACHED_STRING_TYPE, 5)
+	AddColumn(t_id, 3, <span style="color: #a31515">&quot;&quot;</span>, <span style="color: #0000ff">true</span>, QTABLE_CACHED_STRING_TYPE, 5)
+	CreateWindow(t_id)
+	<span style="color: #0000ff">for</span> i=1, 3 <span style="color: #0000ff">do</span>
+		row = InsertRow(t_id, -1)
+		SetCell(t_id, row, 1, <span style="color: #a31515">&quot;[ ]&quot;</span>)
+		SetCell(t_id, row, 2, <span style="color: #a31515">&quot;[ ]&quot;</span>)
+		SetCell(t_id, row, 3, <span style="color: #a31515">&quot;[ ]&quot;</span>)
+	<span style="color: #0000ff">end</span>
+	SetTableNotificationCallback(t_id, event_callback)
+	message(<span style="color: #a31515">&quot;Welcome to Tic-Tac-Toe!&quot;</span>)
+ 
+<span style="color: #008000">-- play the game until someone wins</span>
+	<span style="color: #0000ff">while</span> <span style="color: #0000ff">true</span> <span style="color: #0000ff">do</span>
+		sleep(100)
+	<span style="color: #008000">-- break if the game is won</span>
+		<span style="color: #0000ff">if</span> isGameOver() == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span> 
+		 <span style="color: #0000ff">break</span> 
+		<span style="color: #0000ff">end</span>
+	<span style="color: #008000">-- player 1</span>
+		<span style="color: #0000ff">if</span> PLAYER_1_HUMAN == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span> 
+			humanPlay(PLAYER_1)
+		<span style="color: #0000ff">else</span> 
+			AIPlay(PLAYER_1) 
+		<span style="color: #0000ff">end</span>
+	
+		<span style="color: #0000ff">if</span> isGameOver() == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span> 
+			<span style="color: #0000ff">break</span> 
+		<span style="color: #0000ff">end</span>
+	
+		<span style="color: #0000ff">if</span> PLAYER_2_HUMAN == <span style="color: #0000ff">true</span> <span style="color: #0000ff">then</span> 
+			humanPlay(PLAYER_2)
+		<span style="color: #0000ff">else</span> 
+			AIPlay(PLAYER_2) 
+		<span style="color: #0000ff">end</span>
+	<span style="color: #0000ff">end</span>
+ 
+<span style="color: #008000">-- show the final board</span>
+	displayBoard()
+ 
+<span style="color: #008000">-- write who won, or if there is a tie</span>
+	win = checkWin()
+	<span style="color: #0000ff">if</span> win == <span style="color: #0000ff">false</span> <span style="color: #0000ff">then</span>
+		message(<span style="color: #a31515">&quot;Tie game!\n&quot;</span>)
+	<span style="color: #0000ff">else</span>
+		message(win)
+		message(<span style="color: #a31515">&quot; wins!\n&quot;</span>)
+	<span style="color: #0000ff">end</span>
+<span style="color: #0000ff">end</span>
+</PRE>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://www.arqatech.com/ru/products/quik/">www.arqatech.com/ru/products/quik/</A></DIV>
+</body>
+</html>

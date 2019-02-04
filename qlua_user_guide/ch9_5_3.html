@@ -1,0 +1,285 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Примеры строк в файле транзакций</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">
+
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Примеры строк в файле транзакций</H1>
+<P><FONT size=2 face=Arial>
+<P>
+
+Файл с транзакциями представляет собой ряд строк, обрабатываемых последовательно. Каждая строка соответствует новому поручению.
+</P>
+
+<P>
+Поручение «Ввод ДС безналично»:
+</P>
+
+<PRE>ACTION=NEW_INSTR_TYPE_0; TRANS_ID=434; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; 
+<BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; PAY_NUMBER= №100; SECCODE= RURSUR389; <BR>TS= МБФР; CLIENT_ACCOUNT=Торговый счет 276; CLIENT_SUB_ACC=subacc276_Q7; <BR>DOC_COMMENT=Ставка согласно тарифному плану; FIRM_ACC_NAME=СибирьГазОргСинтез-Инвест; 
+<BR>EXPIREDAY=20100228;INTERNAL_NUMBER=444;
+</PRE>
+
+<P>
+Поручение «Ввод ДС налично»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_1; TRANS_ID=435; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; TS= МБФР; <BR>CLIENT_ACCOUNT=Торговый счет 276; CLIENT_SUB_ACC=subacc276_Q7; 
+<BR>DOC_COMMENT=Ставкасогласнотарифному плану; EXPIREDAY=20100228; INTERNAL_NUMBER=351/2;
+</PRE>
+
+<P>
+Поручение «Вывод ДС налично (остаток)»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_2; TRANS_ID=436; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7;
+<BR>AGREE_SERV=Дог.000|20070307|; VOLUME=0; 
+<BR>BENEFACTOR_CASH=Петров|Петр|Петрович|50 00 №12345675 выдан УВД г.Бобруйска 23.03.2001|;
+<BR>CAN_SPLIT=1; LEFTOVER=Y; TS= МБФР; CLIENT_ACCOUNT=Торговый счет 276;
+<BR>CLIENT_SUB_ACC=subacc276_Q7; SECCODE_OUT=RURSUR389; 
+<BR>DOC_COMMENT=Ставкасогласнотарифному плану;EXPIREDAY= 20100228; INTERNAL_NUMBER=51A;
+</PRE>
+
+<P>
+Поручение «Перевод ДС»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_3; TRANS_ID=437; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; SECCODE_CP=RURSUR389; 
+<BR>CLIENT_CODE_CP=Q8; TS= МБФР; CLIENT_ACCOUNT=Торговый счет 276; <BR>CLIENT_SUB_ACC=subacc276_Q7; CLIENT_CP_SUB_ACC=12345; 
+<BR>DOC_COMMENT=Ставкасогласнотарифному плану;
+EXPIREDAY= 0; INTERNAL_NUMBER=89-4;
+</PRE>
+
+<P>
+Поручение «Перевод ЦБ»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_4; TRANS_ID=438; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=10; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; <BR>REAL_FIRM=NC0038900000; CLIENT_CODE_CP=Q7; ACCOUNT=L01-00000F00; 
+<BR>ACCOUNT_CP=L01-00000F00; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; 
+<BR>DEPO_ACC_TYPE=111; DEPO_ACCOUNT_CP=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; 
+<BR>DEPO_ACC_TYPE_CP=111; CLASSCODE_OUT=BQUOTE; SECCODE_OUT=EESR; <BR>DOC_COMMENT=Ставка согласнотарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=404;
+</PRE>
+
+<P>
+Поручение «Вывод ДС безналично»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_5; TRANS_ID=439; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; <BR>BENEFACTOR=Тупик|Клиентов|Сергей|Сергеевич|540100000001|045004001|40801810000000000001|Брокер-Банк|31001810000000000001|005|; 
+<BR>CAN_SPLIT=1; TS= МБФР; PAY_ASSIGN=п/п 50; CLIENT_ACCOUNT=Торговый счет 276; <BR>CLIENT_SUB_ACC=subacc276_Q7; 
+DOC_COMMENT=Ставка согласно тарифному плану;
+<BR>EXPIREDAY=0; INTERNAL_NUMBER=32;
+</PRE>
+
+<P>
+Поручение «Вывод ДС налично»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_6; TRANS_ID=440; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; <BR>BENEFACTOR_CASH=ПЕТРОВ|ПЕТР|ПЕТРОВИЧ|50 23.03.2001|; г.Бобруйска УВД выдан №12345675 00
+<BR>CAN_SPLIT=1; TS= МБФР; CLIENT_ACCOUNT=Торговый счет 276; CLIENT_SUB_ACC=subacc276_Q7; <BR>DOC_COMMENT=Ставка согласно тарифному плану; EXPIREDAY=0; INTERNAL_NUMBER=211;
+</PRE>
+
+<P>
+Поручение «Вывод ДС безналично (остаток)»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_7; TRANS_ID=441; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=0; SECCODE=RURSUR389; 
+<BR>BENEFACTOR=Тупик|Клиентов|Сергей|Сергеевич|540100000001|045004001|40801810000000000001|Брокер-Банк|31001810000000000001|005|; 
+<BR>CAN_SPLIT=1; LEFTOVER=Y; TS= МБФР; PAY_ASSIGN=п/п 50; CLIENT_ACCOUNT=Торговый счет 276; 
+<BR>CLIENT_SUB_ACC=subacc276_Q7; DOC_COMMENT=Ставкасогласнотарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=32D1;
+</PRE>
+
+<P>
+Поручение «Получение ЦБ в ДКК из реестра»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_8; TRANS_ID=442; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; <BR>REAL_FIRM=NC0038900000; TS= МБФР; ACCOUNT=L01-00000F00; PLACE=ДКК; 
+<BR>DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; 
+<BR>DEPO_ACC_TYPE=строка001; PUT_REASON=Основной договор; INSTR_REASON=Сделка; SEC_DEAL_CURR=Рубли; 
+<BR>SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; PHONE=8(383)2223322; 
+<BR>SEC_COMMENT=По заявлению клиента; SEC_DEPO_ID=i27d31; RESPONSIBLE=Ivanov.A.G.; <BR>DOC_COMMENT= Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=12/31;
+</PRE>
+
+<P>
+Поручение «Поставка ЦБ из ДКК в реестр»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_9; TRANS_ID=443; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000; 
+<BR>TS= МБФР; ACCOUNT=L01-00000F00; PLACE=ДКК; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; 
+<BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор; INSTR_REASON=Сделка; SEC_DEAL_CURR=Доллары; 
+<BR>SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; 
+<BR>PHONE=8(383)2223322; SEC_COMMENT=По заявлению клиента; DOCUMENT=Паспорт; DOC_NUMBER=5000 1233232; 
+<BR>DOC_DATE=20000101; DOC_ISSUER=УВД Центрального района; SEC_CP_TYPE=Залогодержатель;
+<BR>RESPONSIBLE=Ivanov.A.G.; DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0; 
+<BR>INTERNAL_NUMBER=35/1; DEPO_PLACE=НРД;
+</PRE>
+
+<P>
+Поручение «Получение ЦБ внутри НРД»: 
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_10; TRANS_ID=444; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; 
+<BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; 
+<BR>REAL_FIRM=NC0038900000; TS= МБФР; ACCOUNT=L01-00000F00; PLACE=НРД; 
+<BR>DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; DEPO_ACC_TYPE=Основной; 
+<BR>PUT_REASON=Основной договор; INSTR_REASON= Сделка; SEC_DEAL_CURR=Доллары; 
+<BR>SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; DEPO_CP=cp777; <BR>PHONE=8(383)2223322; SEC_COMMENT=По заявлению клиента; SEC_DEPO_ID=i27d31; SUBDEPO_CP=cp222; <BR>DOC_COMMENT= Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=203;
+</PRE>
+
+<P>
+Поручение «Поставка ЦБ внутри НРД»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_11; TRANS_ID=445; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7;
+<BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000;
+<BR>TS= МБФР; ACCOUNT=L01-00000F00; PLACE=НРД; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; 
+<BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор ; INSTR_REASON=Сделка; SEC_DEAL_CURR=Доллары; SEC_DEAL_SUMM=100.51;<BR>PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; DEPO_CP=cp777; PHONE=8(383)2223322; <BR>SEC_COMMENT=По заявлению клиента; SEC_DEPO_ID=i27d31; SUBDEPO_CP=cp222; <BR>DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=100/01; 
+DEPO_PLACE=НРД;
+</PRE>
+
+<P>
+Поручение «Получение ЦБ внутри ДКК»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_12; TRANS_ID=446; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000; <BR>TS=МБФР; ACCOUNT=L01-00000F00; PLACE=ДКК; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НДЦ|Дог.105|20070307|; <BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор ; INSTR_REASON=Сделка; <BR>SEC_DEAL_CURR=Доллары; SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; <BR>CP=cp221; COUNTRY=RF; DEPO_CP=cp777; PHONE=8(383)2223322; <BR>SEC_COMMENT=По заявлению клиента 8; DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=55-01;
+</PRE>
+
+<P>
+Поручение «Поставка ЦБ внутри ДКК»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_13; TRANS_ID=447; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000; <BR>TS=МБФР; ACCOUNT=L01-00000F00; PLACE=ДКК; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; <BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор ; INSTR_REASON=Сделка; SEC_DEAL_CURR=Доллары; <BR>SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; DEPO_CP=123; <BR>SEC_DEAL_DATE=20090401; SEC_PAY_DATE=20090401; PHONE=8(383)2223322; <BR>SEC_COMMENT=По заявлению клиента; DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0;
+<BR>INTERNAL_NUMBER=016-01; DEPO_PLACE=ДКК;
+</PRE>
+
+<P>
+Поручение «Получение ЦБ в НРД из реестра»: 
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_14; TRANS_ID=448; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; <BR>REAL_FIRM=NC0038900000; TS= МБФР; ACCOUNT=L01-00000F00; PLACE=НРД; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; <BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор; INSTR_REASON=Сделка; <BR>SEC_DEAL_CURR=Доллары; SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; <BR>CP=cp221; COUNTRY=RF; PHONE=8(383)2223322; SEC_COMMENT=По заявлению клиента; <BR>SEC_DEPO_ID=i27d31; RESPONSIBLE=Ivanov.A.G.; DOC_COMMENT=Ставка согласнотарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=103/1;
+</PRE>
+
+<P>
+Поручение «Поставка ЦБ из НРД в реестр»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_15; TRANS_ID=449; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=100; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000; <BR>TS= МБФР; ACCOUNT=L01-00000F00; PLACE=НРД; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; <BR>DEPO_ACC_TYPE=Основной; PUT_REASON=Основной договор; INSTR_REASON=Сделка; SEC_DEAL_CURR=Доллары; <BR>SEC_DEAL_SUMM=100.51; PAYER_ACCOUNT=110110110110; CP=cp221; COUNTRY=RF; PHONE=8(383)2223322; <BR>SEC_COMMENT=По заявлению клиента; DOCUMENT=Паспорт; DOC_NUMBER=5000 1233232; DOC_DATE=20000101; <BR>DOC_ISSUER=УВД Центрального района; SEC_CP_TYPE=Залогодержатель; RESPONSIBLE=Ivanov.A.G.; <BR>DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=12332/001; SSI_ACCOUNT_ID=А0001; 
+<BR>DEPO_PLACE=НРД;
+</PRE>
+
+<P>
+Поручение «Конвертация валют»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_16; TRANS_ID=450; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; SECCODE_CP=RUREUR389; <BR>DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=20100228;INTERNAL_NUMBER=44K;
+</PRE>
+
+<P>
+Поручение «Свободная форма»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_17; TRANS_ID=451; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>DOC_COMMENT=Ставка согласно тарифному плану; COMMON_TEXT=Это текст поручения свободного типа.;EXPIREDAY=20100228;
+</PRE>
+
+<P>
+Поручение «Конвертация ЦБ»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_18; TRANS_ID=452; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>QUANTITY=10; SECCODE=RURSUR389; REAL_SECCODE=EESR; REAL_CLASS=BQUOTE; REAL_FIRM=NC0038900000; <BR>ACCOUNT=L01-00000F00; ACCOUNT_CP=L01-00000F00; DEPO_ACCOUNT=L01-00000F00|Брокеров И.И.|Ушкин У.У.|НРД|Дог.105|20070307|; <BR>CLASSCODE_OUT=BQUOTE; SECCODE_OUT=LKOH; FIRM_OUT=NC0038900000; QUANTITY_OUT=15; <BR>DOC_COMMENT=Ставка согласно тарифному плану;EXPIREDAY=0; INTERNAL_NUMBER=123;
+</PRE>
+
+<P>
+Поручение «Размещение ЦБ»:
+</P>
+
+<PRE>
+ACTION=NEW_INSTR_TYPE_19; TRANS_ID=453; CLASSCODE=INSTR; INSTR_RATE=1; CLIENT_CODE=Q7; <BR>AGREE_SERV=Дог.000|20070307|; VOLUME=100.51; SECCODE=RURSUR389; TS= МБФР; CLIENT_ACCOUNT=Торговый счет 276; <BR>CLIENT_SUB_ACC=subacc276_Q7; DISTR_SECCODE=IRGZ; DISTR_DATE=20090101; WANTED_QTY=100; <BR>WANTED_PRICE=100; DISTR_INFO=Минимальная цена не может быть меньше 100;EXPIREDAY=20100228;
+</PRE>
+<p>&nbsp;</p>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

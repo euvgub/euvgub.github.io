@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Ввод расчетной заявки-отчета на исполнение сделок РПС</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=Windows-1251" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Ввод расчетной заявки-отчета на исполнение сделок РПС</H1>
+<P><FONT size=2 face=Arial>
+<P>Окно ввода новой расчетной заявки-отчета может быть вызвано одним из 
+следующих способов: </P>
+<OL>
+  <LI><SPAN>В <A href="ch7_25.html">Таблице сделок для исполнения</A> (в таблице 
+  должна присутствовать хотя бы одна заявка):<BR>Выбором пункта контекстного 
+  меню «Подтвердить отчетом»; 
+  <UL>
+    <LI>Двойным щелчком левой кнопки мыши на строке с заявкой; 
+    <LI>Нажатием кнопки <IMG src="b-neworder.gif"> на панели инструментов; 
+    <LI>Нажатием клавиши «F2».</LI></UL></SPAN>
+  <LI><SPAN>Общим способом выполнения транзакций - нажатием кнопки <IMG src="b-t.gif">  на панели инструментов, выбором соответствующего 
+  класса (например «РПС: А1-Акции») и операции «Ввод расчетной заявки-отчета (макс.&nbsp;4 
+  сделки)». Эта же операция может быть выполнена горячей клавишей «Ctrl»+«T». </SPAN>
+  </LI></OL>
+
+<P><IMG hspace=8 alt="" src="add-zotch-RPS80.gif"></P>
+
+<P>Фильтры:</P> 
+<OL>
+  <LI><SPAN>«Класс» - выбор класса бумаг из списка. </SPAN>
+  <LI><SPAN>«Инструмент» - выбор инструмента в данном классе. </SPAN>
+  <LI><SPAN>«Клиент» – код клиента.</SPAN>
+  <LI><SPAN>«Партнер» - код участника торгов, являющегося контрагентом по сделке.</SPAN>
+  <LI><SPAN>«Счет депо» - код счета депо. </SPAN>
+  <LI><SPAN>«Счет депо партнера» - код счета депо партнера. </SPAN>
+  <LI><SPAN>«№ отчета партнера» – номер отчета партнера по сделке.</SPAN>
+  <LI><SPAN>«Только сделки с исполнением сегодня» - фильтр по сделкам 
+  с наступившим сроком исполнения. </SPAN>
+  </LI></OL>
+<P>Настройки фильтров формы ввода расчетной заявки-отчета сохраняются в файл конфигурации (*.wnd).</P>
+<DL>
+  <DD>Если в таблице «Сделки для исполнения» выделена строка со сделкой и из контекстного меню таблицы открыта форма «Ввод расчетной заявки-отчета», то поля формы: «Класс», «Инструмент», «Клиент», «Партнер», «Счет депо», «Счет депо партнера», «№ отчета партнера» заполняются значениями, указанными в этой сделке.</DD></DL>
+
+<P>Для подтверждения сделок выберите их, отметив «галочкой» в первой колонке. 
+Нажатие кнопки «Выделить все» позволяет отметить все заявки в списке. Нажатием 
+кнопки «Снять выделение» снимаются отметки со всех заявок. </P>
+
+<P>Справочные поля:
+<OL>
+  <LI><SPAN>«Количество сделок» отображает количество сделок, включенных в отчет.</SPAN>
+  <LI><SPAN>«Нетто количество» – сальдо изменения позиции по бумагам в результате исполнения выбранных сделок.</SPAN>
+  <LI><SPAN>«Нетто сумма» – сальдо изменения позиции по деньгам в результате исполнения выбранных сделок.
+<P>Если количество выбранных в таблице сделок превышает максимальное количество сделок, доступное для подтверждения в одной транзакции (4 сделки), то значения в полях «Нетто количество» и «Нетто сумма» очищаются, и в левой нижней части формы выводится предупреждение «Нетто-параметры не могут быть посчитаны».</SPAN>
+  <LI><SPAN>«Подтверждать срочным отчетом» – признак исполнения в режиме расчетов по правилам простого клиринга.</SPAN>
+</LI>  </OL>
+<P>Нажатием кнопки «Отправить» заявка-отчет отсылается в торговую систему. 
+Нажатие кнопки «Выход» закрывает окно без отправления заявки. </P>
+<P>Заявка-отчет, принятая торговой системой отображается в <A 
+href="ch7_26.html">Таблице заявок-отчетов на сделки РПС</A>. Соответствующая ей 
+сделка в Таблице сделок для исполнения изменит статус с «Ждет исполнения» на 
+«Включен в отчет». После того, как партнер по сделке подтвердит ее со своей 
+стороны, статус изменится на «Исполнен» и сделка будет завершена. </P>
+
+<P> </P>
+<P>См. также:</P>
+<UL>
+  <LI><A href="ch7_21.html">Операции в Режиме переговорных сделок ММВБ</A> 
+  <LI><A href="ch_dop4.html">Расчетные заявки-отчеты об исполнении сделок 
+  РПС</A> 
+  <LI><A href="ch7_21(RPS)_8.html">Отмена заявки-отчета на исполнение сделок 
+  РПС</A></LI></UL>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

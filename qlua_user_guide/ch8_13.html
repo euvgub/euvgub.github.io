@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Функции для получения значений таблицы «Позиции по инструментам»</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=Windows-1251" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Функции для получения значений таблицы «Позиции по инструментам»</H1>
+<P><FONT size=2 face=Arial>
+<P>Функции предназначены для получения значений таблицы для заданного 
+кода клиента, кода фирмы, кода&nbsp;инструмента и счета депо.</P>
+<H2>DEPO_OPEN_BALANCE</H2>
+<P>Возвращает значение «Входящего остатка по инструментам».</P>
+<P class=defn>DEPO_OPEN_BALANCE (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_OPEN_LIMIT</H2>
+<P>Возвращает значение «Входящего лимита по инструментам».</P>
+<P class=defn>DEPO_OPEN_LIMIT (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_CURRENT_BALANCE</H2>
+<P>Возвращает значение «Текущего остатка по инструментам».</P>
+<P class=defn>DEPO_CURRENT_BALANCE (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_CURRENT_ LIMIT</H2>
+<P>Возвращает значение «Текущего лимита по инструментам».</P>
+<P class=defn>DEPO_CURRENT_LIMIT (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_LIMIT_AVAILABLE</H2>
+<P>Возвращает значение доступного количества инструментов.</P>
+<P class=defn>DEPO_LIMIT_AVAILABLE (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_LIMIT_LOCKED</H2>
+<P>Возвращает значение «Заблокированного количества инструментов».</P>
+<P class=defn>DEPO_LIMIT_LOCKED (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_LIMIT_LOCKED_BUY</H2>
+<P>Возвращает значение «Заблокированного на покупку количества лотов».</P>
+<P class=defn>DEPO_LIMIT_LOCKED_BUY (STRING client_code, STRING firmid, STRING 
+seccode, STRING account)</P>
+<H2>DEPO_LIMIT_LOCKED_BUY_VALUE</H2>
+<P>Возвращает значение «Стоимости инструментов, заблокированных на покупку».</P>
+<P class=defn>DEPO_LIMIT_LOCKED_BUY_VALUE (STRING client_code, STRING firmid, 
+STRING seccode, STRING account)</P>
+<H3>Параметры:</H3>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>CLIENT_CODE</TD>
+    <TD>STRING</TD>
+    <TD>Код клиента</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>FIRMID</TD>
+    <TD>STRING</TD>
+    <TD>Код фирмы</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>SECCODE</TD>
+    <TD>STRING</TD>
+    <TD>Код инструмента</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>ACCOUNT <SPAN class=mark>*</SPAN></TD>
+    <TD>STRING</TD>
+    <TD>Счет депо</TD></TR></TBODY></TABLE></P>
+<DL>
+  <DD>(<SPAN class=mark>*</SPAN>) Параметр «ACCOUNT» должен указываться с соблюдением регистра символов (верхнего/нижнего). </DD></DL>
+
+<H3>Пример:</H3><PRE>‘<BR>ClDepoOB = DEPO_OPEN_BALANCE ("1075", "NC0080000000", "HYDR", "L01-00000F00")<BR>ClDepoOL = DEPO_OPEN_LIMIT ("1075","NC0080000000", "HYDR", "L01-00000F00")<BR>ClDepoСB = DEPO_CURRENT_BALANCE ("1075", "NC0080000000", "HYDR", "L01-00000F00")<BR>ClDepoCL = DEPO_CURRENT_LIMIT ("1075", "NC0080000000", "HYDR", "L01-00000F00")<BR>ClDepoAV = DEPO_LIMIT_AVAILABLE ("1075", "NC0080000000", "HYDR","L01-00000F00")<BR>ClDepoLCK = DEPO_LIMIT_LOCKED ("1075", "NC0080000000", "HYDR", "L01-00000F00")<BR>ClDepoLCKBuy = DEPO_LIMIT_LOCKED_BUY ("1075", "NC0080000000", "HYDR","L01-00000F00")<BR>ClDepoLCKBuyValue = DEPO_LIMIT_LOCKED_BUY_VALUE ("1075", "NC0080000000", "HYDR","L01-00000F00")<BR>‘</PRE>
+
+<P>В примере показано присвоение переменным значений таблицы <A 
+href="ch5_7(Papers).html">«Позиции по инструментам»</A> для клиента с 
+кодом «1075» по обыкновенным акциям «РусГидро»:</P>
+<UL>
+  <LI>переменной «ClDepoOB» присваивается значение входящего остатка; 
+  <LI>переменной «ClDepoOL» присваивается значение входящего лимита; 
+  <LI>переменной «ClDepoCB» присваивается значение текущего остатка; 
+  <LI>переменной «ClDepoCL» присваивается значение текущего лимита; 
+  <LI>переменной «ClDepoAV» присваивается значение доступного количества инструментов; 
+  <LI>переменной «ClDepoLCK» присваивается значение заблокированного количества 
+  инструментов; 
+  <LI>переменной «ClDepoLCKBuy» присваивается значение заблокированного на 
+  покупку количества лотов; 
+  <LI>    
+   переменной «ClDepoLCKBuyValue» присваивается значение стоимости инструментов, 
+  заблокированных на покупку.</LI></UL>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>
+</HTML>
