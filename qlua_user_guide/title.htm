@@ -1,7 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><title>Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ QLua</title>
+<HTML><HEAD><title>Руководство пользователя QLua</title>
 <META name=GENERATOR content="MSHTML 8.00.6001.18812">
-<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content="text/html; charset=Windows-1251" http-equiv=Content-Type>
+
 
 <style type="text/css">
 
@@ -16,16 +17,16 @@ LI { margin-bottom: 8px; }
 .logo	{ position: relative; float: right; width: 100px; margin:15px 15px 15px 15px; }
 .copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-bottom: 0px; padding-bottom: 0px;}
 
-   #top { /*Р—Р°РіРѕР»РѕРІРєРё*/
-    width: 100%; /* РЁРёСЂРёРЅР° */
+   #top { /*Заголовки*/
+    width: 100%; /* Ширина */
 
    }
 
 
-   #content { /* РЎРѕРґРµСЂР¶Р°РЅРёРµ */
+   #content { /* Содержание */
    position: absolute;
-    width: 470px; /* РЁРёСЂРёРЅР° */
-    float: left; /* РЎРѕСЃС‚С‹РєРѕРІРєР° СЃ РґСЂСѓРіРёРј СЃР»РѕРµРј РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
+    width: 470px; /* Ширина */
+    float: left; /* Состыковка с другим слоем по горизонтали */
     padding-bottom: 0px;
     margin-bottom: 0px; 
    height: 80%;
@@ -33,7 +34,7 @@ LI { margin-bottom: 8px; }
    }
 
 
-   #pic { /* Р¤РѕРЅРѕРІС‹Р№ СЂРёСЃСѓРЅРѕРє */
+   #pic { /* Фоновый рисунок */
    position: relative;
     background: url(quik-bg.png) right bottom no-repeat; 
    height: 80%;
@@ -54,36 +55,36 @@ bottom: -60px;
  <body>
   <div id="top">
 <DIV class=logo><IMG alt="" src="ringquik.png" align=right></DIV>
-<H1>Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ QLua</H1>
+<H1>Руководство пользователя QLua</H1>
 
-<P><FONT color=#606060>Р’РµСЂСЃРёСЏ 
+<P><FONT color=#606060>Версия 
 7.23</FONT></P>
   </div>
 
   <div id="content">
-<H2>РЎРѕРґРµСЂР¶Р°РЅРёРµ</H2>
+<H2>Содержание</H2>
 <UL>
-  <LI><A href="ch1.htm">Рћ РїСЂРѕРіСЂР°РјРјРµ</A> 
-  <LI><A href="ch2.htm">РџРѕРґРіРѕС‚РѕРІРєР° Рє СЂР°Р±РѕС‚Рµ</A> 
-  <LI><A href="ch3.htm">Р Р°Р±РѕС‚Р° СЃ РїСЂРѕРіСЂР°РјРјРѕР№</A> 
-  <LI><A href="ch4_1.htm">РЎРµСЂРІРёСЃРЅС‹Рµ С„СѓРЅРєС†РёРё</A> 
-  <LI><A href="ch4_2.htm">Р¤СѓРЅРєС†РёРё РѕР±СЂР°С‚РЅРѕРіРѕ РІС‹Р·РѕРІР°</A> 
-  <LI><A href="ch4_5_0.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ РѕР±СЂР°С‰РµРЅРёСЏ Рє СЃС‚СЂРѕРєР°Рј РїСЂРѕРёР·РІРѕР»СЊРЅС‹С… С‚Р°Р±Р»РёС† QUIK</A> 
-  <LI><A href="ch4_5_4.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ РѕР±СЂР°С‰РµРЅРёСЏ Рє СЃРїРёСЃРєР°Рј РґРѕСЃС‚СѓРїРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ</A> 
-  <LI><A href="ch4_5.htm">Р¤СѓРЅРєС†РёРё РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃРєСЂРёРїС‚Р° Lua Рё Р Р°Р±РѕС‡РµРіРѕ РјРµСЃС‚Р° QUIK</A> 
-  <LI><A href="ch10_1.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ С‚Р°Р±Р»РёС†Р°РјРё Р Р°Р±РѕС‡РµРіРѕ РјРµСЃС‚Р° QUIK</A> 
-  <LI><A href="ch14.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РјРµС‚РєР°РјРё</A>
-  <LI><A href="ch15.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ Р·Р°РєР°Р·Р° СЃС‚Р°РєР°РЅР° РєРѕС‚РёСЂРѕРІРѕРє</A>
-  <LI><A href="ch4_6.htm">РЎС‚СЂСѓРєС‚СѓСЂС‹ РґР°РЅРЅС‹С…</A> 
-  <LI><A href="ch9.htm">РћРїРёСЃР°РЅРёРµ Р±РёС‚РѕРІС‹С… С„Р»Р°РіРѕРІ</A> 
-  <LI><A href="ch12.htm">Р¤СѓРЅРєС†РёРё РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ Р±РёС‚РѕРІС‹РјРё РјР°СЃРєР°РјРё РІ СЃС‚СЂСѓРєС‚СѓСЂР°С… РґР°РЅРЅС‹С…</A> 
-  <LI><A href="ch13.htm">РРЅРґРёРєР°С‚РѕСЂС‹ С‚РµС…РЅРёС‡РµСЃРєРѕРіРѕ Р°РЅР°Р»РёР·Р°</A> 
-  <LI><A href="ch16.htm">РџРѕС‚РѕРєРѕР±РµР·РѕРїР°СЃРЅС‹Рµ С„СѓРЅРєС†РёРё РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ С‚Р°Р±Р»РёС†Р°РјРё Lua</A> 
-  <LI><A href="ch11.htm">РџСЂРёР»РѕР¶РµРЅРёСЏ</A> 
+  <LI><A href="ch1.htm">О программе</A> 
+  <LI><A href="ch2.htm">Подготовка к работе</A> 
+  <LI><A href="ch3.htm">Работа с программой</A> 
+  <LI><A href="ch4_1.htm">Сервисные функции</A> 
+  <LI><A href="ch4_2.htm">Функции обратного вызова</A> 
+  <LI><A href="ch4_5_0.htm">Функции для обращения к строкам произвольных таблиц QUIK</A> 
+  <LI><A href="ch4_5_4.htm">Функции для обращения к спискам доступных параметров</A> 
+  <LI><A href="ch4_5.htm">Функции взаимодействия скрипта Lua и Рабочего места QUIK</A> 
+  <LI><A href="ch10_1.htm">Функции для работы с таблицами Рабочего места QUIK</A> 
+  <LI><A href="ch14.htm">Функции для работы с метками</A>
+  <LI><A href="ch15.htm">Функции для заказа стакана котировок</A>
+  <LI><A href="ch4_6.htm">Структуры данных</A> 
+  <LI><A href="ch9.htm">Описание битовых флагов</A> 
+  <LI><A href="ch12.htm">Функции для работы с битовыми масками в структурах данных</A> 
+  <LI><A href="ch13.htm">Индикаторы технического анализа</A> 
+  <LI><A href="ch16.htm">Потокобезопасные функции для работы с таблицами Lua</A> 
+  <LI><A href="ch11.htm">Приложения</A> 
 </LI></UL>
 <P>&nbsp;</P>
 <P>&nbsp;</P>
-<DIV class=copyright>Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ QUIK В© ARQA Technologies 
+<DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies 
 <BR><A href="http://www.arqatech.com/ru/products/quik/">www.arqatech.com/ru/products/quik/</A></DIV>
 </div>
 <DIV></DIV>
