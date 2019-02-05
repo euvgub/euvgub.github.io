@@ -1,0 +1,318 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Сервисные функции</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Сервисные функции</H1>
+<P><FONT size=2 face=Arial>
+<P>
+<MENU>
+  <LI><A href="#subt1">GET_TRADE_DATE</A> 
+  <LI><A href="#subt2">GET_DATETIME</A> 
+  <LI><A href="#subt3">APPLY_SCALE</A> 
+  <LI><A href="#subt4">IS_CONNECTED</A> 
+  <LI><A href="#subt5">GET_INFO_PARAM</A> 
+  <LI><A href="#subt6">BREAKPOINT</A> </LI></MENU>
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H2>GET_TRADE_DATE</H2>
+<P>Возвращает дату текущей торговой сессии. </P>
+<P class=defn>MAP&nbsp;GET_TRADE_DATE ()</P>
+<P>Функция возвращает ассоциативный массив (MAP), содержащий параметры:</P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>DATE</TD>
+    <TD>STRING</TD>
+    <TD>Торговая дата в виде строки «ДД.MM.ГГГГ»</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>YEAR</TD>
+    <TD>DOUBLE</TD>
+    <TD>Год</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>MONTH</TD>
+    <TD>DOUBLE</TD>
+    <TD>Месяц</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>DAY</TD>
+    <TD>DOUBLE</TD>
+    <TD>День</TD></TR></TBODY></TABLE>&nbsp;</P>
+<H3>Пример: </H3><PRE>‘<BR>writeln(log_file_name, get_value(GET_TRADE_DATE(), "Date"))<BR>’</PRE>
+<P>Записывает в файл строку вида:</P><PRE>02.06.2004</PRE><A name=subt2></A>
+<H2>GET_DATETIME</H2>
+<P>Возвращает текущие дату и время. </P>
+<P class=defn>MAP&nbsp;GET_DATETIME ()</P>
+<P>Функция возвращает ассоциативный массив (MAP), содержащий параметры:</P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>DATETIME</TD>
+    <TD>STRING</TD>
+    <TD>Торговая дата в виде строки «ДД.MM.ГГГГ ЧЧ:MM:СС.ссс», где «ссс» – 
+      миллисекунды</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>YEAR</TD>
+    <TD>DOUBLE</TD>
+    <TD>Год</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>MONTH</TD>
+    <TD>DOUBLE</TD>
+    <TD>Месяц</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>DAY</TD>
+    <TD>DOUBLE</TD>
+    <TD>День</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD>DAYOFWEEK</TD>
+    <TD>DOUBLE</TD>
+    <TD>Порядковый номер дня недели (воскресенье&nbsp;– 0, понедельник&nbsp;– 
+      1, вторник&nbsp;– 2, среда&nbsp;– 3, четверг&nbsp;– 4, пятница&nbsp;– 5, 
+      суббота&nbsp;– 6)</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>HOUR</TD>
+    <TD>DOUBLE</TD>
+    <TD>Час</TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD>MIN</TD>
+    <TD>DOUBLE</TD>
+    <TD>Минута</TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD>SEC</TD>
+    <TD>DOUBLE</TD>
+    <TD>Секунда</TD></TR>
+  <TR>
+    <TD>9</TD>
+    <TD>MILLISEC</TD>
+    <TD>DOUBLE</TD>
+    <TD>Миллисекунда</TD></TR></TBODY></TABLE></P>
+<H3>Пример: </H3><PRE>‘<BR>writeln(log_file_name, get_value(GET_DATETIME(), "Datetime"))<BR>’</PRE>
+<P>Записывает в файл строку вида:</P><PRE> 02.06.2004 16:57:34.460</PRE><A name=subt3></A>
+<H2>APPLY_SCALE</H2>
+<P>Возвращает строку с числом, полученным округлением числа «without_scale» до 
+разрядности «scale».</P>
+<P class=defn>STRING&nbsp;&nbsp;APPLY_SCALE (DOUBLE without_scale, DOUBLE scale) 
+</P><A name=subt4></A>
+<H2>IS_CONNECTED</H2>
+<P>Функция предназначена для определения состояния подключения клиентского места 
+к серверу. Возвращает&nbsp;1, если клиентское место подключено и 0, если не 
+подключено.</P>
+<P class=defn>IS_CONNECTED () </P><A name=subt5></A>
+<H2>GET_INFO_PARAM </H2>
+<P>Данная функция возвращает значения параметров информационного окна (пункт 
+меню <STRONG>Система / О 
+программе / Информационное окно...</STRONG>).</P>
+<P class=defn>STRING GET_INFO_PARAM (STRING param_name)</P>
+<P>Параметр «param_name» может принимать значения, представленные в таблице.</P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Значение параметра</TH>
+    <TH width="75%">Описание</TH></TR>
+  <TR>
+    <TD>VERSION</TD>
+    <TD width="75%">Версия программы</TD></TR>
+  <TR>
+    <TD>TRADEDATE</TD>
+    <TD width="75%">Дата торгов</TD></TR>
+  <TR>
+    <TD>SERVERTIME</TD>
+    <TD width="75%">Время сервера</TD></TR>
+  <TR>
+    <TD>LASTRECORDTIME</TD>
+    <TD>Время последней записи</TD></TR>
+  <TR>
+    <TD>NUMRECORDS</TD>
+    <TD>Число записей</TD></TR>
+  <TR>
+    <TD>LASTRECORD</TD>
+    <TD>Последняя запись</TD></TR>
+  <TR>
+    <TD>LATERECORD&nbsp;</TD>
+    <TD>Отставшая запись</TD></TR>
+  <TR>
+    <TD>CONNECTION</TD>
+    <TD>Соединение</TD></TR>
+  <TR>
+    <TD>IPADDRESS</TD>
+    <TD>IP-адрес сервера</TD></TR>
+  <TR>
+    <TD>IPPORT&nbsp;</TD>
+    <TD>Порт сервера</TD></TR>
+  <TR>
+    <TD>IPCOMMENT</TD>
+    <TD>Описание соединения</TD></TR>
+  <TR>
+    <TD>SERVER</TD>
+    <TD>Описание сервера</TD></TR>
+  <TR>
+    <TD>SESSIONID</TD>
+    <TD>Идентификатор сессии</TD></TR>
+  <TR>
+    <TD>USER</TD>
+    <TD>Пользователь</TD></TR>
+  <TR>
+    <TD>USERID</TD>
+    <TD>ID пользователя</TD></TR>
+  <TR>
+    <TD>ORG</TD>
+    <TD>Организация</TD></TR>
+  <TR>
+    <TD>MEMORY</TD>
+    <TD>Занято памяти</TD></TR>
+  <TR>
+    <TD>LOCALTIME</TD>
+    <TD>Текущее время</TD></TR>
+  <TR>
+    <TD>CONNECTIONTIME</TD>
+    <TD>Время на связи</TD></TR>
+  <TR>
+    <TD>MESSAGESSENT</TD>
+    <TD>Передано сообщений</TD></TR>
+  <TR>
+    <TD>ALLSENT</TD>
+    <TD>Передано всего байт</TD></TR>
+  <TR>
+    <TD>BYTESSENT</TD>
+    <TD>Передано полезных байт</TD></TR>
+  <TR>
+    <TD>BYTESPERSECSENT&nbsp;</TD>
+    <TD>Передано за секунду</TD></TR>
+  <TR>
+    <TD>MESSAGESRECV</TD>
+    <TD>Принято сообщений</TD></TR>
+  <TR>
+    <TD>BYTESRECV</TD>
+    <TD>Принято полезных байт</TD></TR>
+  <TR>
+    <TD>ALLRECV</TD>
+    <TD>Принято всего байт</TD></TR>
+  <TR>
+    <TD>BYTESPERSECRECV</TD>
+    <TD>Принято за секунду</TD></TR>
+  <TR>
+    <TD>AVGSENT</TD>
+    <TD>Средняя скорость передачи</TD></TR>
+  <TR>
+    <TD>AVGRECV</TD>
+    <TD>Средняя скорость приема</TD></TR>
+  <TR>
+    <TD>LASTPINGTIME</TD>
+    <TD>Время последней проверки связи</TD></TR>
+  <TR>
+    <TD>LASTPINGDURATION</TD>
+    <TD>Задержка данных при обмене с сервером</TD></TR>
+  <TR>
+    <TD>AVGPINGDURATION</TD>
+    <TD>Средняя задержка данных</TD></TR>
+  <TR>
+    <TD>MAXPINGTIME</TD>
+    <TD>Время максимальной задержки</TD></TR>
+  <TR>
+    <TD>MAXPINGDURATION</TD>
+    <TD>Максимальная задержка данных</TD></TR></TBODY></TABLE></P>
+
+<A name=subt6></A>
+<H2>BREAKPOINT</H2>
+<P>Функция предназначена для прерывания режима расчета и вывода окна «Отладка», 
+в котором пользователь сможет наблюдать за дальнейшей работой программы. </P>
+<P class=defn>BREAKPOINT ()</P>
+<P>Команда не содержит никаких параметров и результатом ее действия является 
+остановка выполнения программы, выделение красным маркером следующего за ним 
+оператора и вызов окна «Отладка», в котором пользователь сможет отслеживать 
+выполнение кода скрипта. При необходимости, команда может содержаться в коде 
+произвольное количество раз.</P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

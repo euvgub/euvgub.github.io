@@ -1,0 +1,2878 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties"> 
+     <param name="FrameName" value="right">
+     <param name="WindowName" value="main">
+     <param name="Font" value=",8,0">
+     <param name="ImageType" value="Book">
+     <param name="Window Styles" value="0x27">
+     <param name="ExWindow Styles" value="0x0">
+   </OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Руководство пользователя">
+<param name="Local" value="Main.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Дополнительные консультации">
+<param name="Local" value="introduction.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 1. Подготовка к работе">
+<param name="Local" value="ch1.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие сведения">
+<param name="Local" value="int1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Требования к оборудованию">
+<param name="Local" value="general.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установка программы">
+<param name="Local" value="ch1_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Добавление и выбор криптопровайдера в настройках Рабочего места QUIK">
+<param name="Local" value="ch1_15.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Режим шифрования">
+<param name="Local" value="ch1_15_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Режим ЭЦП">
+<param name="Local" value="ch1_15_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка шифрования средствами библиотеки qrypto32">
+<param name="Local" value="ch1_16.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка шифрования и ЭЦП средствами библиотеки MP">
+<param name="Local" value="ch1_13.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки провайдера">
+<param name="Local" value="ch1_13_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Генерация ключевой пары и запроса на сертификат">
+<param name="Local" value="ch1_13_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установка сертификата">
+<param name="Local" value="ch1_13_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка шифрования и ЭЦП средствами библиотеки OpenSSL">
+<param name="Local" value="ch1_14.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки провайдера">
+<param name="Local" value="ch1_14_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Генерация запроса на сертификат">
+<param name="Local" value="ch1_14_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установка сертификата">
+<param name="Local" value="ch1_14_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ключи запуска Рабочего места QUIK">
+<param name="Local" value="ch1_17.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка параметров соединения">
+<param name="Local" value="ch1_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка параметров получения и сохранения данных">
+<param name="Local" value="ch1_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка соединения через прокси-сервер">
+<param name="Local" value="ch1_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установление соединения с сервером">
+<param name="Local" value="ch1_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение пароля">
+<param name="Local" value="ch1_3_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Мониторинг состояния соединения">
+<param name="Local" value="ch2_14.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Версии компонентов и плагинов">
+<param name="Local" value="ch1_11.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Обновление версии программы">
+<param name="Local" value="ch1_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Получение файлов">
+<param name="Local" value="ch1_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение 1">
+<param name="Local" value="ch1_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение 2">
+<param name="Local" value="ch1_18.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 2. Основные принципы работы с программой">
+<param name="Local" value="ch2.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Структура данных">
+<param name="Local" value="ch2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Интерфейс программы">
+<param name="Local" value="ch.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие фильтры">
+<param name="Local" value="ch2_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Быстрый поиск инструмента">
+<param name="Local" value="ch2_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка потока данных">
+<param name="Local" value="ch2_5.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заказ котировок">
+<param name="Local" value="ch2_4_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заказ обезличенных сделок">
+<param name="Local" value="ch2_4_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Перезаказ данных">
+<param name="Local" value="ch2_4_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Замена инструментов">
+<param name="Local" value="ch2_4_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Склейка архивов графиков">
+<param name="Local" value="ch2_4_5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Экранные вкладки">
+<param name="Local" value="ch2_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с окнами">
+<param name="Local" value="ch2_24.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка расположения окон">
+<param name="Local" value="ch2_24_5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Вынесенные окна">
+<param name="Local" value="ch2_24_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Менеджер окон">
+<param name="Local" value="ch2_24_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблицы">
+<param name="Local" value="ch2_7.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Операции над таблицами">
+<param name="Local" value="ch1_12.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Вывод данных">
+<param name="Local" value="ch2_7_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сортировка строк таблицы по значениям">
+<param name="Local" value="ch2_7_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание копии таблицы">
+<param name="Local" value="ch2_7_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Печать таблицы">
+<param name="Local" value="ch2_7_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поиск значения в ячейках таблицы">
+<param name="Local" value="ch2_7_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка шрифтов в таблицах">
+<param name="Local" value="ch2_7_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка цвета в таблицах и графиках">
+<param name="Local" value="ch2_7_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с таблицами в режиме «drag-and-drop»">
+<param name="Local" value="ch2_20.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Режим связанных окон">
+<param name="Local" value="ch2_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Контекстный фильтр в списках">
+<param name="Local" value="ch2_21.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Пользовательские фильтры">
+<param name="Local" value="ch2_22.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Условное форматирование таблиц">
+<param name="Local" value="ch2_23.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Системные сообщения">
+<param name="Local" value="ch2_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки Рабочего места QUIK">
+<param name="Local" value="ch2_15.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки экспорта данных">
+<param name="Local" value="ch2_15_exp.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение языка интерфейса">
+<param name="Local" value="ch2_16.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение / восстановление конфигурации из файла">
+<param name="Local" value="ch2_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Редактор горячих клавиш">
+<param name="Local" value="ch2_19.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение">
+<param name="Local" value="enclosure2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Назначение элементов Панели управления">
+<param name="Local" value="encl2_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Назначение пунктов меню программы">
+<param name="Local" value="encl2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Список управляющих клавиш">
+<param name="Local" value="encl2_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Описание настроек программы">
+<param name="Local" value="encl2_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 3. Просмотр информации">
+<param name="Local" value="ch3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание окна">
+<param name="Local" value="ch2_24_3.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка пункта меню «Создать окно»">
+<param name="Local" value="ch2_24_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица текущих торгов">
+<param name="Local" value="ch3_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_1_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Информация об инструменте">
+<param name="Local" value="ch3_5_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Замена инструмента">
+<param name="Local" value="ch3_5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица обезличенных сделок">
+<param name="Local" value="ch3_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_4_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица котировок">
+<param name="Local" value="ch3_5.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_5_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с шаблонами">
+<param name="Local" value="ch3_5_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Состояние счета">
+<param name="Local" value="ch5_41.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции">
+<param name="Local" value="ch5_41_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Обеспечение">
+<param name="Local" value="ch5_41_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблиц">
+<param name="Local" value="ch5_41_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка окна">
+<param name="Local" value="ch5_41_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок">
+<param name="Local" value="ch5_11.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_11_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Цветовые настройки таблицы заявок">
+<param name="Local" value="ch5_11_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица стоп-заявок">
+<param name="Local" value="ch5_12.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_12_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Цветовые настройки таблицы стоп-заявок">
+<param name="Local" value="ch5_12_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица сделок">
+<param name="Local" value="ch5_13.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_13_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Новости">
+<param name="Local" value="ch3_7.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_7_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно сообщений Трейдера">
+<param name="Local" value="ch3_8.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_8_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки приема сообщений">
+<param name="Local" value="ch3_8_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отправка сообщений">
+<param name="Local" value="ch3_8_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно оповещений">
+<param name="Local" value="ch3_9.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки окна">
+<param name="Local" value="ch3_9_0.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по заявке">
+<param name="Local" value="ch3_9_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по стоп-заявке">
+<param name="Local" value="ch3_9_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по параметру">
+<param name="Local" value="ch3_9_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение на опционы (цена/премия)">
+<param name="Local" value="ch3_9_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по статусу транзакции">
+<param name="Local" value="ch3_9_11.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по состоянию позиций на спот-рынке">
+<param name="Local" value="ch3_9_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Оповещение по состоянию позиций и ограничений на срочном рынке">
+<param name="Local" value="ch3_9_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка сервиса SMS-оповещений">
+<param name="Local" value="ch3_9_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки режима оповещения">
+<param name="Local" value="ch3_9_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчеты по SMS-оповещениям">
+<param name="Local" value="ch3_9_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Клиентский портфель»">
+<param name="Local" value="ch7_10.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_10_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки цвета">
+<param name="Local" value="ch7_10_5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Купить/Продать»">
+<param name="Local" value="ch5_9.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_9_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Вычисление значений в таблице">
+<param name="Local" value="ch5_9_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сводная таблица позиций">
+<param name="Local" value="ch5_10.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_10_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции по инструментам">
+<param name="Local" value="ch5_7(Papers).html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_7_3(Papers).html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение лимитов в зависимости от операций клиентов">
+<param name="Local" value="ch5_7_4(papers).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции по деньгам">
+<param name="Local" value="ch5_7(Money).html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_7_3(Money).html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение лимитов в зависимости от операций клиентов">
+<param name="Local" value="ch7_9(papers)_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Торговые счета»">
+<param name="Local" value="ch5_28.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_28_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ограничения по клиентским счетам">
+<param name="Local" value="ch5_15.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_17_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции по клиентским счетам">
+<param name="Local" value="ch5_14.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_14_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Доска опционов»">
+<param name="Local" value="ch5_16.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_16_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица параметров опционов">
+<param name="Local" value="ch5_18.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_18_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок на внебиржевые сделки">
+<param name="Local" value="ch7_22.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_22_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица безадресных заявок на внебиржевые сделки">
+<param name="Local" value="ch7_23.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_23_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «РПС котировки»">
+<param name="Local" value="ch7_24.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_24_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сделки для исполнения">
+<param name="Local" value="ch7_25.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_25_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок-отчетов на сделки РПС">
+<param name="Local" value="ch7_26.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_26_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Коды расчетов»">
+<param name="Local" value="ch7_27.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_27_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Обязательства и требования по деньгам [ЦК]»">
+<param name="Local" value="ch3_14.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_14_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Обязательства и требования по активам (расширенные) [ЦК]»">
+<param name="Local" value="ch3_15.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_15_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Обязательства и требования по активам [ЦК]»">
+<param name="Local" value="ch7_43.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_43_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица параметров процентных рисков">
+<param name="Local" value="ch7_45.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_45_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица параметров рыночных рисков">
+<param name="Local" value="ch7_46.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_46_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Индивидуальные риск параметры»">
+<param name="Local" value="ch7_49.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_49_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Обязательства и требования по деньгам [Валюта]»">
+<param name="Local" value="ch3_16.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_16_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Обязательства и требования по активам [Валюта]»">
+<param name="Local" value="ch5_40.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_40_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Валюта: параметры процентных рисков»">
+<param name="Local" value="ch5_37.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_37_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Валюта: параметры рыночных рисков»">
+<param name="Local" value="ch5_38.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_38_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Валюта: индивидуальные риск параметры»">
+<param name="Local" value="ch5_39.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_39_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Валюта: межпродуктовые спреды»">
+<param name="Local" value="ch5_45.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_45_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица обязательств маркет-мейкеров по фондовому и валютному рынкам">
+<param name="Local" value="ch7_5_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_5_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица расширенных обязательств маркет-мейкеров по фондовому и валютному рынкам">
+<param name="Local" value="ch7_48.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_48_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица обязательств маркет-мейкеров по срочному рынку">
+<param name="Local" value="ch7_47.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_47_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица истории значений параметров">
+<param name="Local" value="ch3_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch3_2_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица изменений параметров">
+<param name="Local" value="ch3_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch3_3_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции участника по деньгам">
+<param name="Local" value="ch7_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_2_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции участника по инструментам">
+<param name="Local" value="ch7_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_3_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции участника по торговым счетам">
+<param name="Local" value="ch7_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_4_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции участника по инструментам на выбранных счетах">
+<param name="Local" value="ch7_5.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch7_5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Объединенные котировки»">
+<param name="Local" value="ch3_6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_6_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с шаблонами">
+<param name="Local" value="ch3_6_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Карман транзакций»">
+<param name="Local" value="ch5_19.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_19_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица транзакций">
+<param name="Local" value="ch5_34.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch5_35.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица сообщений">
+<param name="Local" value="ch2_13_1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры настройки таблицы">
+<param name="Local" value="ch2_13_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица запросов клиентов на исполнение заявок">
+<param name="Local" value="ch7_31.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_31_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица участников торгов">
+<param name="Local" value="ch7_28.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_28_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Информация о трейдерах»">
+<param name="Local" value="ch3_11.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_11_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Переводы НКЦ»">
+<param name="Local" value="ch7_33.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch7_33_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Запрет на операции»">
+<param name="Local" value="ch3_12.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_12_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Информация по кодам расчетов»">
+<param name="Local" value="ch3_13.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Типы переводов»">
+<param name="Local" value="ch3_17.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_17_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица «Расчетные коды»">
+<param name="Local" value="ch3_18.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch3_18_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение 1">
+<param name="Local" value="encl7_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение 2">
+<param name="Local" value="enclosure3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 4. Работа с графиками">
+<param name="Local" value="ch4.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно «Графики»">
+<param name="Local" value="ch4_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Типы графиков">
+<param name="Local" value="ch4_1_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Способы создания нового графика">
+<param name="Local" value="ch4_1_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отображение заявок и сделок на графике">
+<param name="Local" value="ch4_1_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявок из окна графика">
+<param name="Local" value="ch4_1_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Управление заявками с помощью курсора мыши">
+<param name="Local" value="ch4_1_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отображение меток на графике">
+<param name="Local" value="ch4_1_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка графика">
+<param name="Local" value="ch4_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка свойств диаграммы">
+<param name="Local" value="ch4_2_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка области построения графика">
+<param name="Local" value="ch4_2_14.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка вида графика">
+<param name="Local" value="ch4_2_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Добавление графика в диаграмму">
+<param name="Local" value="ch4_2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с графиками в режиме «drag-and-drop»">
+<param name="Local" value="ch4_2_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Рекомендации по работе с графиками">
+<param name="Local" value="ch4_2_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с шаблонами графиков">
+<param name="Local" value="ch4_2_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Использование панели инструментов">
+<param name="Local" value="ch4_2_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Редактирование графика при помощи «мыши»">
+<param name="Local" value="ch4_2_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Доступные функции">
+<param name="Local" value="ch4_2_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение изображения графика в файл">
+<param name="Local" value="ch4_2_10_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение данных графика в файл">
+<param name="Local" value="ch4_2_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка пользовательских меток">
+<param name="Local" value="ch4_2_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Измерение расстояния">
+<param name="Local" value="ch4_2_15.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Гистограмма «Глубина рынка»">
+<param name="Local" value="ch4_2_16.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Инструменты технического анализа">
+<param name="Local" value="ch4_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Рисование линий">
+<param name="Local" value="ch4_3_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Рисование фигур">
+<param name="Local" value="ch4_3_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Линейные инструменты">
+<param name="Local" value="ch4_3_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции по работе с линиями трендов и фигурами">
+<param name="Local" value="ch4_3_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка фигур и линий трендов">
+<param name="Local" value="ch4_3_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Скользящие средние">
+<param name="Local" value="ch4_3_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Методы технического анализа">
+<param name="Local" value="ch4_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="AC («Ускорение/Замедление»)">
+<param name="Local" value="ch4_4_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ADX («Индекс направления движения усредненной цены»)">
+<param name="Local" value="ch4_4_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="A/D («Накопление/распределение»)">
+<param name="Local" value="ch4_4_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Alligator («Аллигатор»)">
+<param name="Local" value="ch4_4_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AMA (Adaptive Moving Average)">
+<param name="Local" value="ch4_4_33.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AO («Чудесный осциллятор»)">
+<param name="Local" value="ch4_4_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ATR (Average True Range)">
+<param name="Local" value="ch4_4_37.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bears Power («Сила медведей»)">
+<param name="Local" value="ch4_4_39.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bollinger Bands («Полосы Боллинджера»)">
+<param name="Local" value="ch4_4_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bulls Power («Сила быков»)">
+<param name="Local" value="ch4_4_36.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CCI («Индекс товарного канала»)">
+<param name="Local" value="ch4_4_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Chaikin Oscillator («Осциллятор Чайкина»)">
+<param name="Local" value="ch4_4_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Chaikin’s Volatility («Волатильность Чайкина»)">
+<param name="Local" value="ch4_4_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMO («Осциллятор ценовых моментов Чанде»)">
+<param name="Local" value="ch4_4_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Elder's Force Index («Индекс силы Элдера»)">
+<param name="Local" value="ch4_4_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Envelopes («Конверты»)">
+<param name="Local" value="ch4_4_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fractals («Фракталы»)">
+<param name="Local" value="ch4_4_32.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ichimoku («Ишимоку»)">
+<param name="Local" value="ch4_4_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MACD («Схождение-расхождение скользящих средних»)">
+<param name="Local" value="ch4_4_14.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MACD-Histogram">
+<param name="Local" value="ch4_4_15.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BW MFI («Bill Williams Market Facilitation Index»)">
+<param name="Local" value="ch4_4_16.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Momentum («Темп движения»)">
+<param name="Local" value="ch4_4_17.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Money Flow Index («Индекс денежных потоков»)">
+<param name="Local" value="ch4_4_18.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="On Balance Volume («Балансовый объем»)">
+<param name="Local" value="ch4_4_19.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parabolic SAR («Параболическая система»)">
+<param name="Local" value="ch4_4_20.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Price Channel («Ценовой канал»)">
+<param name="Local" value="ch4_4_35.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Price Oscillator («Ценовой осциллятор»)">
+<param name="Local" value="ch4_4_21.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Rate Of Change («Скорость изменения»)">
+<param name="Local" value="ch4_4_22.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Relative Strength Index («Индекс относительной силы»)">
+<param name="Local" value="ch4_4_23.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Relative Vigor Index («Индекс относительной бодрости»)">
+<param name="Local" value="ch4_4_34.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Smoothed Rate Of Change («Сглаженная скорость изменения»)">
+<param name="Local" value="ch4_4_24.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Standard Deviation («Стандартное отклонение»)">
+<param name="Local" value="ch4_4_25.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Stochastic Oscillator («Стохастический осциллятор»)">
+<param name="Local" value="ch4_4_26.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIX («Triple Exponential Moving Average»)">
+<param name="Local" value="ch4_4_27.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Vertical Horizontal Filter («Вертикально-горизонтальный фильтр»)">
+<param name="Local" value="ch4_4_28.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Volume Oscillator («Осциллятор объема»)">
+<param name="Local" value="ch4_4_29.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Williams’ % Range («Процентный диапазон Уильямса»)">
+<param name="Local" value="ch4_4_30.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Williams’ A/D («Кумулятивное накопление/распределение Уильямса»)">
+<param name="Local" value="ch4_4_31.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="График доходности облигаций">
+<param name="Local" value="ch4_5.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка графика доходности облигаций">
+<param name="Local" value="ch4_5_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Доступные функции">
+<param name="Local" value="ch4_5_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение данных графика в файл">
+<param name="Local" value="ch4_5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 5. Торговые операции клиента">
+<param name="Local" value="ch5.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие положения">
+<param name="Local" value="ch5_0.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общий способ выполнения транзакций">
+<param name="Local" value="ch5_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки">
+<param name="Local" value="ch5_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно «Ввод заявки»">
+<param name="Local" value="ch5_2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Доступные функции">
+<param name="Local" value="ch5_2_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Быстрый ввод заявки">
+<param name="Local" value="ch5_2_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявок на Срочном рынке FORTS">
+<param name="Local" value="ch5_36.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявок на классическом рынке РТС">
+<param name="Local" value="ch5_2_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно ввода заявки для классов НРД">
+<param name="Local" value="ch5_2_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки из Таблицы котировок">
+<param name="Local" value="ch5_2_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки из окна «Объединенные котировки»">
+<param name="Local" value="ch5_2_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки типа «Айсберг»">
+<param name="Local" value="ch5_2_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Снятие заявки">
+<param name="Local" value="ch5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Замена заявки">
+<param name="Local" value="ch5_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Условные (стоп-) заявки">
+<param name="Local" value="ch5_5.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Контроль условий стоп-заявки в системе QUIK">
+<param name="Local" value="ch5_5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание условной (стоп-) заявки">
+<param name="Local" value="ch5_5_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заполнение полей в окне &quot;Стоп-заявка&quot;">
+<param name="Local" value="ch5_5_5(full).html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Снятие и замена условной (стоп-) заявки">
+<param name="Local" value="ch5_5_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Принудительное исполнение условной заявки">
+<param name="Local" value="ch5_5_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заявка с условием «по исполнению»">
+<param name="Local" value="ch5_6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки «по исполнению»">
+<param name="Local" value="ch5_6_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Замена и снятие заявки «по исполнению»">
+<param name="Local" value="ch5_6_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Управление заявками из Таблицы котировок">
+<param name="Local" value="ch3_5_7.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Панель торговли">
+<param name="Local" value="ch5_7_0.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Замена и снятие заявок перетаскиванием мышью">
+<param name="Local" value="ch5_7_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Режим «Быстрый ввод заявки»">
+<param name="Local" value="ch5_7_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Перестановка заявок по опционам и фьючерсам">
+<param name="Local" value="ch5_26.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Закрытие позиции">
+<param name="Local" value="ch5_42.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Закрытие всех позиций">
+<param name="Local" value="ch5_43.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Переворот позиции">
+<param name="Local" value="ch5_44.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Расчет премии для опционов">
+<param name="Local" value="ch5_17.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки параметров торговых операций">
+<param name="Local" value="ch5_2_6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие настройки">
+<param name="Local" value="ch5_2_6_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заявки">
+<param name="Local" value="ch5_2_6_2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Закрытие позиций">
+<param name="Local" value="ch5_2_6_3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Клиентский портфель">
+<param name="Local" value="ch5_2_6_4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Индикация статуса в клиентском портфеле">
+<param name="Local" value="ch5_2_6_8.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Котировки">
+<param name="Local" value="ch5_2_6_5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Объединенные котировки">
+<param name="Local" value="ch5_2_6_6.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ЭЦП">
+<param name="Local" value="ch5_2_6_7.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка счетов">
+<param name="Local" value="ch5_21.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка параметров инструментов">
+<param name="Local" value="ch5_22.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат файла настроек">
+<param name="Local" value="ch5_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Снятие заявок по условию">
+<param name="Local" value="ch5_23.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки автозаполнения полей ввода заявки">
+<param name="Local" value="ch5_3_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка ограничений на объем заявки">
+<param name="Local" value="ch5_3_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Описания клиентов и рынков">
+<param name="Local" value="ch2_18.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сообщения об ошибках">
+<param name="Local" value="ch5_24.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 6. Совместная работа с другими приложениями">
+<param name="Local" value="ch6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Экспорт данных через DDE-сервер">
+<param name="Local" value="ch6_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки вывода по DDE">
+<param name="Local" value="ch6_1_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Рекомендации">
+<param name="Local" value="ch6_1_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сообщения об ошибках">
+<param name="Local" value="ch6_1_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Использование ODBC для экспорта информации">
+<param name="Local" value="ch6_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сообщения об ошибках">
+<param name="Local" value="ch6_2_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Экспорт инструментов по ODBC">
+<param name="Local" value="ch6_2_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Особенности при экспорте информации">
+<param name="Local" value="ch6_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Экспорт данных в системы технического анализа встроенными средствами">
+<param name="Local" value="ch6_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сообщения об ошибках">
+<param name="Local" value="ch6_3_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка программы Equis MetaStock">
+<param name="Local" value="ch6_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка программы Wealth-Lab Developer">
+<param name="Local" value="ch6_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка программы AmiBroker">
+<param name="Local" value="ch6_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка программы Omega TradeStation/ProSuite 2000">
+<param name="Local" value="ch6_6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка в GlobalServer потока принимаемых данных">
+<param name="Local" value="ch6_6_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Экспорт данных в системы технического анализа с использованием внешних программ">
+<param name="Local" value="ch6_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Импорт транзакций">
+<param name="Local" value="ch6_8.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат .tri-файла с параметрами транзакций">
+<param name="Local" value="ch6_8_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Примеры строк, которые могут содержаться в файле">
+<param name="Local" value="ch6_8_3(examples).html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат .tro-файла с результатами обработки транзакций">
+<param name="Local" value="ch6_8_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка импорта транзакций">
+<param name="Local" value="ch6_8_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Импорт транзакций через API">
+<param name="Local" value="ch6_10.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с транзакциями через API">
+<param name="Local" value="ch6_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_CONNECT">
+<param name="Local" value="ch6_9_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_DISCONNECT">
+<param name="Local" value="ch6_9_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_IS_QUIK_CONNECTED">
+<param name="Local" value="ch6_9_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_IS_DLL_CONNECTED">
+<param name="Local" value="ch6_9_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SEND_SYNC_TRANSACTION">
+<param name="Local" value="ch6_9_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SEND_ASYNC_TRANSACTION">
+<param name="Local" value="ch6_9_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_CONNECTION_STATUS_CALLBACK">
+<param name="Local" value="ch6_9_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SET_CONNECTION_STATUS_CALLBACK">
+<param name="Local" value="ch6_9_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_TRANSACTIONS_REPLY_CALLBACK">
+<param name="Local" value="ch6_9_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SET_TRANSACTIONS_REPLY_CALLBACK">
+<param name="Local" value="ch6_9_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_ORDER_STATUS_CALLBACK">
+<param name="Local" value="ch6_9_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_TRADE_STATUS_CALLBACK">
+<param name="Local" value="ch6_9_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SUBSCRIBE_ORDERS">
+<param name="Local" value="ch6_9_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_SUBSCRIBE_TRADES">
+<param name="Local" value="ch6_9_14.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_START_ORDERS">
+<param name="Local" value="ch6_9_15.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_START_TRADES">
+<param name="Local" value="ch6_9_16.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_UNSUBSCRIBE_ORDERS">
+<param name="Local" value="ch6_9_17.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функция TRANS2QUIK_UNSUBSCRIBE_TRADES">
+<param name="Local" value="ch6_9_18.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Получение информации о заявках и сделках">
+<param name="Local" value="ch6_9_19.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение">
+<param name="Local" value="enclosure6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 7. Операции брокера">
+<param name="Local" value="ch7.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Просмотр позиций участника биржевых торгов">
+<param name="Local" value="ch7_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с лимитами клиентов">
+<param name="Local" value="ch7_1_1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Субадминистрирование">
+<param name="Local" value="ch7_7.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Схемы субадминистрирования">
+<param name="Local" value="ch7_7_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Процедура установки значений позиций клиентов">
+<param name="Local" value="ch7_7_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Автоматическое создание кодов клиентов Субадминистратором">
+<param name="Local" value="ch7_7_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Маржинальная торговля">
+<param name="Local" value="ch7_8.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Управление маржинальной торговлей">
+<param name="Local" value="ch7_8_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установка значений лимитов">
+<param name="Local" value="ch7_10_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Установка значений остатка и плеча">
+<param name="Local" value="ch7_10_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Операции над позициями">
+<param name="Local" value="ch7_12.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание позиции по денежным средствам">
+<param name="Local" value="ch7_12_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание позиции по инструментам">
+<param name="Local" value="ch7_12_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение позиций">
+<param name="Local" value="ch7_12_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Удаление позиции">
+<param name="Local" value="ch7_12_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Удаление группы позиций по денежным средствам">
+<param name="Local" value="ch7_12_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Удаление группы позиций по инструментам">
+<param name="Local" value="ch7_12_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по позициям">
+<param name="Local" value="ch7_12_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение позиций в файл">
+<param name="Local" value="ch7_12_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Загрузка позиций из файла">
+<param name="Local" value="ch7_12_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Динамическая корректировка позиций из файла">
+<param name="Local" value="ch7_13.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат исходного файла с корректировками позиций (*.lci)">
+<param name="Local" value="ch7_13_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат выходного файла с результатами корректировок (*.lco)">
+<param name="Local" value="ch7_13_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка динамической корректировки позиций из файла">
+<param name="Local" value="ch7_13_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Операции над лимитами клиентов на срочном рынке">
+<param name="Local" value="ch7_18.html">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание лимита">
+<param name="Local" value="ch7_18_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение лимита">
+<param name="Local" value="ch7_18_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Удаление лимита">
+<param name="Local" value="ch7_18_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сохранение в файл лимитов по срочному рынку">
+<param name="Local" value="ch7_18_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Загрузка из файла лимитов по срочному рынку">
+<param name="Local" value="ch7_18_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Изменение позиции по срочному контракту">
+<param name="Local" value="ch7_16_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Операции в Режиме переговорных сделок">
+<param name="Local" value="ch7_21.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Адресные заявки">
+<param name="Local" value="ch7_21(RPS)_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки (полная форма ввода)">
+<param name="Local" value="ch7_21(RPS)_1_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки (упрощенная форма ввода)">
+<param name="Local" value="ch7_21(RPS)_1_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки программы, относящиеся к адресным заявкам">
+<param name="Local" value="ch7_21(RPS)_1_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена адресной заявки">
+<param name="Local" value="ch7_21(RPS)_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Безадресные заявки">
+<param name="Local" value="ch7_21(RPS)_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод безадресной заявки">
+<param name="Local" value="ch7_21(RPS)_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена безадресной заявки">
+<param name="Local" value="ch7_21(RPS)_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Редактирование заявок">
+<param name="Local" value="ch7_21(RPS)_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Расчетные заявки-отчеты об исполнении сделок РПС">
+<param name="Local" value="ch_dop4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод расчетной заявки-отчета на исполнение сделок РПС">
+<param name="Local" value="ch7_21(RPS)_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена заявки-отчета на исполнение сделок РПС">
+<param name="Local" value="ch7_21(RPS)_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заявки исполнения без подтверждения">
+<param name="Local" value="ch_dop5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Операции РЕПО">
+<param name="Local" value="ch7_21(REPO).html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Адресные заявки">
+<param name="Local" value="ch7_21(REPO)_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки РЕПО">
+<param name="Local" value="ch7_21(REPO)_1_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки РЕПО-М">
+<param name="Local" value="ch_dop.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки РЕПО с ЦК">
+<param name="Local" value="ch7_21(REPO)_1_5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки РЕПО Банка России с корзиной ценных бумаг">
+<param name="Local" value="ch7_21(REPO)_1_7.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод адресной заявки на сделку РЕПО ГЦБ">
+<param name="Local" value="ch7_21(REPO)_1_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки программы, относящиеся к адресным заявкам">
+<param name="Local" value="ch7_21(REPO)_1_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена адресной заявки">
+<param name="Local" value="ch7_21(REPO)_1_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Безадресные заявки">
+<param name="Local" value="ch7_21(REPO)_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод безадресной заявки">
+<param name="Local" value="ch7_21(REPO)_2_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод безадресной заявки РЕПО с ЦК">
+<param name="Local" value="ch7_21(REPO)_1_6.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена безадресной заявки">
+<param name="Local" value="ch7_21(REPO)_2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Редактирование заявок">
+<param name="Local" value="ch7_21(REPO)_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Расчетные заявки-отчеты на исполнение сделок РЕПО">
+<param name="Local" value="ch_dop6.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод расчетной заявки-отчета">
+<param name="Local" value="ch_dop2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена расчетной заявки-отчета">
+<param name="Local" value="ch_dop3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заявки исполнения без подтверждения">
+<param name="Local" value="ch_dop8.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод заявки">
+<param name="Local" value="ch7_52.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Внебиржевые сделки">
+<param name="Local" value="ch7_22_7.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод внебиржевой сделки">
+<param name="Local" value="ch7_22_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отмена внебиржевой сделки">
+<param name="Local" value="ch7_22_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Маклерская заявка">
+<param name="Local" value="ch5_25.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод маклерских заявок для классов Срочного рынка FORTS">
+<param name="Local" value="ch7_50.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Маклерская стоп-заявка">
+<param name="Local" value="ch7_42.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Участие в аукционах по размещению инструментов">
+<param name="Local" value="ch7_29.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Режим приема клиентских транзакций с подтверждением брокером">
+<param name="Local" value="ch7_30.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройки режима подтверждений">
+<param name="Local" value="ch7_30_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с неторговыми поручениями">
+<param name="Local" value="ch5_33.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сообщения об ошибках при работе с позициями">
+<param name="Local" value="encl7_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 8. Алгоритмический язык QPILE">
+<param name="Local" value="ch8.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие положения">
+<param name="Local" value="ch8_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Работа с таблицами QPILE">
+<param name="Local" value="ch8_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Загрузка программы">
+<param name="Local" value="ch8_2_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка параметров программы">
+<param name="Local" value="ch8_2_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Создание таблицы">
+<param name="Local" value="ch8_2_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции, доступные в таблице">
+<param name="Local" value="ch8_2_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Структура файла программы">
+<param name="Local" value="ch8_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заголовок файла">
+<param name="Local" value="ch8_3_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Тело программы">
+<param name="Local" value="ch8_3_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Определение столбцов таблицы">
+<param name="Local" value="ch8_3_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Подключение дополнительных файлов">
+<param name="Local" value="ch8_3_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Конструкции языка QPILE">
+<param name="Local" value="ch8_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Типы данных">
+<param name="Local" value="ch8_4_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приведение типов">
+<param name="Local" value="ch8_4_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Выражения">
+<param name="Local" value="ch8_4_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Условия">
+<param name="Local" value="ch8_4_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Циклы">
+<param name="Local" value="ch8_4_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции">
+<param name="Local" value="ch8_4_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Общие функции">
+<param name="Local" value="ch8_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Математические функции">
+<param name="Local" value="ch8_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с коллекциями объектов (COLLECTION)">
+<param name="Local" value="ch8_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с ассоциативными массивами (MAP)">
+<param name="Local" value="ch8_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для обращения к строкам произвольных таблиц QUIK">
+<param name="Local" value="ch8_9.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Описание таблиц используемых в функциях «GET_NUMBER_OF» и «GET_ITEM»">
+<param name="Local" value="ch8_9_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы заявок, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы сделок, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы обезличенных сделок, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы стоп-заявок, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры таблицы «Позиции по деньгам» , возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры таблицы «Позиции по инструментам», возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы ограничений по клиентским счетам, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы позиций по клиентским счетам, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы заявок на внебиржевые сделки, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы сделок для исполнения, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры Таблицы заявок-отчетов на сделки РПС, возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_12.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры таблицы «Позиции участника по деньгам», возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры таблицы «Позиции участника по инструментам», возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_14.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Параметры таблицы «Позиции участника по торговым счетам», возвращаемые функцией «GET_ITEM»">
+<param name="Local" value="ch8_9_15.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для обращения к спискам доступных параметров">
+<param name="Local" value="ch8_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с программируемой таблицей">
+<param name="Local" value="ch8_11.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для получения значений Таблицы текущих торгов">
+<param name="Local" value="ch8_12.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Значения параметров функций">
+<param name="Local" value="ch8_12_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для получения значений Окна котировок">
+<param name="Local" value="ch8_23.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для получения значений таблицы «Позиции по инструментам»">
+<param name="Local" value="ch8_13.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для получения значений  таблицы «Позиции по деньгам»">
+<param name="Local" value="ch8_14.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции расчета маржинальных позиций">
+<param name="Local" value="ch8_15.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции получения значений таблиц «Клиентский портфель»  и «Купить/Продать»">
+<param name="Local" value="ch8_16.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с файлами">
+<param name="Local" value="ch8_17.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы со строками">
+<param name="Local" value="ch8_18.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с графиками">
+<param name="Local" value="ch8_19.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с заявками">
+<param name="Local" value="ch8_20.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Функции для работы с метками">
+<param name="Local" value="ch8_24.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сервисные функции">
+<param name="Local" value="ch8_21.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отладка программ QPILE">
+<param name="Local" value="ch8_2_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Приложение">
+<param name="Local" value="enclosure8.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Синтаксис команд языка QPILE">
+<param name="Local" value="encl8_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Рекомендации к составлению программ на QPILE">
+<param name="Local" value="encl8_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 9. Неторговые операции и Отчеты">
+<param name="Local" value="ch9.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Неторговые поручения">
+<param name="Local" value="ch9_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица поручений">
+<param name="Local" value="ch9_2.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Настройка таблицы">
+<param name="Local" value="ch9_2_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Заполнение поручений">
+<param name="Local" value="ch9_3.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на ввод денежных средств">
+<param name="Local" value="ch9_3_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на вывод денежных средств">
+<param name="Local" value="ch9_3_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на перевод денежных средств">
+<param name="Local" value="ch9_3_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на ввод ценных бумаг">
+<param name="Local" value="ch9_3_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на вывод ценных бумаг">
+<param name="Local" value="ch9_3_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на перевод ценных бумаг">
+<param name="Local" value="ch9_3_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на конвертацию валют">
+<param name="Local" value="ch9_2_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение свободного вида">
+<param name="Local" value="ch9_3_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручение на конвертацию ЦБ">
+<param name="Local" value="ch9_3_9.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Поручения на размещение ЦБ">
+<param name="Local" value="ch9_3_10.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Выбор документа-основания">
+<param name="Local" value="ch9_3_11.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Подтверждение неторгового поручения одноразовым паролем">
+<param name="Local" value="ch9_3_12.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод получателя ДС">
+<param name="Local" value="ch9_3_13.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Ввод получателя ЦБ">
+<param name="Local" value="ch9_3_14.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Импорт поручений из файла">
+<param name="Local" value="ch9_5_1.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Формат tri-файла с параметрами транзакций">
+<param name="Local" value="ch9_5_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Примеры строк в файле транзакций">
+<param name="Local" value="ch9_5_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчеты">
+<param name="Local" value="ch9_4.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по портфелю клиента">
+<param name="Local" value="ch9_4_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по всем сделкам клиента">
+<param name="Local" value="ch9_4_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по всем стоп-заявкам клиента">
+<param name="Local" value="ch9_4_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по всем сделкам всех клиентов">
+<param name="Local" value="ch9_4_9.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по всем заявкам клиента">
+<param name="Local" value="ch9_4_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по отправленным файлам">
+<param name="Local" value="ch9_4_10.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по неторговым поручениям клиента">
+<param name="Local" value="ch9_4_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по одному неторговому поручению">
+<param name="Local" value="ch9_4_8.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по адресным заявкам клиента">
+<param name="Local" value="ch9_4_11.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по позициям на срочном рынке ФОРТС">
+<param name="Local" value="ch9_4_7.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Отчет по мере риска портфеля">
+<param name="Local" value="ch9_4_12.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Получение файлов от брокера и их подтверждение">
+<param name="Local" value="ch9_4_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Раздел 10. Форматы сохранения таблиц в текстовый файл">
+<param name="Local" value="ch10.html">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица текущих торгов">
+<param name="Local" value="ch10_1.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица истории значений параметров">
+<param name="Local" value="ch10_2.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица изменений параметров">
+<param name="Local" value="ch10_9.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица обезличенных сделок">
+<param name="Local" value="ch10_3.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Новости">
+<param name="Local" value="ch10_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Окно сообщений Трейдера">
+<param name="Local" value="ch10_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок">
+<param name="Local" value="ch10_6.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица стоп-заявок">
+<param name="Local" value="ch10_7.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица сделок">
+<param name="Local" value="ch10_8.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Позиции участника по деньгам">
+<param name="Local" value="ch7_2_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок на внебиржевые сделки">
+<param name="Local" value="ch7_22_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица безадресных заявок на внебиржевые сделки">
+<param name="Local" value="ch7_23_4.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Сделки для исполнения">
+<param name="Local" value="ch7_25_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица заявок-отчетов на сделки РПС">
+<param name="Local" value="ch7_26_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Таблица участников торгов">
+<param name="Local" value="ch7_28_5.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Глоссарий">
+<param name="Local" value="glossary.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL>
+</BODY>
+</HTML>

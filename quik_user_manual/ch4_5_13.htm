@@ -1,0 +1,350 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>getPortfolioInfo</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">getPortfolioInfo</H1>
+<P><FONT size=2 face=Arial>
+
+<P>Функция предназначена для получения значений параметров 
+таблицы «Клиентский портфель», соответствующих идентификатору участника торгов «firmid» и коду клиента «client_code».
+<P>Формат вызова:
+<P class=defn>TABLE getPortfolioInfo (STRING firm_id, STRING client_code)</P>
+<P>Функция возвращает таблицу Lua с параметрами:
+<A name=subt1></A>
+<P><TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH>
+   <TH>Заголовок поля в таблице</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>is_leverage</TD>
+    <TD> STRING</TD>
+    <TD>
+      <P>
+Признак использования схемы кредитования с контролем текущей стоимости активов. Возможные значения:
+<UL>
+   <LI>«МЛ» – используется схема ведения позиции «по плечу», «плечо» рассчитано по значению Входящего лимита,
+   <LI>«МП» – используется схема ведения позиции «по плечу», «плечо» указано явным образом,
+   <LI>«МОП» – используется схема ведения позиции «лимит на открытую позицию»;
+   <LI>«МД» – используется схема ведения позиции «по дисконтам»;
+   <LI>«C» – используется схема ведения позиций «срочный рынок». Для клиентов срочного рынка без единой денежной позиции;
+   <LI>&lt;пусто&gt; – используется схема ведения позиции «по лимитам»
+</LI></UL> </TD>
+    <TD>Тип клиента</TD></TR>  
+
+  <TR>
+    <TD>2</TD>
+    <TD>in_assets</TD>
+    <TD>STRING</TD>
+    <TD>Оценка собственных средств клиента до начала торгов</TD>
+    <TD>Вход. активы</TD></TR>
+
+  <TR>
+    <TD>3</TD>
+    <TD>leverage</TD>
+    <TD>STRING</TD>
+    <TD> Плечо. Если не задано явно, то отношение Входящего лимита к 
+      Входящим активам</TD>
+    <TD>Плечо</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>open_limit</TD>
+    <TD>STRING</TD>
+    <TD>Оценка максимальной величины заемных средств до начала 
+      торгов</TD><TD>Вход. лимит</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD>val_short</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости коротких позиций. Значение всегда 
+      отрицательное</TD><TD>Шорты</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>val_long</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости длинных позиций</TD><TD>Лонги</TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD>val_long_margin</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости длинных позиций по маржинальным инструментам, принимаемым 
+      в обеспечение</TD><TD>Лонги МО</TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD>val_long_asset</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости длинных позиций по немаржинальным инструментам, 
+      принимаемым в обеспечение</TD><TD>Лонги О</TD></TR>
+  <TR>
+    <TD>9</TD>
+    <TD>assets</TD>
+    <TD>STRING</TD>
+    <TD>Оценка собственных средств клиента по текущим позициям и 
+      ценам</TD><TD>Тек. активы</TD></TR>
+  <TR>
+    <TD>10</TD>
+    <TD>cur_leverage</TD>
+    <TD>STRING</TD>
+    <TD>Текущее плечо</TD><TD>Тек.плечо</TD></TR>
+  <TR>
+    <TD>11</TD>
+    <TD>margin</TD>
+    <TD>STRING</TD>
+    <TD>Уровень маржи, в процентах</TD><TD>Ур. маржи</TD></TR>
+  <TR>
+    <TD>12</TD>
+    <TD>lim_all</TD>
+    <TD>STRING</TD>
+    <TD>Текущая оценка максимальной величины заемных средств</TD><TD>Тек. лимит</TD></TR>
+  <TR>
+    <TD>13</TD>
+    <TD>av_lim_all</TD>
+    <TD>STRING</TD>
+    <TD>Оценка величины заемных средств, доступных для дальнейшего открытия 
+      позиций</TD><TD>ДостТекЛимит</TD></TR>
+  <TR>
+    <TD>14</TD>
+    <TD>locked_buy</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на покупку</TD><TD>Блок. покупка</TD></TR>
+  <TR>
+    <TD>15</TD>
+    <TD>locked_buy_margin</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на покупку маржинальных инструментов, 
+      принимаемых в обеспечение</TD><TD>Блок. пок. маржин.</TD></TR>
+  <TR>
+    <TD>16</TD>
+    <TD>locked_buy_asset</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на покупку немаржинальных инструментов, 
+      принимаемых в обеспечение</TD><TD>Блок.пок. обесп.</TD></TR>
+  <TR>
+    <TD>17</TD>
+    <TD>locked_sell</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на продажу маржинальных 
+      инструментов</TD><TD>Блок. продажа</TD></TR>
+  <TR>
+    <TD>18</TD>
+    <TD>locked_value_coef</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на покупку немаржинальных 
+      инструментов</TD><TD>Блок. пок. немарж.</TD></TR>
+  <TR>
+    <TD>19</TD>
+    <TD>in_all_assets</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости всех позиций клиента в ценах закрытия предыдущей 
+      торговой сессии, включая позиции по немаржинальным 
+      инструментам</TD><TD>ВходСредства</TD></TR>
+  <TR>
+    <TD>20</TD>
+    <TD>all_assets</TD>
+    <TD>STRING</TD>
+    <TD>Текущая оценка стоимости всех позиций клиента</TD><TD>ТекСредства</TD></TR>
+  <TR>
+    <TD>21</TD>
+    <TD>profit_loss</TD>
+    <TD>STRING</TD>
+    <TD>Абсолютная величина изменения стоимости всех позиций 
+      клиента</TD><TD>Прибыль/убытки</TD></TR>
+  <TR>
+    <TD>22</TD>
+    <TD>rate_change</TD>
+    <TD>STRING</TD>
+    <TD>Относительная величина изменения стоимости всех позиций 
+      клиента</TD><TD>ПроцИзмен</TD></TR>
+  <TR>
+    <TD>23</TD>
+    <TD>lim_buy</TD>
+    <TD>STRING</TD>
+    <TD>Оценка денежных средств, доступных для покупки маржинальных 
+      инструментов</TD><TD>На покупку</TD></TR>
+  <TR>
+    <TD>24</TD>
+    <TD>lim_sell</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости маржинальных инструментов, доступных для продажи</TD><TD>На       продажу</TD></TR>
+  <TR>
+    <TD>25</TD>
+    <TD>lim_non_margin</TD>
+    <TD>STRING</TD>
+    <TD>Оценка денежных средств, доступных для покупки немаржинальных 
+      инструментов</TD><TD>НаПокупНеМаржин</TD></TR>
+  <TR>
+    <TD>26</TD>
+    <TD>lim_buy_asset</TD>
+    <TD>STRING</TD>
+    <TD>Оценка денежных средств, доступных для покупки инструментов, принимаемых в 
+      обеспечение</TD><TD>НаПокупОбесп</TD></TR>
+<TR>
+    <TD>27</TD>
+    <TD>val_short_net</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости коротких позиций. При расчете не используется коэффициент дисконтирования <SPAN class=mark>**</SPAN></TD><TD>Шорты (нетто)</TD></TR>
+<TR>
+    <TD>28</TD>
+    <TD> val_long_net</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости длинных позиций. При расчете не используется коэффициент дисконтирования <SPAN class=mark>**</SPAN></TD><TD>Лонги (нетто)</TD></TR>
+  <TR>
+    <TD>29</TD>
+    <TD>total_money_bal</TD>
+    <TD>STRING</TD>
+    <TD>Сумма остатков по денежным средствам по всем 
+      лимитам, без учета средств, заблокированных под исполнение обязательств, выраженная в выбранной валюте 
+      расчета</TD><TD>Сумма ден. остатков</TD></TR>
+  <TR>
+    <TD>30</TD>
+    <TD>total_locked_money</TD>
+    <TD>STRING</TD>
+    <TD>Cумма заблокированных средств со всех денежных 
+      лимитов клиента, пересчитанная в валюту расчетов через кросс-курсы на 
+      сервере</TD><TD> Суммарно заблок.</TD></TR>
+  <TR>
+    <TD>31</TD>
+    <TD>haircuts</TD>
+    <TD>STRING</TD>
+    <TD>Сумма дисконтов стоимости длинных (только по инструментам обеспечения) и коротких позиций по инструментам, дисконтов корреляции между инструментами, а также дисконтов на задолженности по валютам, не покрытые обеспечением по инструментам в этих же валютах</TD><TD>Сумма дисконтов</TD></TR>
+  <TR>
+    <TD>32</TD>
+    <TD>assets_without_hc</TD>
+    <TD>STRING</TD>
+    <TD>Суммарная величина денежных остатков, стоимости 
+      длинных позиций по инструментам обеспечения и стоимости коротких позиций, без 
+      учета дисконтирующих коэффициентов, без учета неттинга стоимости инструментов в 
+      рамках объединенной&nbsp;позиции по инструментам и без учета корреляции между инструментами</TD><TD>ТекАктБезДиск</TD></TR>
+  <TR>
+    <TD>33</TD>
+    <TD>status_coef</TD>
+    <TD>STRING</TD>
+    <TD>Отношение суммы дисконтов к текущим активам без учета 
+      дисконтов</TD><TD>Статус счета</TD></TR>
+  <TR>
+    <TD>34</TD>
+    <TD><SPAN class=mark>*</SPAN>varmargin</TD>
+    <TD>STRING</TD>
+    <TD>Текущая вариационная маржа по позициям клиента, по всем 
+      инструментам</TD><TD>Вариац. маржа</TD></TR>
+  <TR>
+    <TD>35</TD>
+    <TD><SPAN class=mark>*</SPAN>go_for_positions</TD>
+    <TD>STRING</TD>
+    <TD>Размер денежных средств, уплаченных под все открытые позиции на срочном 
+      рынке</TD><TD>ГО поз.</TD></TR>
+  <TR>
+    <TD>36</TD>
+    <TD><SPAN class=mark>*</SPAN>go_for_orders</TD>
+    <TD>STRING</TD>
+    <TD>Оценка стоимости активов в заявках на срочном рынке</TD><TD>ГО       заяв.</TD></TR>
+  <TR>
+    <TD>37</TD>
+    <TD>rate_futures</TD>
+    <TD>STRING</TD>
+    <TD>Отношение ликвидационной стоимости портфеля к ГО по срочному 
+      рынку</TD><TD>Активы/ГО</TD></TR>
+  <TR>
+    <TD>38</TD>
+    <TD>is_qual_client</TD>
+    <TD>STRING</TD>
+    <TD>Признак «квалифицированного» клиента, которому 
+      разрешено кредитование заемными средствами с плечом 1:3. Возможные значения: «ПовышУрРиска» – квалифицированный, &lt;пусто&gt; – 
+      нет</TD><TD>ПовышУрРиска</TD></TR>
+<TR>
+    <TD>39</TD>
+    <TD>is_futures</TD>
+    <TD>STRING</TD>
+    <TD>Счет клиента на FORTS, в случае наличия 
+      объединенной позиции, иначе поле остается пустым</TD><TD>Сроч. счет</TD></TR>
+<TR>
+    <TD>40</TD>
+    <TD> curr_tag </TD>
+    <TD>STRING</TD>
+    <TD>Актуальные текущие параметры расчета для данной 
+      строки в формате «&lt;Валюта&gt;-&lt;Код позиции&gt;». 
+      Пример: «SUR-EQTV»</TD><TD>Парам. расч.</TD></TR>
+
+</TBODY></TABLE>
+</P>
+<P><SPAN class=mark>*</SPAN><SPAN class=comment> - параметр заполняется для клиентов с настроенной единой денежной позицией и для клиентов срочного рынка без единой денежной позиции</SPAN></P>
+<P><SPAN class=mark>**</SPAN><SPAN class=comment> - подробнее о коэффициентах дисконтирования см. п. 7 Руководства по администрированию «Настройки Библиотеки расчета лимитов»</SPAN></P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://www.arqatech.com/ru/products/quik/">www.arqatech.com/ru/products/quik/</A></DIV>
+</body>

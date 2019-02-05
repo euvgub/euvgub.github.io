@@ -1,0 +1,883 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Значения параметров функций</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18904">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Значения параметров функций</H1>
+<P><FONT size=2 face=Arial>
+<MENU>
+  <LI><A href="#subt1">Список возможных кодов классов инструментов 
+  «classcode_list»</A> 
+  <LI><A href="#subt2">Список возможных идентификаторов параметров</A> 
+  <LI><A href="#subt3">Список идентификаторов дополнительных параметров, 
+  доступных для функции GET_PARAM_EX</A> </LI></MENU>
+
+<P>&nbsp;</P>
+<A name=subt1></A>
+<H2>Список возможных кодов классов инструментов «classcode_list»:</H2>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Код класса</TH>
+    <TH>Название</TH>
+    <TD class=plain rowSpan=18 width=12>&nbsp;</TD>
+    <TH>Код класса</TH>
+    <TH>Название</TH></TR>
+  <TR>
+    <TD>TQBR</TD>
+    <TD>МБ ФР: Т+ А1-Акции, паи и РДР</TD>
+    <TD>GAZP</TD>
+    <TD>Облигации Газпром</TD></TR>
+  <TR>
+    <TD>TQBS</TD>
+    <TD>МБ ФР: Т+ А2-Акции и паи</TD>
+    <TD>INDX</TD>
+    <TD>МБ ФР: Индексы ММВБ</TD></TR>
+  <TR>
+    <TD>TQNL</TD>
+    <TD>МБ ФР: Т+ Б-Акции и паи</TD>
+    <TD>GTS</TD>
+    <TD>РТС: СГК</TD></TR>
+  <TR>
+    <TD>TQOB</TD>
+    <TD>МБ ФР: Т+ А1-Облигации</TD>
+    <TD>GAZ</TD>
+    <TD>РТС: Акции Газпрома</TD></TR>
+  <TR>
+    <TD>TQOS</TD>
+    <TD>МБ ФР: Т+ А2-Облигации</TD>
+    <TD>QUADRO</TD>
+    <TD>РТС-СГК(Торги в валюте)</TD></TR>
+  <TR>
+    <TD>TQNO</TD>
+    <TD>МБ ФР: Т+ Б-Облигации</TD>
+    <TD>RTS10</TD>
+    <TD>РТС: Рынок «Десяти»</TD></TR>
+  <TR>
+    <TD>PSEQ</TD>
+    <TD>МБ ФР: РПС: А1-Акции и паи</TD>
+    <TD>RTSIDX</TD>
+    <TD>Индексы РТС</TD></TR>
+  <TR>
+    <TD>PSES</TD>
+    <TD>МБ ФР: РПС: А2-Акции и паи</TD>
+    <TD>RTSIND</TD>
+    <TD>РТС(Индексы)</TD></TR>
+  <TR>
+    <TD>PSNL</TD>
+    <TD>МБ ФР: РПС: Б-Акции и паи</TD>
+    <TD>SES2</TD>
+    <TD>ГЦБ: Крупные лоты</TD></TR>
+  <TR>
+    <TD>PSOB</TD>
+    <TD>МБ ФР: РПС: А1-Облигации</TD>
+    <TD>SPBFUT</TD>
+    <TD>  Фьючерсы FORTS</TD></TR>
+  <TR>
+    <TD>PSNO</TD>
+    <TD>МБ ФР: РПС: Б-Облигации</TD>
+    <TD>SPBOPT</TD>
+    <TD>  Опционы FORTS</TD></TR>
+  <TR>
+    <TD>PSAU</TD>
+    <TD>МБ ФР: РПС: Первичное размещение (облигации)</TD>
+    <TD>SPBSPT</TD>
+    <TD>  Спот Санкт-Петербург</TD></TR>
+  <TR>
+    <TD>AUCT</TD>
+    <TD>МБ ФР: Аукцион НГЦБ(Акции)</TD>
+    <TD>SPBGKO</TD>
+    <TD>МКО</TD></TR>
+  <TR>
+    <TD>MAIN</TD>
+    <TD>ГКОМБ ГЦБ</TD>
+    <TD>SPBCEX</TD>
+    <TD>ГГКО на Петербургской валютной бирже</TD></TR>
+  <TR>
+    <TD>MAIC</TD>
+    <TD>ГЦБ: период закрытия</TD>
+    <TD>SPCGKO</TD>
+    <TD>Тестовая система на СПВБ</TD></TR>
+  <TR>
+    <TD>BOBR</TD>
+    <TD>МБ ГЦБ: Облигации ЦБ</TD>
+    <TD>EQBREMU</TD>
+    <TD>
+      <P>Акции 1-го уровня (Эмулятор)</P>   </TD></TR>
+  
+
+<TR>
+    <TD>FUOP</TD>
+    <TD>Фьючерсы ММВБ</TD>
+    <TD>USDRUB</TD>
+    <TD>
+<P>Курс доллара на FORTS</P></TD></TR>
+
+
+</TBODY></TABLE></P>
+<P><A name=subt2></A></P>
+<H2>Список возможных идентификаторов параметров:</H2>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>STATUS</TD>
+    <TD>STRING</TD>
+    <TD>Статус</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>LOTSIZE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Размер лота</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>BID</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшая цена спроса</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>BIDDEPTH</TD>
+    <TD>NUMERIC</TD>
+    <TD>Спрос по лучшей цене</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD>BIDDEPTHT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Суммарный спрос</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>NUMBIDS</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество заявок на покупку</TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD>OFFER</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшая цена предложения</TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD>OFFERDEPTH</TD>
+    <TD>NUMERIC</TD>
+    <TD>Предложение по лучшей цене</TD></TR>
+  <TR>
+    <TD>9</TD>
+    <TD>OFFERDEPTHT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Суммарное предложение</TD></TR>
+  <TR>
+    <TD>10</TD>
+    <TD>NUMOFFERS</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество заявок на продажу</TD></TR>
+  <TR>
+    <TD>11</TD>
+    <TD>OPEN</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена открытия</TD></TR>
+  <TR>
+    <TD>12</TD>
+    <TD>HIGH</TD>
+    <TD>NUMERIC</TD>
+    <TD>Максимальная цена сделки</TD></TR>
+  <TR>
+    <TD>13</TD>
+    <TD>LOW</TD>
+    <TD>NUMERIC</TD>
+    <TD>Минимальная цена сделки</TD></TR>
+  <TR>
+    <TD>14</TD>
+    <TD>LAST</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена последней сделки</TD></TR>
+  <TR>
+    <TD>15</TD>
+    <TD>CHANGE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Разница цены последней к предыдущей сессии</TD></TR>
+  <TR>
+    <TD>16</TD>
+    <TD>QTY</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество&nbsp;инструментов в последней сделке</TD></TR>
+  <TR>
+    <TD>17</TD>
+    <TD>TIME</TD>
+    <TD>STRING</TD>
+    <TD>Время последней сделки</TD></TR>
+  <TR>
+    <TD>18</TD>
+    <TD>VOLTODAY</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество инструментов в&nbsp;обезличенных сделках</TD></TR>
+  <TR>
+    <TD>19</TD>
+    <TD>VALTODAY</TD>
+    <TD>NUMERIC</TD>
+    <TD>Оборот в деньгах</TD></TR>
+  <TR>
+    <TD>20</TD>
+    <TD>TRADINGSTATUS</TD>
+    <TD>STRING</TD>
+    <TD>Состояние сессии</TD></TR>
+  <TR>
+    <TD>21</TD>
+    <TD>VALUE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Оборот в деньгах последней сделки</TD></TR>
+  <TR>
+    <TD>22</TD>
+    <TD>WAPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Средневзвешенная цена</TD></TR>
+  <TR>
+    <TD>23</TD>
+    <TD>HIGHBID</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшая цена спроса сегодня</TD></TR>
+  <TR>
+    <TD>24</TD>
+    <TD>LOWOFFER</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшая цена предложения сегодня</TD></TR>
+  <TR>
+    <TD>25</TD>
+    <TD>NUMTRADES</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество сделок за сегодня</TD></TR>
+  <TR>
+    <TD>26</TD>
+    <TD>PREVPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена закрытия</TD></TR>
+  <TR>
+    <TD>27</TD>
+    <TD>PREVWAPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Предыдущая оценка</TD></TR>
+  <TR>
+    <TD>28</TD>
+    <TD>CLOSEPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена периода закрытия</TD></TR>
+  <TR>
+    <TD>29</TD>
+    <TD>LASTCHANGE</TD>
+    <TD>NUMERIC</TD>
+    <TD>% изменения от закрытия</TD></TR>
+  <TR>
+    <TD>30</TD>
+    <TD>PRIMARYDIST</TD>
+    <TD>STRING</TD>
+    <TD>Размещение</TD></TR>
+  <TR>
+    <TD>31</TD>
+    <TD>ACCRUEDINT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Накопленный купонный доход</TD></TR>
+  <TR>
+    <TD>32</TD>
+    <TD>YIELD</TD>
+    <TD>NUMERIC</TD>
+    <TD>Доходность последней сделки</TD></TR>
+  <TR>
+    <TD>33</TD>
+    <TD>COUPONVALUE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Размер купона</TD></TR>
+  <TR>
+    <TD>34</TD>
+    <TD>YIELDATPREVWAPRI</TD>
+    <TD>NUMERIC</TD>
+    <TD>Доходность по предыдущей оценке</TD></TR>
+  <TR>
+    <TD>35</TD>
+    <TD>YIELDATWAPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Доходность по оценке</TD></TR>
+  <TR>
+    <TD>36</TD>
+    <TD>PRICEMINUSPREVWAPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Разница цены последней к предыдущей оценке</TD></TR>
+  <TR>
+    <TD>37</TD>
+    <TD>CLOSEYIELD</TD>
+    <TD>NUMERIC</TD>
+    <TD>    Доходность закрытия</TD></TR>
+  <TR>
+    <TD>38</TD>
+    <TD>CURRENTVALUE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Текущее значение индексов Московской Биржи</TD></TR>
+  <TR>
+    <TD>39</TD>
+    <TD>LASTVALUE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Значение индексов Московской Биржи на закрытие предыдущего дня</TD></TR>
+  <TR>
+    <TD>40</TD>
+    <TD>LASTTOPREVSTLPRC</TD>
+    <TD>NUMERIC</TD>
+    <TD>   Разница цены последней к предыдущей сессии</TD></TR>
+  <TR>
+    <TD>41</TD>
+    <TD>PREVSETTLEPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>   Предыдущая расчетная цена</TD></TR>
+  <TR>
+    <TD>42</TD>
+    <TD>PRICEMVTLIMIT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лимит изменения цены</TD></TR>
+  <TR>
+    <TD>43</TD>
+    <TD>PRICEMVTLIMITT1</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лимит изменения цены T1</TD></TR>
+  <TR>
+    <TD>44</TD>
+    <TD>MAXOUTVOLUME</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лимит объема активных заявок (в контрактах)</TD></TR>
+  <TR>
+    <TD>45</TD>
+    <TD>PRICEMAX</TD>
+    <TD>NUMERIC</TD>
+    <TD>   Максимально возможная цена</TD></TR>
+  <TR>
+    <TD>46</TD>
+    <TD>PRICEMIN</TD>
+    <TD>NUMERIC</TD>
+    <TD>Минимально возможная цена</TD></TR>
+  <TR>
+    <TD>47</TD>
+    <TD>NEGVALTODAY</TD>
+    <TD>NUMERIC</TD>
+    <TD>Оборот внесистемных в деньгах</TD></TR>
+  <TR>
+    <TD>48</TD>
+    <TD>NEGNUMTRADES</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество внесистемных сделок за сегодня</TD></TR>
+  <TR>
+    <TD>49</TD>
+    <TD>NUMCONTRACTS</TD>
+    <TD>NUMERIC</TD>
+    <TD>  Количество открытых позиций</TD></TR>
+  <TR>
+    <TD>50</TD>
+    <TD>CLOSETIME</TD>
+    <TD>STRING</TD>
+    <TD>Время закрытия предыдущих торгов (для индексов РТС)</TD></TR>
+  <TR>
+    <TD>51</TD>
+    <TD>OPENVAL</TD>
+    <TD>NUMERIC</TD>
+    <TD>Значение индекса РТС на момент открытия торгов</TD></TR>
+  <TR>
+    <TD>52</TD>
+    <TD>CHNGOPEN</TD>
+    <TD>NUMERIC</TD>
+    <TD>Изменение текущего индекса РТС по сравнению со значением открытия</TD></TR>
+  <TR>
+    <TD>53</TD>
+    <TD>CHNGCLOSE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Изменение текущего индекса РТС по сравнению со значением 
+закрытия</TD></TR>
+  <TR>
+    <TD>54</TD>
+    <TD>BUYDEPO</TD>
+    <TD>NUMERIC</TD>
+    <TD>      Гарантийное обеспечение 
+продавца</TD></TR>
+  <TR>
+    <TD>55</TD>
+    <TD>SELLDEPO</TD>
+    <TD>NUMERIC</TD>
+    <TD>Гарантийное обеспечение покупателя</TD></TR>
+  <TR>
+    <TD>56</TD>
+    <TD>CHANGETIME</TD>
+    <TD>STRING</TD>
+    <TD>Время последнего изменения</TD></TR>
+  <TR>
+    <TD>57</TD>
+    <TD>SELLPROFIT</TD>
+    <TD>NUMERIC</TD>
+    <TD> Доходность продажи</TD></TR>
+  <TR>
+    <TD>58</TD>
+    <TD>BUYPROFIT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Доходность покупки</TD></TR>
+  <TR>
+    <TD>59</TD>
+    <TD>TRADECHANGE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Разница цены последней к предыдущей сделки 
+      (FORTS, ФБ СПБ, СПВБ)</TD></TR>
+  <TR>
+    <TD>60</TD>
+    <TD>FACEVALUE</TD>
+    <TD>NUMERIC</TD>
+    <TD>      Номинал (для инструментов СПВБ)</TD></TR>
+  <TR>
+    <TD>61</TD>
+    <TD>MARKETPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD> Рыночная цена вчера</TD></TR>
+  <TR>
+    <TD>62</TD>
+    <TD>MARKETPRICETODAY</TD>
+    <TD>NUMERIC</TD>
+    <TD> Рыночная цена</TD></TR>
+  <TR>
+    <TD>63</TD>
+    <TD>NEXTCOUPON</TD>
+    <TD>NUMERIC</TD>
+    <TD>Дата выплаты купона</TD></TR>
+  <TR>
+    <TD>64</TD>
+    <TD>BUYBACKPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD> Цена оферты</TD></TR>
+  <TR>
+    <TD>65</TD>
+    <TD>BUYBACKDATE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Дата оферты</TD></TR>
+  <TR>
+    <TD>66</TD>
+    <TD>ISSUESIZE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Объем обращения</TD></TR>
+  <TR>
+    <TD>67</TD>
+    <TD>PREVDATE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Дата предыдущего торгового дня</TD></TR>
+  <TR>
+    <TD>68</TD>
+    <TD>DURATION</TD>
+    <TD>NUMERIC</TD>
+    <TD>Дюрация</TD></TR>
+  <TR>
+    <TD>69</TD>
+    <TD>LOPENPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Официальная цена открытия</TD></TR>
+  <TR>
+    <TD>70</TD>
+    <TD>LCURRENTPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Официальная текущая цена</TD></TR>
+  <TR>
+    <TD>71</TD>
+    <TD>LCLOSEPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Официальная цена закрытия</TD></TR>
+  <TR>
+    <TD>72</TD>
+    <TD>QUOTEBASIS</TD>
+    <TD>STRING</TD>
+    <TD>Тип цены</TD></TR>
+  <TR>
+    <TD>73</TD>
+    <TD>PREVADMITTEDQUOT</TD>
+    <TD>NUMERIC</TD>
+    <TD>Признаваемая котировка предыдущего дня</TD></TR>
+  <TR>
+    <TD>74</TD>
+    <TD>LASTBID</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшая спрос на момент завершения периода торгов</TD></TR>
+  <TR>
+    <TD>75</TD>
+    <TD>LASTOFFER</TD>
+    <TD>NUMERIC</TD>
+    <TD>Лучшее предложение на момент завершения торгов</TD></TR>
+  <TR>
+    <TD>76</TD>
+    <TD>PREVLEGALCLOSEPR</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена закрытия предыдущего дня</TD></TR>
+  <TR>
+    <TD>77</TD>
+    <TD>COUPONPERIOD</TD>
+    <TD>NUMERIC</TD>
+    <TD>Длительность купона</TD></TR>
+  <TR>
+    <TD>78</TD>
+    <TD>MARKETPRICE2</TD>
+    <TD>NUMERIC</TD>
+    <TD>Рыночная цена 2</TD></TR>
+  <TR>
+    <TD>79</TD>
+    <TD>ADMITTEDQUOTE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Признаваемая котировка</TD></TR>
+  <TR>
+    <TD>80</TD>
+    <TD>BGOP</TD>
+    <TD>NUMERIC</TD>
+    <TD>БГО по покрытым позициям</TD></TR>
+  <TR>
+    <TD>81</TD>
+    <TD>BGONP</TD>
+    <TD>NUMERIC</TD>
+    <TD>БГО по непокрытым позициям</TD></TR>
+  <TR>
+    <TD>82</TD>
+    <TD>STRIKE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена страйк</TD></TR>
+  <TR>
+    <TD>83</TD>
+    <TD>STEPPRICET</TD>
+    <TD>NUMERIC</TD>
+    <TD>Стоимость шага цены</TD></TR>
+  <TR>
+    <TD>84</TD>
+    <TD>STEPPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>   Стоимость шага цены (для новых контрактов FORTS)</TD></TR>
+  <TR>
+    <TD>85</TD>
+    <TD>SETTLEPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Расчетная цена</TD></TR>
+  <TR>
+    <TD>86</TD>
+    <TD>OPTIONTYPE</TD>
+    <TD>STRING</TD>
+    <TD>Тип опциона</TD></TR>
+  <TR>
+    <TD>87</TD>
+    <TD>OPTIONBASE</TD>
+    <TD>STRING</TD>
+    <TD>Базовый актив</TD></TR>
+  <TR>
+    <TD>88</TD>
+    <TD>VOLATILITY</TD>
+    <TD>NUMERIC</TD>
+    <TD>Волатильность опциона</TD></TR>
+  <TR>
+    <TD>89</TD>
+    <TD>THEORPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Теоретическая цена</TD></TR>
+  <TR>
+    <TD>90</TD>
+    <TD>PERCENTRATE</TD>
+    <TD>NUMERIC&nbsp;</TD>
+    <TD>Агрегированная ставка</TD></TR>
+  <TR>
+    <TD>91</TD>
+    <TD>ISPERCENT</TD>
+    <TD>STRING</TD>
+    <TD>Тип цены фьючерса</TD></TR>
+  <TR>
+    <TD>92</TD>
+    <TD>CLSTATE</TD>
+    <TD>STRING</TD>
+    <TD>Статус клиринга</TD></TR>
+  <TR>
+    <TD>93</TD>
+    <TD>CLPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Котировка последнего клиринга</TD></TR>
+  <TR>
+    <TD>94</TD>
+    <TD>STARTTIME</TD>
+    <TD>STRING</TD>
+    <TD>Начало основной сессии</TD></TR>
+  <TR>
+    <TD>95</TD>
+    <TD>ENDTIME</TD>
+    <TD>STRING</TD>
+    <TD>Окончание основной сессии</TD></TR>
+  <TR>
+    <TD>96</TD>
+    <TD>EVNSTARTTIME</TD>
+    <TD>STRING</TD>
+    <TD>Начало вечерней сессии</TD></TR>
+  <TR>
+    <TD>97</TD>
+    <TD>EVNENDTIME</TD>
+    <TD>STRING</TD>
+    <TD>Окончание вечерней сессии</TD></TR>
+  <TR>
+    <TD>98</TD>
+    <TD>MONSTARTTIME</TD>
+    <TD>STRING</TD>
+    <TD>Начало утренней сессии</TD></TR>
+  <TR>
+    <TD>99</TD>
+    <TD>MONENDTIME</TD>
+    <TD>STRING</TD>
+    <TD>Окончание утренней сессии</TD></TR>
+  <TR>
+    <TD>100</TD>
+    <TD>CURSTEPPRICE</TD>
+    <TD>STRING</TD>
+    <TD>Валюта шага цены</TD></TR>
+  <TR>
+    <TD>101</TD>
+    <TD>REALVMPRICE</TD>
+    <TD>NUMERIC&nbsp;</TD>
+    <TD>Текущая рыночная котировка</TD></TR>
+  <TR>
+    <TD>102</TD>
+    <TD>MARG</TD>
+    <TD>STRING</TD>
+    <TD>Маржируемый</TD></TR>
+  <TR>
+    <TD>103</TD>
+    <TD>EXPDATE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Дата исполнения инструмента</TD></TR>
+  <TR>
+    <TD>104</TD>
+    <TD>CROSSRATE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Курс</TD></TR>
+  <TR>
+    <TD>105</TD>
+    <TD>BASEPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Базовый курс</TD></TR>
+  <TR>
+    <TD>106</TD>
+    <TD>HIGHVAL</TD>
+    <TD>NUMERIC</TD>
+    <TD>Максимальное значение (RTSIND)</TD></TR>
+  <TR>
+    <TD>107</TD>
+    <TD>LOWVAL</TD>
+    <TD>NUMERIC</TD>
+    <TD>Минимальное значение (RTSIND)</TD></TR>
+  <TR>
+    <TD>108</TD>
+    <TD>ICHANGE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Изменение (RTSIND)</TD></TR>
+  <TR>
+    <TD>109</TD>
+    <TD>IOPEN</TD>
+    <TD>NUMERIC</TD>
+    <TD>Значение на момент открытия (RTSIND)</TD></TR>
+  <TR>
+    <TD>110</TD>
+    <TD>PCHANGE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Процент изменения (RTSIND)</TD></TR>
+  <TR>
+    <TD>111</TD>
+    <TD>OPENPERIODPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена предторгового периода</TD></TR>
+  <TR>
+    <TD>112</TD>
+    <TD>MIN_CURR_LAST</TD>
+    <TD>NUMERIC</TD>
+    <TD>Минимальная текущая цена</TD></TR>
+  <TR>
+    <TD>113</TD>
+    <TD>SETTLECODE</TD>
+    <TD>STRING</TD>
+    <TD>Код расчетов по умолчанию</TD></TR>
+  <TR>
+    <TD>114</TD>
+    <TD>STEPPRICECL</TD>
+    <TD>DOUBLE</TD>
+    <TD>Стоимость шага цены для клиринга</TD></TR>
+<TR>
+    <TD>115</TD>
+    <TD>STEPPRICEPRCL</TD>
+    <TD>DOUBLE</TD>
+    <TD>Стоимость шага цены для промклиринга</TD></TR>
+<TR>
+    <TD>116</TD>
+    <TD>MIN_CURR_LAST_TI</TD>
+    <TD>STRING</TD>
+    <TD>Время изменения минимальной текущей цены</TD></TR>
+<TR>
+    <TD>117</TD>
+    <TD>PREVLOTSIZE</TD>
+    <TD>DOUBLE</TD>
+    <TD> Предыдущее значение размера лота</TD></TR>
+<TR>
+    <TD>118</TD>
+    <TD>LOTSIZECHANGEDAT</TD>
+    <TD>DOUBLE</TD>
+    <TD>Дата последнего изменения размера лота</TD></TR>
+<TR>
+    <TD>119</TD>
+    <TD>AUCTPRICE</TD>
+    <TD>NUMERIC</TD>
+    <TD>Цена послеторгового аукциона</TD></TR>
+<TR>
+    <TD>120</TD>
+    <TD>CLOSING_AUCTION_VOLUME</TD>
+    <TD>NUMERIC</TD>
+    <TD>Количество в сделках послеторгового 
+  аукциона</TD></TR>
+
+
+</TBODY></TABLE></P><A name=subt3></A>
+<H2>Список идентификаторов дополнительных параметров, доступных для функции 
+GET_PARAM_EX:</H2>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>№</TH>
+    <TH>Параметр</TH>
+    <TH>Тип</TH>
+    <TH>Описание</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>LONGNAME</TD>
+    <TD>STRING</TD>
+    <TD>Полное название инструмента</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>SHORTNAME</TD>
+    <TD>STRING</TD>
+    <TD>Краткое название инструмента</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>CODE</TD>
+    <TD>STRING</TD>
+    <TD>Код инструмента</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>CLASSNAME</TD>
+    <TD>STRING</TD>
+    <TD>Название класса</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD>CLASS_CODE</TD>
+    <TD>STRING</TD>
+    <TD>Код класса</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>TRADE_DATE_CODE</TD>
+    <TD>DOUBLE</TD>
+    <TD>Дата торгов</TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD>MAT_DATE</TD>
+    <TD>DOUBLE</TD>
+    <TD>Дата погашения</TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD>DAYS_TO_MAT_DATE</TD>
+    <TD>DOUBLE</TD>
+    <TD>Число дней до погашения</TD></TR>
+  <TR>
+    <TD>9</TD>
+    <TD>SEC_FACE_VALUE</TD>
+    <TD>DOUBLE</TD>
+    <TD>Номинал инструмента</TD></TR>
+  <TR>
+    <TD>10</TD>
+    <TD>SEC_FACE_UNIT</TD>
+    <TD>STRING</TD>
+    <TD>Валюта номинала</TD></TR>
+  <TR>
+    <TD>11</TD>
+    <TD>SEC_SCALE</TD>
+    <TD>DOUBLE</TD>
+    <TD>Точность цены</TD></TR>
+  <TR>
+    <TD>12</TD>
+    <TD>SEC_PRICE_STEP</TD>
+    <TD>DOUBLE</TD>
+    <TD>Минимальный шаг цены</TD></TR>
+  <TR>
+    <TD>13</TD>
+    <TD>SECTYPE</TD>
+    <TD>STRING</TD>
+    <TD>Тип инструмента</TD></TR>
+</TBODY></TABLE></P>
+
+<P>&nbsp;</P>
+<P>См. также <A href="ch8_12.html">Функции для получения значений Таблицы 
+текущих значений параметров</A></P>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

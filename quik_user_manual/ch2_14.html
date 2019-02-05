@@ -1,0 +1,224 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Мониторинг состояния соединения</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Мониторинг состояния соединения</H1>
+<P><FONT size=2 face=Arial>
+<P>Контроль связи с&nbsp;сервером осуществляется несколькими способами:</P>
+<OL>
+  <LI><SPAN><STRONG>Индикатор состояния соединения с&nbsp;сервером</STRONG> расположен в&nbsp;правом углу строки состояния. Отображает дату торгов, данные по которым принимаются с сервера QUIK (например, предыдущие торги могут быть загружены с&nbsp;сервера утром следующего дня). Отсутствие даты в&nbsp;индикаторе означает отсутствие принятых данных. Цвет индикатора символизирует состояние соединения: 
+   <UL>
+          <LI>Зеленый&nbsp;- соединение установлено, данные обновляются. 
+          <LI>Желтый&nbsp;- соединение не&nbsp;установлено, данные не&nbsp;обновляются (указана дата последнего обновления данных). </LI></UL></SPAN>
+  <LI><SPAN><STRONG>Информационное окно </STRONG>отображает полный набор статистических параметров для&nbsp;контроля за&nbsp;состоянием соединения с&nbsp;сервером. 
+  Настройка окна осуществляется из&nbsp;пункта меню <STRONG>Система/О программе/Информационное окно...</STRONG>. 
+
+<P><IMG hspace=8 alt="" vspace=8 src="infowin.gif"></P></SPAN>
+
+  <LI><SPAN><STRONG>Индикатор «Поезд»</STRONG> <IMG src="indicator.gif">
+<P>Слева на&nbsp;панели инструментов отображается анимационный индикатор в&nbsp;виде движущегося поезда. Движение поезда означает поступление данных с&nbsp;сервера. Если поезд стоит, значит, новые данные не&nbsp;поступают, возможна проблема связи с&nbsp;сервером. Если соединение не&nbsp;установлено, то&nbsp;поезд на картинке отсутствует.</SPAN></LI></OL>
+
+<H2>Поля информационного окна </H2>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Поле</TH>
+    <TH width="75%">Назначение</TH></TR>
+  <TR>
+    <TD>Версия программы</TD>
+    <TD width="75%">Порядковый номер версии программы </TD></TR>
+  <TR>
+    <TD>Дата торгов</TD>
+    <TD width="75%">Дата проведения торгов, по состоянию на которую получены 
+      данные</TD></TR>
+  <TR>
+    <TD>Время сервера</TD>
+    <TD width="75%">Время последнего обновления таблицы «Текущие торги». Формат определяется настройками операционной системы</TD></TR>
+  <TR>
+    <TD>Время последней записи</TD>
+    <TD width="75%">Время получения с сервера последней записи (порции 
+    данных). Формат определяется настройками операционной системы</TD></TR>
+  <TR>
+    <TD>Число записей</TD>
+    <TD width="75%">Число полученных с сервера записей</TD></TR>
+  <TR>
+    <TD>Последняя запись</TD>
+    <TD width="75%">Номер последней полученной записи</TD></TR>
+  <TR>
+    <TD>Отставшая запись</TD>
+    <TD width="75%">Номер последней полученной отставшей записи (после обрывов 
+      связи происходит восстановление пропущенных данных)</TD></TR>
+  <TR>
+    <TD>Соединение</TD>
+    <TD width="75%">Состояния: Установлено/разорвано</TD></TR>
+  <TR>
+    <TD>IP-адрес сервера</TD>
+    <TD width="75%">Адрес сервера QUIK в сети Интернет</TD></TR>
+  <TR>
+    <TD>IP-порт сервера</TD>
+    <TD width="75%">Номер порта для доступа к серверу QUIK</TD></TR>
+  <TR>
+    <TD>Описание соединения с сервером</TD>
+    <TD width="75%">Описание соединения в Списке доступных соединений</TD></TR>
+  <TR>
+    <TD>Описание сервера</TD>
+    <TD width="75%">Имя сервера</TD></TR>
+  <TR>
+    <TD>Пользователь</TD>
+    <TD width="75%">Имя пользователя (указывается при регистрации 
+  доступа)</TD></TR>
+  <TR>
+    <TD>Организация</TD>
+    <TD width="75%">Организация пользователя (указывается при регистрации 
+      доступа)</TD></TR>
+  <TR>
+    <TD>Текущее время</TD>
+    <TD width="75%">Время на компьютере пользователя. Формат определяется настройками операционной системы</TD></TR>
+  <TR>
+    <TD>Время на связи</TD>
+    <TD width="75%">Продолжительность сеанса связи с сервером. Формат определяется настройками операционной системы</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Идентификатор сессии</TD>
+    <TD width="75%">Уникальный идентификатор сессии</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Код пользователя</TD>
+    <TD width="75%">Код пользователя на сервере QUIK</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Занято памяти</TD>
+    <TD width="75%">Зарезервировано, не используется</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Передано сообщений</TD>
+    <TD width="75%">Количество переданных записей</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Передано всего байт</TD>
+    <TD width="75%">Общий объем исходящего трафика за сеанс связи</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Передано полезных байт</TD>
+    <TD width="75%">Полезный объем исходящего трафика за сеанс связи</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Передано за секунду</TD>
+    <TD width="75%">Объем данных в байтах, переданный за последнюю 
+  секунду</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Принято сообщений</TD>
+    <TD width="75%">Количество принятых записей</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Принято полезных байт</TD>
+    <TD width="75%">Полезный объем входящего трафика за сеанс связи</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Принято всего байт</TD>
+    <TD width="75%">Общий объем входящего трафика за сеанс связи</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Принято за секунду</TD>
+    <TD width="75%">Объем данных в байтах, принятый за последнюю секунду</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Средняя скорость передачи</TD>
+    <TD width="75%">Объем переданных данных в байтах, разделенный на время на 
+      связи в секундах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Средняя скорость приема</TD>
+    <TD width="75%">Объем принятых данных в байтах, разделенный на время на 
+      связи в секундах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN>Время последней проверки связи</TD>
+    <TD width="75%">Время последнего выполнения замера задержки данных 
+      командой PING. Формат определяется настройками операционной системы</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN>Задержка данных при обмене с сервером</TD>
+    <TD width="75%">Последнее полученное значение задержки данных, в 
+    секундах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN> Средняя задержка данных</TD>
+    <TD width="75%">Средняя величина задержки данных за время текущего сеанса 
+      связи, в секундах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN> Время максимальной задержки</TD>
+    <TD width="75%">Время появления максимальной задержки данных в текущем 
+      сеансе связи</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>**</SPAN>Максимальная задержка данных</TD>
+    <TD width="75%">Максимальная величина задержки в текущем сеансе связи, в 
+      секундах</TD></TR>
+  <TR>
+    <TD><SPAN class=mark>*</SPAN>Конвертация символов</TD>
+    <TD width="75%">Признак конвертации данных, получаемых с сервера QUIK из кодировки CP866 в кодировку CP1251 Возможные значения:
+          <UL>
+                <LI>«Да»;
+                <LI>«Нет»</LI></UL>
+</TD></TR>
+
+</TBODY></TABLE>
+<P><SPAN class=mark>*</SPAN><SPAN class=comment> - расширенный набор данных,</P></SPAN>
+<P><SPAN class=mark>**</SPAN><SPAN class=comment> - параметры проверки связи с&nbsp;сервером, см.&nbsp;<A href="ch1_5.html">Настройка параметров получения и сохранения данных </A></SPAN></P>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>
+</HTML>

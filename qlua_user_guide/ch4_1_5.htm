@@ -1,0 +1,402 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>getInfoParam</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18852">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">getInfoParam</H1>
+<P><FONT size=2 face=Arial>
+
+
+<P>
+Функция возвращает значения параметров информационного окна (пункт меню <STRONG>Система / О программе / Информационное окно…</STRONG>).
+<P>
+Формат вызова:
+<P class=defn>STRING getInfoParam (STRING param_name)</P>
+<P>
+Параметр «param_name» может принимать значения, представленные в таблице.
+</P>
+<P>
+<table>
+<TBODY>
+  <TR>
+
+    <TH>Значение параметра</TH>
+    <TH>Описание</TH>
+
+ <tr>
+  <td>
+  VERSION
+  </td>
+  <td>
+  Версия
+  программы
+  </td>
+ </tr>
+ <tr>
+  <td>
+  TRADEDATE
+  </td>
+  <td>
+  Дата торгов
+  </td>
+ </tr>
+ <tr>
+  <td>
+  SERVERTIME
+  </td>
+  <td>
+  Время сервера
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LASTRECORDTIME
+  </td>
+  <td>
+  Время
+  последней записи
+  </td>
+ </tr>
+ <tr>
+  <td>
+  NUMRECORDS
+  </td>
+  <td>
+  Число записей
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LASTRECORD
+  </td>
+  <td>
+  Последняя
+  запись
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LATERECORD
+  </td>
+  <td>
+  Отставшая
+  запись
+  </td>
+ </tr>
+ <tr>
+  <td>
+  CONNECTION
+  </td>
+  <td>
+  Соединение
+  </td>
+ </tr>
+ <tr>
+  <td>
+  IPADDRESS
+  </td>
+  <td>
+  IP-адрес
+  сервера
+  </td>
+ </tr>
+ <tr>
+  <td>
+  IPPORT
+  </td>
+  <td>
+  Порт сервера
+  </td>
+ </tr>
+ <tr>
+  <td>
+  IPCOMMENT
+  </td>
+  <td>
+  Описание
+  соединения
+  </td>
+ </tr>
+ <tr>
+  <td>
+  SERVER
+  </td>
+  <td>
+  Описание
+  сервера
+  </td>
+ </tr>
+ <tr>
+  <td>
+  SESSIONID
+  </td>
+  <td>
+  Идентификатор
+  сессии
+  </td>
+ </tr>
+ <tr>
+  <td>
+  USER
+  </td>
+  <td>
+  Пользователь
+  </td>
+ </tr>
+ <tr>
+  <td>
+  USERID
+  </td>
+  <td>
+  ID
+  пользователя
+  </td>
+ </tr>
+ <tr>
+  <td>
+  ORG
+  </td>
+  <td>
+  Организация
+  </td>
+ </tr>
+ <tr>
+  <td>
+  MEMORY
+  </td>
+  <td>
+  Занято памяти
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LOCALTIME
+  </td>
+  <td>
+  Текущее время
+  </td>
+ </tr>
+ <tr>
+  <td>
+  CONNECTIONTIME
+  </td>
+  <td>
+  Время на
+  связи
+  </td>
+ </tr>
+ <tr>
+  <td>
+  MESSAGESSENT
+  </td>
+  <td>
+  Передано
+  сообщений
+  </td>
+ </tr>
+ <tr>
+  <td>
+  ALLSENT
+  </td>
+  <td>
+  Передано
+  всего байт
+  </td>
+ </tr>
+ <tr>
+  <td>
+  BYTESSENT
+  </td>
+  <td>
+  Передано полезных байт
+  </td>
+ </tr>
+ <tr>
+  <td>
+  BYTESPERSECSENT
+  </td>
+  <td>
+  Передано за
+  секунду
+  </td>
+ </tr>
+ <tr>
+  <td>
+  MESSAGESRECV
+  </td>
+  <td>
+  Принято
+  сообщений
+  </td>
+ </tr>
+<tr>
+  <td>
+  BYTESRECV
+  </td>
+  <td>
+  Принято полезных байт
+  </td>
+ </tr>
+ <tr>
+  <td>
+  ALLRECV
+  </td>
+  <td>
+  Принято всего
+  байт
+  </td>
+ </tr>
+ <tr>
+  <td>
+  BYTESPERSECRECV
+  </td>
+  <td>
+  Принято за
+  секунду
+  </td>
+ </tr>
+ <tr>
+  <td>
+  AVGSENT
+  </td>
+  <td>
+  Средняя скорость передачи
+  </td>
+ </tr>
+ <tr>
+  <td>
+  AVGRECV
+  </td>
+  <td>
+  Средняя скорость приема
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LASTPINGTIME
+  </td>
+  <td>
+  Время последней проверки связи
+  </td>
+ </tr>
+ <tr>
+  <td>
+  LASTPINGDURATION
+  </td>
+  <td>
+  Задержка данных при обмене с сервером
+  </td>
+ </tr>
+ <tr>
+  <td>
+  AVGPINGDURATION
+  </td>
+  <td>
+  Средняя задержка данных
+  </td>
+ </tr>
+ <tr>
+  <td>
+  MAXPINGTIME
+  </td>
+  <td>
+  Время максимальной задержки
+  </td>
+ </tr>
+ <tr>
+  <td>
+  MAXPINGDURATION
+  </td>
+  <td>
+  Максимальная задержка данных
+  </td>
+ </tr></TBODY>
+</table></TBODY></P>
+<P>Пример:
+<PRE>
+<span style="COLOR: #0000ff">function</span> main(  )
+    params = {<span style="COLOR: #a31515">"VERSION"</span>, <span style="COLOR: #a31515">"TRADEDATE"</span>, <span style="COLOR: #a31515">"SERVERTIME"</span>,
+                <span style="COLOR: #a31515">"LASTRECORDTIME"</span>, <span style="COLOR: #a31515">"NUMRECORDS"</span>, <span style="COLOR: #a31515">"LASTRECORD"</span>,<span style="COLOR: #a31515">"LATERECORD"</span>,
+                <span style="COLOR: #a31515">"CONNECTION"</span>, <span style="COLOR: #a31515">"IPADDRESS"</span>, <span style="COLOR: #a31515">"IPPORT"</span>, <span style="COLOR: #a31515">"IPCOMMENT"</span>,
+                <span style="COLOR: #a31515">"SERVER"</span>, <span style="COLOR: #a31515">"SESSIONID"</span>, <span style="COLOR: #a31515">"USER"</span>, <span style="COLOR: #a31515">"USERID"</span>, <span style="COLOR: #a31515">"ORG"</span>, <span style="COLOR: #a31515">"MEMORY"</span>,
+                <span style="COLOR: #a31515">"LOCALTIME"</span>, <span style="COLOR: #a31515">"CONNECTIONTIME"</span>, <span style="COLOR: #a31515">"MESSAGESSENT"</span>, <span style="COLOR: #a31515">"ALLSENT"</span>,
+                <span style="COLOR: #a31515">"BYTESSENT"</span>, <span style="COLOR: #a31515">"BYTESPERSECSENT"</span>, <span style="COLOR: #a31515">"MESSAGESRECV"</span>, <span style="COLOR: #a31515">"BYTESRECV"</span>,
+                <span style="COLOR: #a31515">"ALLRECV"</span>, <span style="COLOR: #a31515">"BYTESPERSECRECV"</span>, <span style="COLOR: #a31515">"AVGSENT"</span>, <span style="COLOR: #a31515">"AVGRECV"</span>,
+                <span style="COLOR: #a31515">"LASTPINGTIME"</span>, <span style="COLOR: #a31515">"LASTPINGDURATION"</span>, <span style="COLOR: #a31515">"AVGPINGDURATION"</span>,
+                <span style="COLOR: #a31515">"MAXPINGTIME"</span>, <span style="COLOR: #a31515">"MAXPINGDURATION"</span>}
+    file = io.open(<span style="COLOR: #a31515">"res.txt"</span>, <span style="COLOR: #a31515">"w+t"</span>)
+    <span style="COLOR: #0000ff">for</span> key,v <span style="COLOR: #0000ff">in</span> ipairs(params) <span style="COLOR: #0000ff">do</span>
+        file:write(v .. <span style="COLOR: #a31515">" = "</span> .. getInfoParam(v) .. <span style="COLOR: #a31515">"\n"</span>)
+    <span style="COLOR: #0000ff">end</span>
+    file:close()
+<span style="COLOR: #0000ff">end</span>
+</PRE>
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://www.arqatech.com/ru/products/quik/">www.arqatech.com/ru/products/quik/</A></DIV>
+</body>

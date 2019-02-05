@@ -1,0 +1,124 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Функции обратного вызова</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18852">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Функции обратного вызова</H1>
+<P><FONT size=2 face=Arial>
+<DL>
+  <DT>
+  <DD>  Функции обратного вызова обрабатываются в основном потоке терминала QUIK. Поэтому пользователю необходимо оптимизировать время исполнения таких функций. </DD></DL>
+
+<P>Торговые данные передаются в скрипт только в том 
+случае, если параметры по данному инструменту&nbsp;заказаны с сервера (в рамках умного заказа или 
+вручную через диалог <STRONG>Система/Заказ данных</STRONG>) или если открыт 
+соответствующий стакан.</P>
+<DL>
+  <DD>Заказ данных с сервера также можно выполнить с помощью функций QLua (заказ <A href="ch15.htm">стакана котировок</A>, заказ <A href="ch17.htm">параметров</A> Таблицы текущих торгов)
+</DD>
+  </DL>
+<P>Функции вызываются при получении следующих данных или событий терминалом QUIK от сервера:
+
+<UL>
+  <LI><A href="ch4_2_25.htm">main</A> - реализация основного потока исполнения в скрипте
+  <LI><A href="CH4_2_5.HTM">OnAccountBalance</A> - изменение позиции по счету
+  <LI><A href="CH4_2_13.HTM">OnAccountPosition</A> - изменение позиции по счету
+  <LI><A href="ch4_2_2.htm">OnAllTrade</A> - новая обезличенная сделка
+  <LI><A href="CH4_2_21.HTM">OnCleanUp</A>      - смена торговой сессии
+  <LI><A href="ch4_2_22.htm">OnClose</A> - закрытие терминала QUIK или выгрузка файла qlua.dll
+  <LI><A href="ch4_2_20.htm">OnConnected</A> - установление связи с сервером QUIK
+  <LI><A href="ch4_2_11.htm">OnDepoLimit</A> - изменение позиции по инструментам
+  <LI><A href="ch4_2_12.htm">OnDepoLimitDelete</A> - удаление позиции по инструментам
+  <LI><A href="ch4_2_19.htm">OnDisconnected</A> - отключение от сервера QUIK
+  <LI><A href="CH4_2_1.HTM">OnFirm</A> - получение описания новой фирмы 
+  <LI><A href="ch4_2_8.htm">OnFuturesClientHolding</A> - изменение позиции по срочному рынку
+  <LI><A href="ch4_2_6.htm">OnFuturesLimitChange</A> - изменение ограничений по срочному рынку
+  <LI><A href="CH4_2_7.HTM">OnFuturesLimitDelete</A> - удаление лимита по срочному рынку
+  <LI><A href="ch4_2_24.htm">OnInit</A> - инициализация функции main 
+  <LI><A href="ch4_2_9.htm">OnMoneyLimit</A> - изменение денежной позиции
+  <LI><A href="CH4_2_10.HTM">OnMoneyLimitDelete</A> - удаление денежной позиции 
+  <LI><A href="ch4_2_14.htm">OnNegDeal</A> - новая заявка на внебиржевую 
+  сделку или изменение параметров существующей заявки на внебиржевую сделку
+ <LI><A href="ch4_2_26.htm">OnNegTrade</A> - новая сделка для исполнения или 
+  изменение существующей сделки для исполнения
+  <LI><A href="ch4_2_4.htm">OnOrder</A> - новая заявка или изменение параметров существующей заявки
+  <LI><A href="ch4_2_17.htm">OnParam</A> - изменение текущих параметров
+  <LI><A href="ch4_2_18.htm">OnQuote</A> - изменение стакана котировок
+  <LI><A href="ch4_2_23.htm">OnStop</A> - остановка скрипта из диалога управления
+  <LI><A href="ch4_2_15.htm">OnStopOrder</A> - новая стоп-заявка или изменение параметров существующей стоп-заявки
+ <LI><A href="CH4_2_3.HTM">OnTrade</A> - новая сделка или изменение 
+  параметров существующей сделки
+ <LI><A href="CH4_2_16.HTM"> OnTransReply</A> - ответ на транзакцию
+
+</LI></UL>
+
+
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://www.arqatech.com/ru/products/quik/">www.arqatech.com/ru/products/quik/</A></DIV>
+</body>
+</HTML>

@@ -1,0 +1,510 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Формат .tri-файла с параметрами транзакций</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18904">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Формат .tri-файла с параметрами транзакций</H1>
+<P><FONT size=2 face=Arial>
+<P>Файл представляет собой последовательность строк, каждая из которых содержит 
+информацию по отдельной транзакции. Параметры транзакции описываются в виде 
+«НАЗВАНИЕ_ПАРАМЕТРА= значение_параметра» и разделяются символом «;».</P>
+<DL>
+  <DD>Транзакция на ввод айсберг-заявки на Московской Бирже описывается в особом формате, приведенном в примере строк файла. </DD></DL>
+<P>Параметры и принимаемые ими значения:</P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH>Параметр</TH>
+    <TH>Значение</TH></TR>
+  <TR>
+    <TD>CLASSCODE</TD>
+    <TD>Код класса, по которому выполняется транзакция, например TQBR. 
+      Обязательный параметр </TD></TR>
+  <TR>
+    <TD>SECCODE</TD>
+    <TD>Код инструмента, по которому выполняется транзакция, например SBER 
+  </TD></TR>
+  <TR></TR>
+  <TR>
+    <TD>ACTION</TD>
+    <TD>
+      <P>Вид транзакции, имеющий одно из следующих значений: </P>
+      <UL>
+        <LI>«NEW_ORDER» - новая заявка, 
+        <LI>«NEW_NEG_DEAL» - новая заявка на внебиржевую сделку, 
+        <LI>«NEW_REPO_NEG_DEAL» – новая заявка на сделку РЕПО, 
+        <LI>«NEW_EXT_REPO_NEG_DEAL» - новая заявка на сделку модифицированного 
+        РЕПО (РЕПО-М), 
+        <LI>«NEW_STOP_ORDER» - новая стоп-заявка, 
+        <LI>«KILL_ORDER» - снять заявку, 
+        <LI>«KILL_NEG_DEAL» - снять заявку на внебиржевую сделку или заявку на 
+        сделку РЕПО, 
+        <LI>«KILL_STOP_ORDER» - снять стоп-заявку, 
+        <LI>«KILL_ALL_ORDERS» – снять все заявки из торговой системы, 
+        <LI>«KILL_ALL_STOP_ORDERS» – снять все стоп-заявки, 
+        <LI>«KILL_ALL_NEG_DEALS» – снять все заявки на внебиржевые сделки и 
+        заявки на сделки РЕПО, 
+        <LI>     «KILL_ALL_FUTURES_ORDERS» - 
+        снять все заявки на рынке FORTS, 
+        <LI>«MOVE_ORDERS» - переставить заявки на рынке FORTS, 
+        <LI>«NEW_QUOTE» - новая безадресная заявка, 
+        <LI>«KILL_QUOTE» - снять безадресную заявку, 
+        <LI>«NEW_REPORT» - новая&nbsp; заявка-отчет о подтверждении транзакций в 
+        режимах РПС и РЕПО, 
+        <LI>«SET_FUT_LIMIT» - новое ограничение по фьючерсному 
+  счету</LI></UL></TD></TR>
+  <TR>
+    <TD>FIRM_ID</TD>
+    <TD>Идентификатор участника торгов (код фирмы)</TD></TR>
+  <TR>
+  <TR>
+    <TD>ACCOUNT</TD>
+    <TD>Номер счета Трейдера. Параметр обязателен при 
+      «ACTION» =    «KILL_ALL_FUTURES_ORDERS». 
+      Параметр чувствителен к верхнему/нижнему регистру символов. </TD></TR>
+  <TR>
+    <TD>CLIENT_CODE</TD>
+    <TD>      
+      20-ти      
+      символьное составное поле, может содержать код клиента и текстовый 
+      комментарий (поручение) с тем же разделителем, что и при вводе заявки 
+      вручную. Необязательный параметр</TD></TR>
+  <TR>
+    <TD>TYPE</TD>
+    <TD>Тип заявки, необязательный параметр. Значения: «L» – лимитированная 
+      (по умолчанию), «M» – рыночная</TD></TR>
+  <TR>
+    <TD>MARKET_MAKER_ORDER</TD>
+    <TD>Признак того, является ли заявка заявкой Маркет-Мейкера. Возможные 
+      значения: «YES» или «NO». Значение по умолчанию (если параметр 
+      отсутствует): «NO»</TD></TR>
+  <TR>
+    <TD>OPERATION</TD>
+    <TD>Направление заявки, обязательный параметр. Значения: «S» – продать, 
+      «B» – купить</TD></TR>
+  <TR></TR>
+  <TR>
+    <TD>EXECUTION_CONDITION</TD>
+    <TD>
+      <P>Условие исполнения заявки, необязательный параметр. Возможные значения: 
+      </P>
+      <UL>
+        <LI>«PUT_IN_QUEUE» – поставить в очередь (по умолчанию), 
+        <LI>«FILL_OR_KILL» – немедленно или отклонить, 
+        <LI>«KILL_BALANCE» – снять остаток</LI></UL></TD></TR>
+  <TR>
+    <TD>QUANTITY</TD>
+    <TD>Количество лотов в заявке, обязательный параметр </TD></TR>
+  <TR>
+    <TD>PRICE </TD>
+    <TD>Цена заявки, за единицу инструмента. Обязательный параметр. При 
+      выставлении рыночной заявки (TYPE=M) на Срочном рынке FORTS необходимо 
+      указывать значение цены – укажите наихудшую (минимально или максимально 
+      возможную – в зависимости от направленности), заявка все равно будет 
+      исполнена по рыночной цене. Для других рынков при выставлении рыночной 
+      заявки укажите price= 0.</TD></TR>
+  <TR>
+    <TD>REPOVALUE</TD>
+    <TD>Объем сделки РЕПО-М в рублях </TD></TR>
+  <TR>
+    <TD>START_DISCOUNT</TD>
+    <TD>Начальное значение дисконта в заявке на сделку РЕПО-М </TD></TR>
+  <TR>
+    <TD>LOWER_DISCOUNT</TD>
+    <TD>Нижнее предельное значение дисконта в заявке на сделку РЕПО-М </TD></TR>
+  <TR>
+    <TD>UPPER_DISCOUNT&nbsp;</TD>
+    <TD>Верхнее предельное значение дисконта в заявке на сделку РЕПО-М </TD></TR>
+  <TR>
+    <TD>STOPPRICE</TD>
+    <TD>Стоп-цена, за единицу инструмента. Используется только при «ACTION» = 
+      «NEW_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>STOP_ORDER_KIND</TD>
+    <TD>
+      <P>Тип стоп-заявки. Возможные значения: </P>
+      <UL>
+        <LI>«SIMPLE_STOP_ORDER» – стоп-лимит, 
+        <LI>«CONDITION_PRICE_BY_OTHER_SEC» – с условием по другому инструменту, 
+        <LI>«WITH_LINKED_LIMIT_ORDER» – со связанной заявкой, 
+        <LI>«TAKE_PROFIT_STOP_ORDER» – тэйк-профит, 
+        <LI>«TAKE_PROFIT_AND_STOP_LIMIT_ORDER» - тэйк-профит и стоп-лимит, 
+        <LI>«ACTIVATED_BY_ORDER_<WBR>SIMPLE_STOP_ORDER» – стоп-лимит по 
+        исполнению заявки, 
+        <LI>«ACTIVATED_BY_ORDER_<WBR>TAKE_PROFIT_STOP_ORDER» – тэйк-профит по 
+        исполнению заявки, 
+        <LI>«ACTIVATED_BY_ORDER_TAKE_PROFIT_AND_STOP_LIMIT_ORDER» - тэйк-профит 
+        и стоп-лимит по исполнению заявки. </LI></UL>
+      <P>Если параметр пропущен, то считается, что заявка имеет тип 
+      «стоп-лимит»</P></TD></TR>
+  <TR>
+    <TD>STOPPRICE_CLASSCODE</TD>
+    <TD>Класс инструмента условия. Используется только при «STOP_ORDER_KIND» = 
+      «CONDITION_PRICE_BY_OTHER_SEC». </TD></TR>
+  <TR>
+    <TD>STOPPRICE_SECCODE</TD>
+    <TD>Код инструмента условия. Используется только при «STOP_ORDER_KIND» = 
+      «CONDITION_PRICE_BY_OTHER_SEC»</TD></TR>
+  <TR>
+    <TD>STOPPRICE_CONDITION</TD>
+    <TD>Направление предельного изменения стоп-цены. <BR>Используется только при «STOP_ORDER_KIND» =  
+         «CONDITION_PRICE_BY_OTHER_SEC». <BR>Возможные 
+      значения: «&lt;=» или «&gt;= »</TD></TR>
+  <TR>
+    <TD>LINKED_ORDER_PRICE</TD>
+    <TD>Цена связанной лимитированной заявки. 
+      Используется только при «STOP_ORDER_KIND» =       
+        «WITH_LINKED_LIMIT_ORDER»</TD></TR>
+  <TR>
+    <TD>EXPIRY_DATE</TD>
+    <TD>
+      <P>Срок действия стоп-заявки. Возможные значения: </P>
+      <UL>
+        <LI>«GTC» – до отмены; 
+        <LI>«TODAY» - до окончания текущей торговой сессии; 
+        <LI>          Дата в формате 
+        «ГГГГММДД» </LI></UL></TD></TR>
+  <TR>
+    <TD>STOPPRICE2</TD>
+    <TD>Цена условия «стоп-лимит» для заявки типа «Тэйк-профит и 
+  стоп-лимит»</TD></TR>
+  <TR>
+    <TD>MARKET_STOP_LIMIT</TD>
+    <TD>Признак исполнения заявки по рыночной цене при наступлении условия 
+      «стоп-лимит». Значения «YES» или «NO». Параметр заявок типа «Тэйк-профит и 
+      стоп-лимит»</TD></TR>
+  <TR>
+    <TD>MARKET_TAKE_PROFIT</TD>
+    <TD>Признак исполнения заявки по рыночной цене при наступлении условия 
+      «тэйк-профит». Значения «YES» или «NO». Параметр заявок типа «Тэйк-профит 
+      и стоп-лимит»</TD></TR>
+  <TR>
+    <TD>IS_ACTIVE_IN_TIME</TD>
+    <TD>Признак действия заявки типа «Тэйк-профит и стоп-лимит» в течение 
+      определенного интервала времени. Значения «YES» или «NO»</TD></TR>
+  <TR>
+    <TD>ACTIVE_FROM_TIME</TD>
+    <TD>Время начала действия заявки типа «Тэйк-профит и стоп-лимит» в формате 
+      «ЧЧММСС»</TD></TR>
+  <TR>
+    <TD>ACTIVE_TO_TIME</TD>
+    <TD>Время окончания действия заявки типа «Тэйк-профит и стоп-лимит» в 
+      формате «ЧЧММСС»</TD></TR>
+  <TR>
+    <TD>PARTNER</TD>
+    <TD>Код организации – партнера по внебиржевой 
+      сделке.Применяется при «ACTION» =      
+       «NEW_NEG_DEAL», «ACTION» =      
+      «NEW_REPO_NEG_DEAL» или «ACTION» =        
+            «NEW_EXT_REPO_NEG_DEAL» </TD></TR>
+  <TR>
+    <TD>ORDER_KEY</TD>
+    <TD>Номер заявки, снимаемой из торговой системы. 
+      Применяется при «ACTION» =      
+      «KILL_ORDER» или «ACTION» =         
+           «KILL_NEG_DEAL» или «ACTION» = 
+      «KILL_QUOTE» </TD></TR>
+  <TR>
+    <TD>STOP_ORDER_KEY</TD>
+    <TD>Номер стоп-заявки, снимаемой из торговой системы. Применяется только 
+      при «ACTION» = «KILL_STOP_ORDER» </TD></TR>
+  <TR>
+    <TD>TRANS_ID</TD>
+    <TD>Уникальный идентификационный номер заявки, значение 
+      от от «1» до «2 147 483 647» </TD></TR>
+  <TR>
+    <TD>SETTLE_CODE</TD>
+    <TD>Код расчетов при исполнении внебиржевых заявок </TD></TR>
+  <TR>
+    <TD>PRICE2</TD>
+    <TD>Цена второй части РЕПО </TD></TR>
+  <TR>
+    <TD>REPOTERM</TD>
+    <TD>Срок РЕПО. Параметр сделок РЕПО-М</TD></TR>
+  <TR>
+    <TD>REPORATE</TD>
+    <TD>Ставка РЕПО, в процентах </TD></TR>
+  <TR>
+    <TD>BLOCK_SECURITIES</TD>
+    <TD>Признак блокировки инструментов на время операции РЕПО («YES», «NO»)</TD></TR>
+  <TR>
+    <TD>REFUNDRATE</TD>
+    <TD>Ставка фиксированного возмещения, выплачиваемого в случае неисполнения 
+      второй части РЕПО, в процентах</TD></TR>
+  <TR>
+    <TD>COMMENT</TD>
+    <TD>Текстовый комментарий, указанный в заявке. Используется при снятии 
+      группы заявок</TD></TR>
+  <TR>
+    <TD>LARGE_TRADE</TD>
+    <TD>Признак крупной сделки (YES/NO). Параметр внебиржевой сделки</TD></TR>
+  <TR>
+    <TD>CURR_CODE</TD>
+    <TD>Код валюты расчетов по внебиржевой сделки, например «SUR» – рубли РФ, 
+      «USD» – доллары США. Параметр внебиржевой сделки</TD></TR>
+  <TR>
+    <TD>FOR_ACCOUNT</TD>
+    <TD>Лицо, от имени которого и за чей счет регистрируется сделка (параметр 
+      внебиржевой сделки). Возможные значения: 
+      <UL>
+        <LI>«OWNOWN» – от своего имени, за свой счет, 
+        <LI>«OWNCLI» - от своего имени, за счет клиента, 
+        <LI>«OWNDUP» - от своего имени, за счет доверительного управления, 
+        <LI>«CLICLI» - от имени клиента, за счет клиента</LI></UL></TD></TR>
+  <TR>
+    <TD>SETTLE_DATE</TD>
+    <TD>Дата исполнения внебиржевой сделки</TD></TR>
+  <TR>
+    <TD>KILL_IF_LINKED_ORDER_<WBR>PARTLY_FILLED</TD>
+    <TD>Признак снятия стоп-заявки при частичном исполнении связанной 
+      лимитированной заявки. Используется только при «STOP_ORDER_KIND» = 
+      «WITH_LINKED_LIMIT_ORDER». Возможные значения: «YES» или «NO»</TD></TR>
+  <TR>
+    <TD>OFFSET</TD>
+    <TD>Величина отступа от максимума (минимума) цены 
+      последней сделки. Используется при «STOP_ORDER_KIND» =        
+          «TAKE_PROFIT_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>OFFSET_UNITS</TD>
+    <TD>
+      <P>Единицы измерения отступа. Возможные значения:</P>
+      <UL>
+        <LI>«PERCENTS» – в процентах (шаг изменения – одна сотая процента), 
+        <LI>«PRICE_UNITS» – в параметрах цены (шаг изменения равен шагу цены по 
+        данному инструменту).</LI></UL>
+      <P>Используется при «STOP_ORDER_KIND» =             «TAKE_PROFIT_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</P></TD></TR>
+  <TR>
+    <TD>SPREAD</TD>
+    <TD>Величина защитного спрэда. Используется при «STOP_ORDER_KIND» = 
+      «TAKE_PROFIT_STOP_ORDER» или 
+  ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>SPREAD_UNITS&nbsp;</TD>
+    <TD>
+      <P>Единицы измерения защитного спрэда. Возможные значения:</P>
+      <UL>
+        <LI>«PERCENTS» – в процентах (шаг изменения – одна сотая процента), 
+        <LI>«PRICE_UNITS» – в параметрах цены (шаг изменения равен шагу цены по 
+        данному инструменту).</LI></UL>
+      <P>Используется при «STOP_ORDER_KIND» =             «TAKE_PROFIT_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</P></TD></TR>
+  <TR>
+    <TD>BASE_ORDER_KEY</TD>
+    <TD>Регистрационный номер заявки-условия. 
+      Используется при «STOP_ORDER_KIND» =     
+        «ACTIVATED_BY_ORDER_SIMPLE_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>USE_BASE_ORDER_BALANCE</TD>
+    <TD>Признак использования в качестве объема заявки «по 
+      исполнению» исполненного количества&nbsp;инструментов заявки-условия. Возможные значения: «YES» 
+      или «NO». Используется при «STOP_ORDER_KIND» = 
+      «ACTIVATED_BY_ORDER_SIMPLE_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>ACTIVATE_IF_BASE_ORDER_<WBR>PARTLY_FILLED</TD>
+    <TD>Признак активации заявки «по исполнению» при 
+      частичном исполнении заявки-условия. Возможные значения: «YES» или «NO». 
+      Используется при «STOP_ORDER_KIND» =        
+              
+        «ACTIVATED_BY_ORDER_SIMPLE_STOP_ORDER» или 
+      «ACTIVATED_BY_ORDER_TAKE_PROFIT_STOP_ORDER»</TD></TR>
+  <TR>
+    <TD>BASE_CONTRACT</TD>
+    <TD>Идентификатор базового контракта для фьючерсов или опционов. 
+      Обязательный параметр снятия заявок на рынке FORTS</TD></TR>
+  <TR>
+    <TD>MODE</TD>
+    <TD>
+      <P>&nbsp;Режим перестановки заявок на рынке FORTS. Параметр операции 
+      «ACTION» = «MOVE_ORDERS» Возможные значения: </P>
+      <UL>
+        <LI>«0» – оставить количество в заявках без изменения, 
+        <LI>«1» – изменить количество в заявках на новые, 
+        <LI>«2» – при несовпадении новых количеств с текущим хотя бы в одной 
+        заявке, обе заявки снимаются</LI></UL></TD></TR>
+  <TR>
+    <TD>FIRST_ORDER_NUMBER</TD>
+    <TD>Номер первой заявки</TD></TR>
+  <TR>
+    <TD>FIRST_ORDER_NEW_<WBR>QUANTITY</TD>
+    <TD>Количество в первой заявке</TD></TR>
+  <TR>
+    <TD>FIRST_ORDER_NEW_PRICE</TD>
+    <TD>Цена в первой заявке</TD></TR>
+  <TR>
+    <TD>SECOND_ORDER_NUMBER</TD>
+    <TD>Номер второй заявки</TD></TR>
+  <TR>
+    <TD>SECOND_ORDER_NEW_<WBR>QUANTITY</TD>
+    <TD>Количество во второй заявке</TD></TR>
+  <TR>
+    <TD>SECOND_ORDER_NEW_<WBR>PRICE</TD>
+    <TD>Цена во второй заявке</TD></TR>
+  <TR>
+    <TD>KILL_ACTIVE_ORDERS</TD>
+    <TD>Признак снятия активных заявок по данному инструменту. Используется 
+      только при «ACTION» = «NEW_QUOTE». Возможные значения: «YES» или 
+«NO»</TD></TR>
+  <TR>
+    <TD>NEG_TRADE_OPERATION</TD>
+    <TD>Направление операции в сделке, подтверждаемой отчетом</TD></TR>
+  <TR>
+    <TD>NEG_TRADE_NUMBER</TD>
+    <TD>Номер подтверждаемой отчетом сделки для исполнения</TD></TR>
+  <TR>
+    <TD>VOLUMEMN</TD>
+    <TD>Лимит открытых позиций, при «Тип лимита» =                          «Ден.средства» или «Всего»</TD></TR>
+  <TR>
+    <TD>VOLUMEPL</TD>
+    <TD>Лимит открытых позиций, при «Тип лимита» =                         «Залоговые ден.средства»</TD></TR>
+  <TR>
+    <TD>KFL</TD>
+    <TD>Коэффициент ликвидности</TD></TR>
+  <TR>
+    <TD>KGO</TD>
+    <TD>Коэффициент клиентского гарантийного обеспечения</TD></TR>
+  <TR>
+    <TD>USE_KGO</TD>
+    <TD>
+      <P>Параметр, который определяет, будет ли загружаться величина КГО при 
+      загрузке лимитов из файла:</P>
+      <UL>
+        <LI>при USE_KGO=Y – величина КГО загружает. 
+        <LI>при USE_KGO=N – величина КГО не загружается </LI></UL>
+ <P>При установке лимита на Срочном рынке Московской Биржи с 
+      принудительным понижением (см. <A href="ch7_18_1.html">Создание 
+      лимита</A>) требуется указать 
+      USE_KGO=  Y</P> </TD></TR>
+  <TR>
+    <TD>CHECK_LIMITS</TD>
+    <TD>   Признак проверки попадания цены заявки в диапазон допустимых цен. Параметр Срочного 
+      рынка FORTS. Необязательный параметр транзакций установки новых заявок 
+      по классам «Опционы ФОРТС» и «РПС: Опционы ФОРТС». Возможные значения: 
+      «YES» - выполнять проверку, «NO» - не выполнять</TD></TR>
+  <TR>
+    <TD>MATCHREF</TD>
+    <TD>  Ссылка, которая связывает две сделки РЕПО или РПС. Сделка 
+      может быть заключена только между контрагентами, указавшими одинаковое 
+      значение этого параметра в своих заявках. Параметр представляет собой 
+      произвольный набор символов (допускаются&nbsp;цифры и буквы количеством до 10). 
+      Необязательный параметр</TD></TR>
+  <TR>
+    <TD>CORRECTION</TD>
+    <TD>
+      <P>Режим корректировки ограничения по фьючерсным счетам. Возможные 
+      значения:</P>
+      <UL>
+        <LI>«Y» - включен, установкой лимита изменяется действующее значение, 
+        <LI>«N» - выключен (по умолчанию), установкой лимита задается новое 
+        значение</LI></UL></TD></TR></TBODY></TABLE></P>
+
+<P>Команды снятия группы заявок по условию («KILL_ALL_ORDERS», 
+«KILL_ALL_STOP_ORDERS», «KILL_ALL_NEG_DEALS», «KILL_ALL_FUTURES_ORDERS») 
+обрабатываются следующим образом:</P>
+<OL>
+  <LI><SPAN>Параметры «CLASSCODE», «TRANS_ID», «ACTION», «ACCOUNT» 
+  являются обязательными. </SPAN>
+  <LI><SPAN>Возможные дополнительные параметры для команд снятия заявок по условию: 
+  <UL>
+    <LI>«KILL_ALL_ORDERS»: «SECCODE», «ACCOUNT», «OPERATION», «CLIENT_CODE», 
+    «COMMENT» 
+    <LI>«KILL_ALL_STOP_ORDERS»: «SECCODE», «ACCOUNT», «OPERATION», 
+    «CLIENT_CODE», «COMMENT», «EXPIRY_DATE» 
+    <LI>«KILL_ALL_NEG_DEALS»: «SECCODE», «ACCOUNT», «OPERATION», «CLIENT_CODE», 
+    «COMMENT», «PARTNER», «SETTLE_CODE» 
+    <LI>«KILL_ALL_FUTURES_ORDERS»: «ACCOUNT», «OPERATION»</LI></UL></SPAN>
+  <LI><SPAN>Снятию подлежат заявки, соответствующие всем указанным в транзакции 
+  параметрам (логическое «И»).</SPAN> </LI></OL>
+  <P>Перестановка заявок на рынке FORTS выполняется по следующим 
+  правилам:</P>
+  <UL>
+    <LI>Если MODE=0, то заявки с номерами, указанными после ключей 
+    FIRST_ORDER_NUMBER и SECOND_ORDER_NUMBER, снимаются. В торговую систему 
+    отправляются две новые заявки, при этом изменяется только цена заявок, 
+    количество остается прежним; 
+    <LI>Если MODE=1, то заявки с номерами, указанными после ключей 
+    FIRST_ORDER_NUMBER и SECOND_ORDER_NUMBER, снимаются. В торговую систему 
+    отправляются две новые заявки, при этом изменится как цена заявки, так и 
+    количество; 
+    <LI>Если MODE=2, то заявки с номерами, указанными после ключей 
+    FIRST_ORDER_NUMBER и SECOND_ORDER_NUMBER, снимаются. Если количество инструментов в 
+    каждой из снятых заявок совпадает со значениями, указанными после 
+    FIRST_ORDER_NEW_QUANTITY и SECOND_ORDER_NEW_QUANTITY, то в торговую систему 
+    отправляются две новые заявки с соответствующими параметрами.</LI></UL>
+
+<P> </P>
+<P>См. также <A href="ch6_8_3(examples).html">Примеры строк, которые могут 
+содержаться в файле</A></P>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>

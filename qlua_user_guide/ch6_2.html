@@ -1,0 +1,228 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>Использование ODBC для экспорта информации</title>
+<META name=GENERATOR content="MSHTML 8.00.6001.18812">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+ADDRESS {font-style:normal;  padding-left: 20px; margin: 0px 0px 25pt 5pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+ADDRESS P {font-style:normal;  padding-left: 20px; margin: 0px 0px 5pt -15pt; font-size: 9pt; color:#000000; font-style:normal; font-weight: normal; display:list-item; list-style-type:none; list-style-position: outside; list-style-image:url('template/icon-popup.gif');}
+
+MENU { font-size: 12pt; font-family:Verdana;  line-height:100%; margin:0px 0px 0px 20pt; list-style-type:none; list-style-position: outside; list-style-image:url('template/blt-link_black.gif'); }
+
+BODY {font-family: Arial; font-size: 12pt; color:#000000; background-color: #fbfbfb; line-height: 1.3; margin:0pt 5pt 10pt 5pt;}
+
+A {color: #16A9D3;}
+P  {font-family:Arial; font-size:12pt; margin-top:0px; margin-bottom:12pt;}
+
+IMG { margin:0pt 0pt 0pt auto; }
+
+UL { font-family: Arial; font-size: 12pt; margin:12px 0px 12px 20px; list-style-type:disc; list-style-image:url('template/blt-li.gif'); } 
+OL {font-family: Arial; font-size: 12pt; font-weight: bold; margin-top:12pt; margin-bottom:6pt; margin-left:20pt; type: bold;}
+LI { margin-bottom: 8px; }
+LI OL { margin-left: 25px; }
+LI UL { margin-left: 25px; list-style-image:url('template/blt-link_black.gif'); }
+
+SPAN {font-weight: normal;}
+
+DD OL { font:12pt Verdana; font-style:normal; font-weight: bold; margin-left: 35px; }
+
+H1 { font-size: 28pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:26pt; text-decoration:none; font-weight: bold; margin-right:auto; margin-left:auto;}
+H2 { font-size: 20pt; font-family:Verdana; color:#000000; font-style:normal; line-height:110%; margin-top:20pt; margin-bottom:6pt; text-decoration:none; font-weight: bold; margin-left:auto; padding: 0.5ex 0; }
+H3 { font-size: 14pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:20pt; margin-bottom:6pt; margin-left: auto;}
+H4 { font-size: 11pt; font-family:Verdana; color:#000000; font-style:normal; line-height:95%; margin-top:16pt; margin-bottom:6pt; margin-left: auto;}
+
+TABLE { border-collapse: collapse; margin-bottom:20pt; }
+TH { font-size: 10pt; border-top: none; border-bottom:#000000 3px solid; padding:15pt 5pt 5px 0px; color:#000000; font-family:Verdana; font-style:normal; font-weight: bold; text-align:left; }
+TD { font-size:10pt; border-top: 0pt; font-family:Arial; border-bottom:#000000 1px solid; padding:4pt 5px 12pt 0px;  line-height:120%; }
+TD P {font-family: Arial; font-size: 10pt; margin-top:6pt;}
+TD.plain 	{margin:0px 0px 0px 0px; border-top: 0px; border-bottom:0px; padding:0px 0px 0px 0px; font-size:100%; line-height:100%;}
+TD.array	{ border: 1px solid #D4D4D4; text-align: center; width: 90px;}
+TD.pic	{ padding:0px 0px 0px 0px; }
+TD.line1          { background-color:#000000; }
+TD.line2          { background-color:#000000; }
+TD UL {font-family: Arial; font-size: 10pt; margin:0px 0px 0px 20px; line-height:120%;}
+TD UL LI {font-family: Arial; font-size: 10pt; margin-bottom: 0px; list-style-image:url('template/blt-link_black.gif');}
+
+TD H4	{line-height: 100%; margin-top: 8px; margin-bottom: 0px;}
+
+DL	{ padding-left:35px; margin-left: 30px; margin-bottom: 35px;}
+DD	{ padding-left:8px; color:#000000; margin: 8px 8px 8px 0px; font:12pt Verdana; font-style:normal; font-weight: bold; border-left: #000000 4px solid; margin-bottom:18pt; }
+DD P	{font:12pt Verdana; font-style:normal; font-weight: bold; }
+
+PRE	{ background-color:#F2F2F2; margin-left: 35px; margin-bottom: 20px; border-style:none; border-top-style: none; border-bottom-style: none; padding:8px 8px 8px 8px; font: 10pt Courier New; line-height:160%;}
+
+.title {display: inline; background:#FbFbFb; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 1px 0px 4px; padding:8px 8px 6px 12px; color:#19A788; font-weight:bold;}
+.hlt { background:#FFFFFF; margin-left: 0px; border-style:solid; border-color:#D4D4D4; border-width: 1px 2px 1px 4px; padding:15px 8px 15px 46px;}
+
+STRONG { font-weight: bold;}
+.logo	{ position: relative; top:-45px; float: right; width: 100px; margin:10px 10px 10px 10px; }
+.mark	{ font: 10pt Verdana; color: #5EB28E; }
+.defn	{ font: 15px Trebuchet MS; margin:12px 0px 12px 50px; }
+.copyright {font: 12pt Trebuchet MS; font-style:normal; color:#A2A2A2; margin-top: 50px;}
+.comment	{ font-size: 10pt; font-family: Verdana; }
+</STYLE>
+
+<meta name=GENERATOR content="MSHTML 8.00.6001.18812"></head>
+<body aLink=#19a788 link=#007cae vLink=#8d4194>
+<H1 style="MARGIN-TOP: 10pt">Использование ODBC для экспорта информации</H1>
+<P><FONT size=2 face=Arial>
+<ADDRESS>Кнопка <IMG src="b-odbc.gif"></ADDRESS>
+<MENU>
+  <LI><A href="#subt1">Назначение</A> 
+  <LI><A href="#subt2">Использование</A> 
+  <LI><A href="#subt3">Рекомендации</A> </LI></MENU>
+
+<P> </P>
+<A name=subt1></A>
+<H2>Назначение </H2>
+<P>Передача данных из таблиц QUIK в другие приложения для их дальнейшего 
+использования (хранения, обработки). На основе этой функции можно осуществить 
+непосредственную связь системы QUIK с программами, нуждающимися в оперативной 
+биржевой информации.</P>
+
+<A name=subt2></A>
+<H2>Использование</H2>
+<OL>
+  <LI><SPAN>Перед началом настройки 
+  экспорта необходимо создать таблицу - получатель данных. Структура этой 
+  таблицы должна повторять структуру той таблицы QUIK, из которой экспортируются 
+  данные. Другими словами, она должна содержать такой же перечень параметров, 
+  как и список заголовков столбцов таблицы QUIK. Перечень параметров таблиц и 
+  тип данных в них приведен в приложении к этому разделу. В качестве примера 
+  приведем настройку экспорта таблицы сделок в таблицу MS Access:
+
+<P><IMG src="access80.gif">
+
+</SPAN>
+  <LI><SPAN>Создав таблицу, необходимо зарегистрировать ее в качестве источника данных 
+  для ODBC в Панели управления Windows (меню <STRONG>Пуск / 
+  Настройка / Панель управления</STRONG>), пункт «Источники данных ODBC». </SPAN>
+  <LI><SPAN>В системе QUIK сделать активной таблицу, из которой будет производиться 
+  экспорт данных и открыть окно настройки экспорта ODBC одним из следующих 
+  способов: 
+  <UL>
+    <LI>нажать кнопку <IMG src="b-odbc.gif"> на панели инструментов;
+    <LI>вызвать пункт контекстного меню «Вывод по ODBC»;
+    <LI>выбрать пункт меню программы <STRONG>Действия/Вывод по ODBC…</STRONG>;
+    <LI>нажать сочетание клавиш «Ctrl»+«O».</LI></UL></SPAN>
+  <LI><SPAN>В списке «Выберите имя источника данных» выберите получателя данных. 
+  Название соответствует тому имени, которое описано в п.2. </SPAN>
+  <LI><SPAN>Если для подключения к источнику требуется авторизация пользователя, 
+  введите имя и пароль в соответствующие поля. </SPAN>
+  <LI><SPAN>Нажмите кнопку «Присоединиться». В «Списке доступных таблиц» появится 
+  полный перечень таблиц в выбранном источнике. </SPAN>
+
+  <P><IMG src="odbc80.gif">
+
+  <LI><SPAN>Выберите таблицу, в которую будут передаваться данные. В «Списке полей 
+  таблицы» отобразятся поля выбранной таблицы.</SPAN>
+  <LI><SPAN>Настройте соответствие между полями таблицы QUIK и полями 
+  таблицы-получателя последовательным выполнением следующих действий над каждым 
+  полем: 
+  <UL>
+    <LI>В «Списке параметров» выбрать поле таблицы QUIK. 
+    <LI>Сопоставить ему поле из списка «Поле, соответствующее параметру». В 
+    списке отображаются поля, имеющие тип, совместимый с типом поля в таблице 
+    QUIK. Если искомого поля нет, см.&nbsp; <A href="ch6_2_4.html">Сообщения об 
+    ошибках</A>. </LI></UL>
+
+  
+
+  <P>
+  <DL>
+    <DD>Не обязательно настраивать соответствие между всеми полями таблиц. 
+    Достаточно настроить соответствие между полями, содержащими параметры, 
+    планируемые для экспорта. Соответствие между полями, отмеченными 
+    «звездочкой» («*»), является обязательным. </DD></DL>
+</SPAN>
+  <LI><SPAN>Чтобы удалить соответствие между двумя полями таблиц, выберите в «Списке 
+  параметров» поле таблицы QUIK и нажмите кнопку «Очистить». Чтобы удалить 
+  соответствие между всеми полями таблиц, нажмите кнопку «Очистить все». 
+  <P>
+  <DL>
+    <DD>Если таблица-получатель была выбрана ошибочно, то при выборе другой 
+    таблицы из «Списка доступных таблиц» сохраняется настройка соответствия 
+    между полями, имеющими одинаковое название и тип данных. Для полей с 
+    отличающимися наименованиями или типами данных настройки соответствия 
+    удаляются. </DD></DL>
+</SPAN>
+  <LI><SPAN>Назначение настроек экспорта: 
+  <UL>
+    <LI>«Чистить таблицу перед выводом» - если флажок установлен, то перед 
+    началом экспорта, при смене сессии, сервера или пользователя старые данные 
+    из таблицы будут удалены; если флажок снят, то новые данные будут замещать 
+    старые по мере поступления. 
+    <LI>«Формальные имена» - если флажок установлен, то при экспорте данных 
+    вместо текстовых значений параметров&nbsp; передаются их системные 
+    идентификаторы, например, вместо наименования инструмента и класса выводятся 
+    их коды в торговой системе, вместо перечислимых типов, таких как 
+    «направленность заявки» – символьные коды (например, «B» – покупка, «S» – 
+    продажа). 
+    <LI>«Вывод после создания» - если флажок установлен, то экспорт данных 
+    начинается одновременно с загрузкой в систему QUIK конфигурации окон, 
+    например, при запуске программы. 
+    <LI>«Вывод при нажатии Ctrl+Shift+O» - при установленном флажке экспорт из 
+    таблицы может быть активизирован нажатием приведенной комбинации клавиш. 
+    </LI></UL></SPAN>
+  <LI><SPAN>Нажатие кнопки «Начать вывод данных» начинает процедуру экспорта. 
+<DL>
+    <DD>
+При использовании экспорта данных из Таблицы текущих торгов убедитесь, 
+    что в настройках получения информации (меню 
+    <STRONG>Система / Настройки / Основные настройки...</STRONG>
+             , раздел «Программа» / «Сохранение данных») выбрано значение «Данные, отражающие текущее состояние и всю историю изменений». </DD></DL>
+</SPAN>
+  <LI><SPAN>Нажатие кнопки «Прекратить» останавливает экспорт данных. </SPAN>
+  <LI><SPAN>Нажатие кнопки «Ок» приводит к закрытию окна настройки экспорта, при этом 
+  все сделанные изменения сохраняются. Если процесс экспорта начат, он будет 
+  осуществляться автоматически в фоновом режиме. </SPAN>
+  <LI><SPAN>Нажатием кнопки «Отмена» закрывается окно настройки экспорта без 
+  сохранения изменений. </SPAN></LI></OL>
+
+<A name=subt3></A>
+<H2>Рекомендации</H2>
+<OL>
+  <LI><SPAN>Не используйте для названия полей таблиц зарезервированные слова, 
+  например, «money», «group», «order», «number», «date» и т.п. </SPAN>
+  <LI><SPAN>Не используйте пробелы в именах таблиц, полей таблиц и путей к таблицам. </SPAN>
+  <LI><SPAN>Для экспорта из таблиц QUIK, содержащих параметры с символом «звездочка» 
+  («*»), рекомендуется устанавливать флажок «Чистить таблицу перед выводом». Тем 
+  самым из таблицы удаляются данные, относящиеся к предыдущим сеансам связи с 
+  сервером. </SPAN>
+  <LI><SPAN>Если требуется накапливать в базе данных архив информации, получаемой из 
+  QUIK, то рекомендуется сделать две таблицы одинаковой структуры. Одну из них 
+  использовать для получения данных из QUIK, вторую – для накопления архива, 
+  причем копирование данных в архив осуществлять по окончании торговой сессии, 
+  либо перед началом следующей. Таким образом можно избежать повторной записи 
+  данных, например, при необходимости перезаказать данные заново в системе QUIK. 
+</SPAN>
+  <LI><SPAN>Данные из одной таблицы QUIK могут экспортироваться только в одну 
+  таблицу-получатель. Однако, можно настроить в системе QUIK две или более 
+  одинаковые таблицы для вывода в разные приложения. </SPAN>
+  <LI><SPAN>Если экспорт данных используется постоянно, установите в настройках 
+  экспорта флажок «Вывод после создания». В этом случае процедура экспорта будет 
+  начинаться автоматически с запуском программы. </SPAN>
+  <LI><SPAN>Если для экспорта данных используется несколько таблиц, то для удобства 
+  пользования рекомендуется сделать отдельную вкладку и поместить в ней 
+  таблицы, используемые только для экспорта. Тем самым достигается независимость 
+  настройки экспорта данных от возможных изменений в аналогичной таблице, 
+  используемой для просмотра рыночной информации. </SPAN>
+  <LI><SPAN>Если применяется экспорт из нескольких таблиц, то рекомендуется установить 
+  флажок «Вывод при нажатии Ctrl+Shift+O». В этом случае можно начинать вывод 
+  данных из таблиц вручную, одним нажатием этой комбинации клавиш. </SPAN>
+  <LI><SPAN>Если в базе данных используется индексация таблиц по ключевому полю, то 
+  для обеспечения уникальности, его следует настраивать по полям QUIK «Номер 
+  заявки» и «Код класса». </SPAN>
+  <LI><SPAN>Если в настройках таблицы имеется признак «Показывать нулевые значения», 
+  то его рекомендуется включить. </SPAN>
+</LI></OL>
+
+<P> </P>
+<P>См. также <A href="ch6_2_4.html">Сообщения об ошибках</A>.</P>
+</FONT></P>
+
+<P><DIV class=copyright>Руководство пользователя QUIK © ARQA Technologies / <A 
+href="http://arqatech.com/ru/products/quik/" target="_blank">www.arqatech.com/ru/products/quik/ </A></DIV>
+</body>
